@@ -1,0 +1,194 @@
+# Core Paper Concepts
+
+This file is a compressed concept map for the six core papers. It is meant for
+quick orientation: what each paper is about, what new ideas it introduces, and
+where a reader should go for a specific concept.
+
+For a more detailed section-level digest, see
+[PAPER_CONTENT.md](PAPER_CONTENT.md).
+
+## At A Glance
+
+| Paper | Main question | Central concepts | New contribution |
+| --- | --- | --- | --- |
+| [Reflexive Organism Model](2025-08-ReflexiveOrganismModel.md) | What is a self-contained, scale-free organism? | Superorganism, reflexive loop, assembly, experience, memory, hierarchy, internal time | Defines the organismal problem and the first mechanistic vocabulary. |
+| [Seeds of Life](2025-11-SeedsOfLife.md) | What makes some futures available to a system? | Reserves, seeds, eigenmodes, attractor basins, spark, structural reuse | Explains how reusable patterns and transformation budgets guide development. |
+| [Coherence in Reflexive Organism Model](2025-11-Coherence.md) | What invariant holds ROM together? | Coherence, coherence flux, coherence tensor, plateau, destructive agents | Identifies coherence as the unifying quantity behind ROM components. |
+| [Reflexive Coherence](2025-11-ReflexiveCoherence.md) | Can ROM be reduced to one field? | `C(x,t)`, `J_C`, `K[C]`, induced metric, continuity, topology change | Gives the coherence-only field formulation. |
+| [Identity, Choice, and Abundance](2025-11-RC-IdentityChoiceAbundance.md) | What does RC imply for agency? | Identity basin, collapse, choice, learning, spark, abundance, irreducibility | Interprets identity and agency as geometric consequences of RC. |
+| [Fractal Reflexive Coherence](2025-11-FractalReflexiveCoherence.md) | How does identity persist across scale? | Scale coordinate, `C(x,t;sigma)`, scale flux, cascade, multiscale basins | Extends RC to nested and hierarchical identities. |
+
+## Concept Flow
+
+```text
+superorganism
+  -> reflexive organism
+  -> reserves / seeds / sparks
+  -> coherence as invariant
+  -> coherence-only field
+  -> identity / choice / abundance
+  -> fractal multiscale coherence
+```
+
+The papers are not independent fragments. Each one compresses or generalizes
+the previous one:
+
+- ROM provides the organismal and mechanistic frame.
+- Seeds explains how structure becomes reusable and future-shaping.
+- Coherence identifies the invariant behind the mechanics.
+- Reflexive Coherence turns the invariant into the primitive field.
+- Identity/Choice/Abundance interprets the field as agency and becoming.
+- Fractal RC restores scale and nested identity.
+
+## Paper Concept Notes
+
+### Reflexive Organism Model
+
+**Core idea:** an organism is not only a bounded object. It is a reflexive,
+hierarchical process that preserves itself through relations between parts,
+whole, memory, experience, and action.
+
+**Important concepts:**
+
+- organism/superorganism hierarchy
+- fast fields and slow memory
+- assembly index and experience index
+- reflexive closure
+- parent-child communication
+- internal proper time
+- individuality as dynamic invariant
+
+**Read this for:** the original motivation, biological analogies, and the first
+language for self-contained scale-free organisms.
+
+### Seeds of Life
+
+**Core idea:** a reflexive system does not choose from a flat possibility space.
+It develops through available seeds, stored reserves, stabilized eigenmodes, and
+spark events that open new basins.
+
+**Important concepts:**
+
+- reserves as transformation budget
+- seeds as reusable structural templates
+- eigenmodes as stable recurrent patterns
+- attractor basins as available identities
+- spark as threshold-crossing event
+- biological analogies: DNA, fertilization, cell division, ant colony behavior
+
+**Read this for:** why some structures feel natural, why some changes become
+available, and how new identities can begin.
+
+### Coherence in Reflexive Organism Model
+
+**Core idea:** coherence is the quantity that ties ROM together. Assembly,
+experience, compatibility, memory, reserves, and attractors can be interpreted
+as modes or consequences of coherence dynamics.
+
+**Important concepts:**
+
+- coherence as invariant
+- coherence continuity equation
+- coherence flux
+- coherence tensor
+- coherence as curvature of reflexive space
+- plateaus and generative expansion
+- destructive agents and coherence loss
+
+**Read this for:** the transition from many ROM components toward one
+coherence-based description.
+
+### Reflexive Coherence
+
+**Core idea:** the whole model can be stated as a coherence field and its flux.
+All other structures become derived objects.
+
+**Important concepts:**
+
+- `S_coh = (C(x,t), J_C(x,t))`
+- `Omega_t = supp C(.,t)`
+- coherence tensor `K[C]`
+- induced metric `g[K]`
+- coherence functional
+- continuity equation
+- topology-changing update
+- derived action, memory, policy, sensing, actuation, assembly, and experience
+
+**Read this for:** the compact mathematical formulation of the theory.
+
+### Reflexive Coherence: Identity, Choice, and Abundance
+
+**Core idea:** identity, agency, and abundance are not extra assumptions. They
+arise from the geometry of the coherence field.
+
+**Important concepts:**
+
+- identity basin
+- collapse as choice
+- learning as irreversible geometric update
+- spark as basin or curvature bifurcation
+- abundance as differentiated capacity
+- global determinism with local computational irreducibility
+- observer asymmetry
+
+**Read this for:** the agency interpretation of RC and the reason choice can be
+real for a local observer even inside deterministic whole-field dynamics.
+
+### Fractal Reflexive Coherence
+
+**Core idea:** single-field RC needs a scale extension to describe nested
+identity. Fractal RC adds a scale coordinate so coherence can move across both
+position and generation.
+
+**Important concepts:**
+
+- scale-resolved coherence `C(x,t;sigma)`
+- scale flux
+- position-scale continuity
+- coherence cascades
+- multiscale identity basins
+- attractor tubes
+- deterministic non-random fractal structure
+
+**Read this for:** how RC handles nested organisms, societies, ecosystems,
+development, and any system whose identity persists through many levels.
+
+## Find Concepts Quickly
+
+| If you are looking for... | Start with... |
+| --- | --- |
+| Origin of the theory | [Reflexive Organism Model](2025-08-ReflexiveOrganismModel.md) |
+| Why ROM becomes RC | [Coherence in Reflexive Organism Model](2025-11-Coherence.md) |
+| The shortest formal definition | [Reflexive Coherence](2025-11-ReflexiveCoherence.md) |
+| Identity and agency | [Identity, Choice, and Abundance](2025-11-RC-IdentityChoiceAbundance.md) |
+| Choice and collapse | [Identity, Choice, and Abundance](2025-11-RC-IdentityChoiceAbundance.md) |
+| Seeds, reserves, and sparks | [Seeds of Life](2025-11-SeedsOfLife.md) |
+| Scale and hierarchy | [Fractal Reflexive Coherence](2025-11-FractalReflexiveCoherence.md) |
+| Self-defined space | [Reflexive Coherence](2025-11-ReflexiveCoherence.md), then `../investigations/` |
+| PDE or graph implementation direction | `../observations/`, then `../substrates/` |
+
+## Minimal Reading By Goal
+
+For a **mathematical first pass**:
+
+1. [Reflexive Coherence](2025-11-ReflexiveCoherence.md)
+2. [Coherence in Reflexive Organism Model](2025-11-Coherence.md)
+3. [Fractal Reflexive Coherence](2025-11-FractalReflexiveCoherence.md)
+
+For an **agency and cognition first pass**:
+
+1. [Reflexive Coherence](2025-11-ReflexiveCoherence.md)
+2. [Identity, Choice, and Abundance](2025-11-RC-IdentityChoiceAbundance.md)
+3. `../arc-of-becoming/`
+
+For a **developmental/history first pass**:
+
+1. [Reflexive Organism Model](2025-08-ReflexiveOrganismModel.md)
+2. [Seeds of Life](2025-11-SeedsOfLife.md)
+3. [Coherence in Reflexive Organism Model](2025-11-Coherence.md)
+
+For an **implementation first pass**:
+
+1. [Reflexive Coherence](2025-11-ReflexiveCoherence.md)
+2. `../observations/2025-12-Observations.md`
+3. `../substrates/2025-12-GRC-V2.md`

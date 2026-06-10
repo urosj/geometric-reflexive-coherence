@@ -1,0 +1,9 @@
+cff-version: 1.2.0
+title: "Geometric Reflexive Coherence"
+message: "If you use this work, please cite it as below."
+authors:
+  - family-names: "Jovanovic"
+    given-names: "Uros"
+license: CC-BY-SA-4.0
+url: "https://github.com/urosj/geometric-reflexive-coherence"
+repository-code: "https://github.com/urosj/geometric-reflexive-coherence"

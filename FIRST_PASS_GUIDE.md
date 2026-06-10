@@ -1,0 +1,126 @@
+# First Pass Guide
+
+This guide is for a reader encountering Reflexive Coherence for the first time.
+It gives one coherent path through the repository without requiring every paper
+up front.
+
+## 1. Get The Core Loop
+
+Start with [core/2025-11-ReflexiveCoherence.md](core/2025-11-ReflexiveCoherence.md).
+
+The key idea is that the system is not described by independent modules for
+memory, policy, geometry, action, and identity. Those are derived from one field
+and its loop:
+
+```text
+coherence field -> induced geometry -> coherence flux -> updated field
+```
+
+While reading, track these terms:
+
+- `C(x,t)`: coherence density
+- `J_C`: coherence flux
+- `K[C]`: coherence tensor
+- `g[K]`: induced geometry
+- `Omega_t`: support of the field, meaning the space where the system exists
+
+## 2. Understand Why ROM Still Matters
+
+Then read the opening of
+[core/2025-08-ReflexiveOrganismModel.md](core/2025-08-ReflexiveOrganismModel.md),
+followed by [core/2025-11-Coherence.md](core/2025-11-Coherence.md).
+
+ROM is the origin of the theory. It contains the organismal and superorganism
+intuition: a system should be able to preserve itself across levels, parts, and
+scales. The later RC formulation does not discard ROM. It compresses the model
+into a more general field language.
+
+## 3. Read Agency As Geometry
+
+Read [core/2025-11-RC-IdentityChoiceAbundance.md](core/2025-11-RC-IdentityChoiceAbundance.md).
+
+The important shift is this:
+
+- identity is an invariant basin;
+- choice is collapse from multiple compatible continuations;
+- agency is the local experience of irreducible continuation;
+- abundance is the creation of differentiated capacity, not just survival.
+
+This is the paper that makes the theory readable as a theory of agents rather
+than only a field construction.
+
+## 4. Add Scale
+
+Read [core/2025-11-FractalReflexiveCoherence.md](core/2025-11-FractalReflexiveCoherence.md).
+
+A single field loop is not enough for nested organisms, cognitive systems,
+societies, ecosystems, or graph substrates. Fractal RC introduces a scale
+coordinate so identity can propagate through nested basins and not only through
+one flat support.
+
+## 5. Understand Space And Distance
+
+Read [investigations/2026-01-RC-Distance-v4.md](investigations/2026-01-RC-Distance-v4.md).
+
+The central claim is that RC does not put organisms into pre-existing space.
+The field defines its own support. Geometry and distance are derived from that
+support and from the coherence tensor. Keep the distance types separate:
+
+- geodesic distance;
+- operational travel-time distance;
+- graph distance;
+- coupling or reachability distance.
+
+Conflating these distances hides the point of the theory.
+
+## 6. See Why Graphs Appear
+
+Read [observations/2025-12-Observations.md](observations/2025-12-Observations.md),
+then skim the GRC sequence:
+
+1. [substrates/2025-12-GRC-V2.md](substrates/2025-12-GRC-V2.md)
+2. [substrates/2026-02-GRC-V3.md](substrates/2026-02-GRC-V3.md)
+3. [substrates/2026-04-GRC-9.md](substrates/2026-04-GRC-9.md)
+4. [substrates/2026-05-LGRC-9.md](substrates/2026-05-LGRC-9.md)
+
+The PDE simulations are valuable, but they also expose limits. A fixed grid is
+awkward for a theory where the substrate should be self-defined. GRC turns RC
+into a graph substrate where topology, distance, ports, refinement, and causal
+history can become part of the evolving structure.
+
+## 7. Read The Arc Of Becoming As Method
+
+The Arc of Becoming papers explain how to study systems whose next important
+class may not be known in advance.
+
+Read in this order:
+
+1. [arc-of-becoming/2026-01-LanguageOfBecoming.md](arc-of-becoming/2026-01-LanguageOfBecoming.md)
+2. [arc-of-becoming/2026-05-ClassificationOfBecoming.md](arc-of-becoming/2026-05-ClassificationOfBecoming.md)
+3. [arc-of-becoming/2026-05-InterrogationofBecoming.md](arc-of-becoming/2026-05-InterrogationofBecoming.md)
+4. [arc-of-becoming/2026-05-NaturalizationOfBecoming.md](arc-of-becoming/2026-05-NaturalizationOfBecoming.md)
+5. [arc-of-becoming/2026-05-CultivationOfBecoming.md](arc-of-becoming/2026-05-CultivationOfBecoming.md)
+
+The sequence is:
+
+```text
+describe -> classify -> probe -> withdraw -> naturalize -> integrate
+```
+
+This is the practical stance for working with irreducible systems without
+forcing them into a predeclared endpoint.
+
+## 8. What To Do After The First Pass
+
+If you are mathematically oriented, focus on the coherence functional, induced
+metric, distance papers, and graph formalizations.
+
+If you are implementation-oriented, follow the substrate path from PDE
+observations to GRC-v2, GRC-v3, GRC-9, and LGRC9V3.
+
+If you are interested in agency, cognition, or phenomenology, follow Identity,
+Choice, and Abundance into the Arc of Becoming papers.
+
+If you want to contribute, the most useful contributions are clear critiques,
+replications, better formalizations, implementation experiments, and careful
+reports of where the theory overclaims or underspecifies a mechanism.

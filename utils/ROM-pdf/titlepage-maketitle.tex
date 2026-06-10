@@ -1,0 +1,27 @@
+% titlepage-maketitle.tex
+\usepackage{graphicx}
+\usepackage{titling} % gives \thetitle, \theauthor, \thedate
+
+\pretitle{\begin{titlepage}\centering\vspace*{2cm}\Huge\bfseries}
+\posttitle{\par}
+\preauthor{\vspace{1cm}\Large}
+\postauthor{\par}
+\predate{\vspace{1cm}\large}
+\postdate{\par\vfill}
+
+\renewcommand{\maketitle}{%
+  \begin{titlepage}
+    \centering
+    {\Huge\bfseries \thetitle\par}
+    % Optional subtitle (define it in your metadata & we’ll print if present)
+    \ifdefined\subtitle
+      \vspace{0.5cm}{\Large\itshape \subtitle\par}
+    \fi
+    \vspace{1cm}{\Large \theauthor\par}
+    \vspace{0.5cm}{\large \thedate\par}
+    % Optional logo: define \TitleLogo{path/to/logo.pdf} in header-includes
+    \ifdefined\TitleLogo \vfill\includegraphics[width=0.3\linewidth]{\TitleLogo}\par\fi
+    \thispagestyle{empty}
+  \end{titlepage}
+}
+
