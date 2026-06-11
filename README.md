@@ -41,14 +41,14 @@ If this is your first encounter with RC, start with:
 
 ## Related Projects
 
-- [geometric-reflexive-coherence](https://github.com/urosj/geometric-reflexive-coherence)
-  is this papers-first theory repository.
 - [reflexive-coherence-sim](https://github.com/urosj/reflexive-coherence-sim)
   is the PDE and adaptive-voxel simulation laboratory for RC.
 - [graph-reflexive-coherence](https://github.com/urosj/graph-reflexive-coherence)
   is the Python implementation workspace for GRC, GRC-9, and LGRC9V3.
 - [reflexive-coherence-agentic-protocol](https://github.com/urosj/reflexive-coherence-agentic-protocol)
   develops basin-based multi-agent collaboration protocols.
+- [Reflexive Organism Model](https://github.com/urosj/reflexive-organism-model)
+  is the originating ROM theory repository.
 
 ## Status
 

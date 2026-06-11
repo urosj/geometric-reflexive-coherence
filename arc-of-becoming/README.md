@@ -1,5 +1,7 @@
 # Arc Of Becoming
 
+> When intuition gets a vocabulary, explanation stops being an act of translation and becomes an act of recognition.
+
 The `arc-of-becoming/` directory contains the phenomenological and
 methodological branch of Geometric Reflexive Coherence. If the `core/` papers
 ask what the coherence field is, these papers ask how a coherent system
