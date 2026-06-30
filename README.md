@@ -38,6 +38,8 @@ If this is your first encounter with RC, start with:
   repositories or implementation work.
 - [arc-of-becoming/README.md](arc-of-becoming/README.md) if you are interested in
   phenomenology, methodology, or agentic protocols.
+- [reflexive-coherence-development/README.md](reflexive-coherence-development/README.md)
+  if you want to apply the Arc of Becoming as condition-oriented development.
 
 ## Related Projects
 
@@ -245,6 +247,26 @@ of the geometry. It asks what the geometry feels like from inside and how an
 embedded observer can participate without reducing the system to local
 optimization.
 
+## Reflexive Coherence Development
+
+The `reflexive-coherence-development/` papers extend the Arc of Becoming into
+developmental practice. Where the Arc asks how an embedded observer should
+meet what is appearing, RCD asks what conditions would let a desired emergent
+property become coherent, native, measured, stewarded, and renewed.
+
+The relationship is not a handoff from theory to application. The two tracks
+belong to one practice:
+
+```text
+Arc of Becoming -> contact with what is appearing
+Reflexive Coherence Development -> conditions for what appears to become native
+```
+
+The Two-Axis Guide in that directory is the bridge artifact. It treats becoming
+and development as two axes of attention in one field: the becoming axis
+protects honest contact with appearance, while the development axis protects
+condition formation, continuity, and trajectory.
+
 ## Agentic Protocols
 
 There is also a companion
@@ -285,6 +307,8 @@ a monorepo and makes git maintenance easier.
 - `substrates/` contains PDE, graph, GRC, GRC9, LGRC, and LGRC9V3 substrate
   papers.
 - `arc-of-becoming/` contains phenomenological and methodological papers.
+- `reflexive-coherence-development/` contains condition-oriented development
+  papers and practical guides extending the Arc of Becoming.
 - `investigations/` contains focused research notes, distance constructions,
   and exploratory calculi.
 - `observations/` contains empirical and conceptual observations from the
