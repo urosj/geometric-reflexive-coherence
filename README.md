@@ -22,7 +22,17 @@ the field. The loop is self-referential.
 
 ## Start Here
 
-If this is your first encounter with RC, start with:
+If you are encountering Reflexive Coherence for the first time, begin with the
+program-level orientation papers:
+
+- [What Can Become?](orientation/2026-07-WhatCanBecome.md)
+  for a short conceptual introduction.
+- [Why Reflexive Coherence? Eight Research Entry Points](orientation/2026-07-WhyReflexiveCoherence-EightResearchEntryPoints.md)
+  for connections to eight research domains.
+- [The Formation of Possibility](orientation/2026-07-TheFormationOfPossibility.md)
+  for the full program-level orientation.
+
+For repository navigation and deeper reading paths:
 
 - [QUICK_START.md](QUICK_START.md) for a short orientation and a minimal reading
   path.
@@ -303,6 +313,8 @@ a monorepo and makes git maintenance easier.
 
 ## Structure
 
+- `orientation/` contains program-level introductions and research entry
+  points.
 - `core/` contains the foundational theory papers.
 - `substrates/` contains PDE, graph, GRC, GRC9, LGRC, and LGRC9V3 substrate
   papers.
