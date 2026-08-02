@@ -196,9 +196,9 @@ The mechanics of renewed attunement are therefore not a new procedure. They are 
 
 ### 2.1 The Spiral Update
 
-Let \(M_k\) denote the developmental condition of the field at cycle \(k\). This does not mean a complete state vector. It names the current condition manifold: boundary structure, support ecology, trajectory morphology, agency distribution, shared-medium health, claim ceilings, rhythms, aims, measures, and observer stance.
+Let $M_k$ denote the developmental condition of the field at cycle $k$. This does not mean a complete state vector. It names the current condition manifold: boundary structure, support ecology, trajectory morphology, agency distribution, shared-medium health, claim ceilings, rhythms, aims, measures, and observer stance.
 
-Let \(R_k\) denote the enacted spiral trace of the cycle:
+Let $R_k$ denote the enacted spiral trace of the cycle:
 
 $$
 R_k = (T_k, A_k, O_k, E_k, S_k)
@@ -206,11 +206,11 @@ $$
 
 where:
 
-- \(T_k\) is the attunement trace,
-- \(A_k\) is the aim/orientation trace,
-- \(O_k\) is the organization/practice trace,
-- \(E_k\) is the evidence/measurement trace,
-- \(S_k\) is the stewardship/care trace.
+- $T_k$ is the attunement trace,
+- $A_k$ is the aim/orientation trace,
+- $O_k$ is the organization/practice trace,
+- $E_k$ is the evidence/measurement trace,
+- $S_k$ is the stewardship/care trace.
 
 The next condition is not produced by a simple deterministic rule, but it can be named as a developmental update:
 
@@ -218,9 +218,9 @@ $$
 M_{k+1} = \Psi(M_k, R_k)
 $$
 
-where \(\Psi\) is the **spiral update operator**: the notional map by which one full cycle of attunement, aiming, organization, measurement, and stewardship alters the developmental field inherited by the next cycle. It is not assumed to be known, linear, deterministic, reversible, or externally controllable. It names the irreducible transition through which the enacted cycle becomes condition.
+where $\Psi$ is the **spiral update operator**: the notional map by which one full cycle of attunement, aiming, organization, measurement, and stewardship alters the developmental field inherited by the next cycle. It is not assumed to be known, linear, deterministic, reversible, or externally controllable. It names the irreducible transition through which the enacted cycle becomes condition.
 
-In practical terms, \(\Psi\) includes changes in:
+In practical terms, $\Psi$ includes changes in:
 
 - boundary elasticity,
 - support dependence,
@@ -241,7 +241,7 @@ $$
 T_{k+1} = \mathcal{A}(M_{k+1}, H_{\leq k})
 $$
 
-where \(\mathcal{A}\) is not a mechanical sensing function but the attunement practice itself, and \(H_{\leq k}\) is the accumulated history of prior traces, blocked claims, withdrawals, redescription events, and integrations.
+where $\mathcal{A}$ is not a mechanical sensing function but the attunement practice itself, and $H_{\leq k}$ is the accumulated history of prior traces, blocked claims, withdrawals, redescription events, and integrations.
 
 The important point is that renewed attunement reads the new condition through history. It is not blind sensing. It is not reset. It is read-back contact.
 

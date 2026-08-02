@@ -216,12 +216,20 @@ Direct pull requests to paper files are fine for small, obvious corrections.
 
 ## What Belongs Where
 
+- `orientation/`: program-level introductions and research entry points.
 - `core/`: foundational theory papers.
 - `substrates/`: PDE, graph, GRC, GRC9, LGRC, and LGRC9V3 substrate papers.
 - `arc-of-becoming/`: phenomenological and methodological papers.
+- `arc-of-participation/`: contextual function, identity formation,
+  participation, scale, and existence papers.
+- `reflexive-coherence-development/`: condition-oriented development papers and
+  practice guides.
 - `investigations/`: focused research notes and exploratory calculi.
 - `observations/`: empirical and conceptual observations.
+- `essays/`: interpretive and engineering extensions.
 - `basin/`: live collaboration artifacts and promotion history.
+- `misc/`: historical or transitional material outside the current paper
+  sequences.
 - `utils/`: crude local Markdown-to-PDF helpers.
 
 Large simulation or implementation work belongs in companion repositories:

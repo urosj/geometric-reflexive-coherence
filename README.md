@@ -85,9 +85,13 @@ conserved field. That simplification led to **Reflexive Coherence**.
 Reflexive Coherence is the coherence-only formulation of ROM. The primitive is
 a non-negative coherence density field `C(x,t)` and its flux `J_C`. Identity is
 not a label placed on the system from outside. It is a stable basin of the field.
-Memory is not a separate store. It is persistent geometry. Agency is not an
-external controller. It is the internal experience of unresolved compatible
-basins whose collapse cannot be predicted from any local part.
+Memory is not a separate store. It is persistent geometry. Choice names the
+locally experienced collapse among compatible continuations whose outcome
+cannot be predicted from any local part. The later
+[agency interpretation](essays/2026-06-12-AgencyOfBecoming-InterpretationThroughRC.md)
+uses *agency* more broadly for an identity's persistence capacity across
+perturbation, withdrawal, and ecological response rather than for the choice
+event alone.
 
 **Fractal Reflexive Coherence** extends this by adding scale. A single loop can
 describe a coherent identity, but biological, cognitive, social, and ecological

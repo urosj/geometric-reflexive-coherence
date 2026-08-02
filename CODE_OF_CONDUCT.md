@@ -34,7 +34,15 @@ Project maintainers and moderators are responsible for clarifying and enforcing 
 
 ## Reporting
 
-If you experience or witness unacceptable behavior, or have any other concerns, please contact the repository owner directly.
+If you experience or witness unacceptable behavior, or have another concern
+about conduct in this project, create an issue in this repository and identify
+it as a conduct report.
+
+Repository issues are public. Do not include private correspondence, personal
+information, or other sensitive evidence in the issue. If the report requires
+confidential handling, open the issue with only a brief request for private
+contact from the repository owner; the supporting details can then be shared
+through the private channel agreed with the reporter.
 
 Reports should include:
 

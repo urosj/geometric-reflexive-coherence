@@ -43,11 +43,15 @@ The important shift is this:
 
 - identity is an invariant basin;
 - choice is collapse from multiple compatible continuations;
-- agency is the local experience of irreducible continuation;
+- the core paper initially locates agency in the local experience of
+  irreducible continuation;
 - abundance is the creation of differentiated capacity, not just survival.
 
 This is the paper that makes the theory readable as a theory of agents rather
-than only a field construction.
+than only a field construction. The later
+[Agency of Becoming](essays/2026-06-12-AgencyOfBecoming-InterpretationThroughRC.md)
+sharpens the distinction by treating choice as a collapse event and agency as
+the persistence capacity of an identity across perturbation and response.
 
 ## 4. Add Scale
 
@@ -110,7 +114,35 @@ describe -> classify -> probe -> withdraw -> naturalize -> integrate
 This is the practical stance for working with irreducible systems without
 forcing them into a predeclared endpoint.
 
-## 8. What To Do After The First Pass
+## 8. Follow Identity Into Participation
+
+Read the [Arc of Participation](arc-of-participation/README.md) after the core
+and methodological sequence. Its five papers develop one cumulative movement:
+
+```text
+contextual function
+  -> ecological identity formation
+  -> participation from partial knowing
+  -> participation across scale
+  -> existence as participation
+```
+
+Use its [concept map](arc-of-participation/PAPER_CONCEPTS.md) for a compressed
+entry or its [content index](arc-of-participation/PAPER_CONTENT.md) to locate a
+specific chapter-level argument.
+
+## 9. Continue Into Development And Ecological Engineering
+
+For condition-oriented practice, continue with
+[Reflexive Coherence Development](reflexive-coherence-development/README.md).
+
+For the interpretive agency and sentience sequence, use the
+[essays index](essays/README.md). The later
+[engineering synthesis](essays/2026-07-EngineeringReflexiveCoherenceEcologies.md)
+connects contextual function, shared-medium participation, plural formation,
+scale recursion, orientation, and temporal geometry.
+
+## 10. What To Do After The First Pass
 
 If you are mathematically oriented, focus on the coherence functional, induced
 metric, distance papers, and graph formalizations.
@@ -119,7 +151,8 @@ If you are implementation-oriented, follow the substrate path from PDE
 observations to GRC-v2, GRC-v3, GRC-9, and LGRC9V3.
 
 If you are interested in agency, cognition, or phenomenology, follow Identity,
-Choice, and Abundance into the Arc of Becoming papers.
+Choice, and Abundance into the Arc of Becoming, Arc of Participation, and
+essays.
 
 If you want to contribute, the most useful contributions are clear critiques,
 replications, better formalizations, implementation experiments, and careful

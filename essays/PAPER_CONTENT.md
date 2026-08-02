@@ -334,3 +334,172 @@ ethical consequences.
 
 It defines sentience as read-back: the interior registration of coherence flow
 by a reflexively closed system.
+
+## 5. Engineering Reflexive Coherence Ecologies
+
+File: [2026-07-EngineeringReflexiveCoherenceEcologies.md](2026-07-EngineeringReflexiveCoherenceEcologies.md)
+
+### Abstract And Formal Scope
+
+The essay begins with legitimate component engineering, then enlarges the
+engineering object when an action changes a shared condition encountered by
+later participants. It explicitly presents itself as a compositional
+engineering interpretation rather than a modification of RC or FRC formalism.
+
+**Contribution:** states four boundaries for the synthesis: formation is not
+the only successful ecological outcome, orientation is not authorization,
+temporal geometry is realization-relative, and causal function is not yet full
+semantics.
+
+### Part I — Engineering An Ecology At One Contextual Horizon
+
+**Chapter 1, From Components to Ecology,** shows when the consequence of an
+event outlives its interface and makes the shared medium part of the mechanism.
+It fixes one contextual horizon so that participant, medium, boundary, and
+effect are not shifted during the first explanation.
+
+**Chapter 2, The Medium That Returns,** develops medium surfaces as causal
+commitments. Retention, susceptibility, and later response turn perturbation
+into ecological history and disclose the medium debt omitted by a purely
+direct account.
+
+**Chapter 3, Function in Context,** distinguishes a structure's ecological
+function from its isolated form. Primitives become context-typed capacities,
+portability becomes contextual reconstruction, and a context witness records
+the relations on which the function depends.
+
+**Chapter 4, Unfolding as the Engineering Cycle,** follows contribution through
+medium change, ecological response, and return to the participant. Agency is
+treated as continuity through that response rather than action at the hinge
+alone.
+
+**Chapter 5, When Participation Becomes Ecology,** explains how repeated
+participation changes the conditions of repetition. Stable plural ecology,
+holding geometry, future composability, and recurrent regimes are complete
+outcomes even when no new identity forms.
+
+**Chapter 6, The Many Ways an Ecology Forms,** keeps deliberate assembly,
+historical stabilization, pre-spark insufficiency, spark-mediated attractor
+change, and post-spark stabilization distinct. Formation pathways are plural
+and do not constitute a mandatory hierarchy.
+
+**Contribution:** completes the one-horizon engineering cycle from configured
+parts to contextual function, medium-carried consequence, ecological return,
+stable organization, and optional identity formation.
+
+### Part II — Engineering Scale-Recursive Ecologies
+
+**Chapter 7, When the Ecology Changes Horizon,** asks what a completed ecology
+becomes relative to another closure. It defines scale as a horizon of closure,
+allows medium surfaces to nest, and requires a horizon contract before claims
+move between scales.
+
+**Chapter 8, Engineering Scale Recursion,** separates recurrence, covariance,
+invariance, and actual inter-scale coupling. It tracks cross-scale retention,
+formation pathways, and continuity while refusing to infer a higher-order
+identity from higher-order ecological organization alone.
+
+**Contribution:** turns scale similarity into a graded set of evidential claims
+and identifies the witnesses required for genuine cross-scale causation.
+
+### Part III — Engineering Ecological Orientation Without External Authorization
+
+**Chapter 9, When Constraint Is Mistaken for Authorization,** distinguishes
+wider ecological constraint from command, approval, or universal judgment.
+Answerability is grounded in causal traceability through ecological
+consequence rather than permission from an external authority.
+
+**Chapter 10, Role as Locally Stabilized Unfolding,** separates activity from
+role. A role forms through participant, medium, and history and can remain
+stable without capturing the participant's identity.
+
+**Chapter 11, Higher-Scale Qualities Without a Universal Value Function,**
+distinguishes quality, valuation, value, objective, judgment, and viability. It
+also separates qualities desired by designers, enacted by ecologies,
+experienced by participants, and inferred by observers.
+
+**Chapter 12, Designing Conditions Through Which Qualities Are Expressed,**
+moves from assigning roles to designing the medium, constraints, circulation,
+and evidence through which ecological qualities can arise. It leaves the
+ultimate carrier of semantic quality open.
+
+**Contribution:** makes ecological orientation engineerable without promoting
+constraint into authority, role into identity, or observed regularity into a
+universal value function.
+
+### Part IV — Engineering Temporal Geometry
+
+**Chapter 13, One Continuity, One Locally Ordered Present,** preserves the
+participant's locally ordered continuity while allowing the medium to change
+the rate and content of unfolding. Linear local experience does not imply a
+globally linear ecology.
+
+**Chapter 14, When Ecological Return Does Not Form One Loop,** follows one
+action into several histories. Causal order is partial, returns reach changed
+sources, and experienced return is only one projection of ecological effect.
+
+**Chapter 15, Runtime, Event, Causal, Proper, and Semantic Order,** separates
+five temporal relations that implementations and interpretations often
+collapse. Their correspondence must be established for the declared
+realization rather than assumed.
+
+**Chapter 16, The Present Contains Unfinished Causal Commitments,** argues that
+a visible state may omit in-flight effects, retained traces, and unresolved
+causal residue. Conservation and memory can therefore extend beyond what is
+locally available at a snapshot.
+
+**Chapter 17, Connectivity Is Temporal Geometry,** shows that topology governs
+which histories can compose and when. Route organization and topology change
+alter causal possibility even when local contents remain unchanged.
+
+**Chapter 18, Histories Persist, Separate, and Recompose,** distinguishes past
+causation from the current function acquired when histories later meet.
+Observation windows must include the causal residue relevant to the claim.
+
+**Chapter 19, Time Across Scale and the Causal Form of Quality,** makes event
+closure horizon-relative and treats higher-scale qualities as temporal-causal
+organizations rather than instantaneous properties.
+
+**Chapter 20, Engineering and Validating Temporal Ecologies,** defines temporal
+contracts, causal-history witnesses, and required controls. It identifies the
+claims that remain open before carrying temporal evidence into the Atlas.
+
+**Contribution:** makes the ecology's present depend on active causal history,
+not only arrived state, and supplies contracts and controls for testing that
+history across participants and scales.
+
+### Toward An Atlas Of Ecological Becoming
+
+Chapter 21 connects one-horizon, cross-scale, orientation, and temporal-causal
+records. The Atlas is an evidence-bound map of contextual realizability and
+history-bearing relations, not a catalogue of isolated parts or a compulsory
+developmental sequence.
+
+It supports forward use from configured ecologies toward supported functions,
+regimes, qualities, and formation pathways, and inverse use from a desired
+capability toward plausible contexts, media, histories, delays, controls, and
+claim ceilings. Its semantic axis remains deliberately open.
+
+**Contribution:** makes the Atlas arise from the dependencies established by
+the four parts and preserves their evidence without flattening plural
+formation pathways into one hierarchy.
+
+### Conclusion: Engineering Ecologies That Can Continue Becoming
+
+The conclusion reconstructs the full progression: components alter shared
+conditions; shared conditions contextualize function; contextual function
+extends action through ecological return; repeated return forms histories,
+regimes, and sometimes identities; those organizations recurse across scale,
+acquire orientation, and remain active through temporal geometry.
+
+**Contribution:** defines RC ecological engineering as the deliberate
+configuration and testing of participants, transformation capacities,
+shared-medium surfaces, and history-bearing relations across context, scale,
+orientation, and time.
+
+### What This Essay Adds
+
+It composes the participation, formation, scale, orientation, and temporal
+arguments into one evidence-bound engineering framework while preserving
+stable plural ecology, spark-mediated formation, and higher-scale organization
+as distinct possible outcomes.

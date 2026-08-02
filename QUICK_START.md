@@ -22,7 +22,7 @@ cannot be predicted by any part smaller than the whole evolving system.
 
 For a minimal first pass, read these in order:
 
-1. `README.md`
+1. [README.md](README.md)
 2. [core/2025-11-ReflexiveCoherence.md](core/2025-11-ReflexiveCoherence.md)
 3. [core/2025-11-RC-IdentityChoiceAbundance.md](core/2025-11-RC-IdentityChoiceAbundance.md)
 4. [core/2025-11-FractalReflexiveCoherence.md](core/2025-11-FractalReflexiveCoherence.md)
@@ -64,6 +64,20 @@ For phenomenology and method:
 - [arc-of-becoming/2026-05-InterrogationofBecoming.md](arc-of-becoming/2026-05-InterrogationofBecoming.md)
 - [arc-of-becoming/2026-05-NaturalizationOfBecoming.md](arc-of-becoming/2026-05-NaturalizationOfBecoming.md)
 - [arc-of-becoming/2026-05-CultivationOfBecoming.md](arc-of-becoming/2026-05-CultivationOfBecoming.md)
+
+For contextual function, identity formation, and participation:
+
+- [arc-of-participation/README.md](arc-of-participation/README.md)
+- [arc-of-participation/PAPER_CONCEPTS.md](arc-of-participation/PAPER_CONCEPTS.md)
+
+For condition-oriented development:
+
+- [reflexive-coherence-development/README.md](reflexive-coherence-development/README.md)
+
+For agency, sentience, and ecological engineering:
+
+- [essays/README.md](essays/README.md)
+- [essays/2026-07-EngineeringReflexiveCoherenceEcologies.md](essays/2026-07-EngineeringReflexiveCoherenceEcologies.md)
 
 ## How To Read Claims
 

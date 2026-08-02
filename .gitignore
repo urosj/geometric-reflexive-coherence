@@ -1,0 +1,30 @@
+# Operating-system metadata
+.DS_Store
+Thumbs.db
+
+# Editor and local workspace files
+*.swp
+*.swo
+*~
+.idea/
+.vscode/
+
+# Python caches and local environments
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.venv/
+venv/
+
+# LaTeX and Markdown-to-PDF intermediates
+*.aux
+*.bbl
+*.bcf
+*.blg
+*.fdb_latexmk
+*.fls
+*.log
+*.out
+*.run.xml
+*.synctex.gz
+*.toc

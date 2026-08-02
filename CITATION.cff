@@ -2,8 +2,47 @@ cff-version: 1.2.0
 title: "Geometric Reflexive Coherence"
 message: "If you use this work, please cite it as below."
 authors:
-  - family-names: "Jovanovic"
-    given-names: "Uros"
+  - family-names: "Jovanovič"
+    given-names: "Uroš"
+abstract: >-
+  Geometric Reflexive Coherence is a papers-first research archive about
+  self-defined, self-referential dynamical systems in which a coherence field
+  induces geometry, geometry shapes flux, and flux updates the field. The
+  repository develops the formal theory, continuum and graph substrates,
+  investigations, observations, and interpretive and engineering extensions
+  concerning identity, agency, participation, formation, scale, and ecology.
+keywords:
+  - reflexive coherence
+  - dynamical systems
+  - complex systems
+  - artificial life
+  - self-organization
+  - agentic ecology
 license: CC-BY-SA-4.0
 url: "https://github.com/urosj/geometric-reflexive-coherence"
 repository-code: "https://github.com/urosj/geometric-reflexive-coherence"
+references:
+  - type: software
+    title: "Reflexive Coherence Simulation"
+    authors:
+      - family-names: "Jovanovič"
+        given-names: "Uroš"
+    repository-code: "https://github.com/urosj/reflexive-coherence-sim"
+  - type: software
+    title: "Graph Reflexive Coherence"
+    authors:
+      - family-names: "Jovanovič"
+        given-names: "Uroš"
+    repository-code: "https://github.com/urosj/graph-reflexive-coherence"
+  - type: software
+    title: "Reflexive Coherence Agentic Protocol"
+    authors:
+      - family-names: "Jovanovič"
+        given-names: "Uroš"
+    repository-code: "https://github.com/urosj/reflexive-coherence-agentic-protocol"
+  - type: software
+    title: "Reflexive Coherence Agentic Ecology"
+    authors:
+      - family-names: "Jovanovič"
+        given-names: "Uroš"
+    repository-code: "https://github.com/urosj/reflexive-coherence-agentic-ecology"
