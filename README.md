@@ -1,358 +1,266 @@
 # Geometric Reflexive Coherence
 
-This repository collects papers, notes, observations, and investigations around
-**Geometric Reflexive Coherence**. It is a papers-first archive for the current
-understanding of Reflexive Coherence as a self-describing theory of
-self-defined, self-referential, dynamic systems.
+Many approaches to complex systems begin with components, interactions, and a
+space in which they evolve.
 
-The qualifier **geometric** distinguishes this work from other uses of
-"reflexive coherence" across different disciplines. Here, reflexive coherence
-refers to a field-theoretic and geometric construction: a coherence field whose
-state defines its own geometry, whose geometry guides its dynamics, and whose
-dynamics update the field again.
+**Geometric Reflexive Coherence** begins one step earlier:
 
-In the shortest form:
+> **How can a system form the geometry, identities, functions, and possibilities
+> through which its own evolution occurs?**
+
+The theory starts from a non-negative coherence field and its flux. The field
+induces geometry; that geometry shapes later flux; flux changes the field
+again:
 
 ```text
 C -> K[C] -> g[K] -> J[C,g] -> continuity -> C
 ```
 
 The field writes the geometry. The geometry shapes the flux. The flux updates
-the field. The loop is self-referential.
+the field. The loop is compact; its consequences are not.
 
-## Start Here
+- Space becomes support-derived rather than a passive container.
+- Identity becomes an attractor formed by the field rather than an assigned
+  label.
+- Memory becomes retained geometry that changes later continuation.
+- Function belongs to a formation in context rather than to isolated structure.
+- Choice becomes a locally irreducible collapse, while agency can be examined
+  as the capacity of an identity to persist through perturbation and response.
+- Participation changes the conditions inherited by later participation.
+- What is identity at one scale may become context, medium, or constituent at
+  another.
+- The present may include consequences that remain causally active even when
+  they have not yet arrived locally.
 
-If you are encountering Reflexive Coherence for the first time, begin with the
-program-level orientation papers:
+The qualifier **geometric** distinguishes this work from other uses of
+“reflexive coherence.” Here, reflexivity is not only self-reference in a
+description. It is a dynamical closure in which the state of the system changes
+the geometry through which its next state becomes possible.
 
-- [What Can Become?](orientation/2026-07-WhatCanBecome.md)
-  for a short conceptual introduction.
-- [Why Reflexive Coherence? Eight Research Entry Points](orientation/2026-07-WhyReflexiveCoherence-EightResearchEntryPoints.md)
-  for connections to eight research domains.
-- [The Formation of Possibility](orientation/2026-07-TheFormationOfPossibility.md)
-  for the full program-level orientation.
+> **Status:** This is an open research archive, not a finished textbook. It
+> contains formal definitions, theoretical investigations, experimental
+> observations, interpretive propositions, engineering specifications, failed
+> paths, and open hypotheses. Each paper states its own formal status and claim
+> ceiling.
 
-For repository navigation and deeper reading paths:
+## Questions The Repository Follows
 
-- [QUICK_START.md](QUICK_START.md) for a short orientation and a minimal reading
-  path.
-- [FIRST_PASS_GUIDE.md](FIRST_PASS_GUIDE.md) for a structured first pass through
-  the repository.
-- [BACKGROUND.md](BACKGROUND.md) if you want the observational context that
-  motivated the theory.
-- [core/README.md](core/README.md) for the executive guide to the foundational
-  papers.
-- [core/PAPER_CONCEPTS.md](core/PAPER_CONCEPTS.md) for a compressed concept map
-  of the core papers.
-- [substrates/README.md](substrates/README.md) if you are coming from the code
-  repositories or implementation work.
-- [arc-of-becoming/README.md](arc-of-becoming/README.md) if you are interested in
-  phenomenology, methodology, or agentic protocols.
-- [reflexive-coherence-development/README.md](reflexive-coherence-development/README.md)
-  if you want to apply the Arc of Becoming as condition-oriented development.
+The repository is organized less by discipline than by the questions generated
+by the reflexive loop.
 
-## Related Projects
+| Question | Entry point |
+| --- | --- |
+| What can become when the space of possibilities is itself changing? | [What Can Become?](orientation/2026-07-WhatCanBecome.md) |
+| Why might RC matter to complex systems, artificial life, cognition, control, or ecology? | [Eight Research Entry Points](orientation/2026-07-WhyReflexiveCoherence-EightResearchEntryPoints.md) |
+| What is the minimal field–geometry–flux closure? | [Reflexive Coherence](core/2025-11-ReflexiveCoherence.md) |
+| How can a system define its own space and distance? | [Investigations](investigations/README.md) |
+| How do identity, choice, sparks, and abundance arise geometrically? | [Identity, Choice, and Abundance](core/2025-11-RC-IdentityChoiceAbundance.md) |
+| How can the theory be expressed in continuum and graph substrates? | [Substrates](substrates/README.md) |
+| How should an embedded observer study a future class it cannot know in advance? | [Arc of Becoming](arc-of-becoming/README.md) |
+| How do desired capacities become coherent, native, measurable, and renewable? | [Reflexive Coherence Development](reflexive-coherence-development/README.md) |
+| Where does function reside, and how does the field become a participant? | [Arc of Participation](arc-of-participation/README.md) |
+| What might agency, sentience, and existence mean from inside such a field? | [Essays](essays/README.md) |
+| How can contextual function, shared media, formation, scale, and temporal history be engineered together? | [Engineering Reflexive Coherence Ecologies](essays/2026-07-EngineeringReflexiveCoherenceEcologies.md) |
+
+## Choose A Reading Path
+
+There is no single required entrance. The paths below meet later in the
+program.
+
+### First Contact
+
+1. [What Can Become?](orientation/2026-07-WhatCanBecome.md)
+2. [Why Reflexive Coherence? Eight Research Entry Points](orientation/2026-07-WhyReflexiveCoherence-EightResearchEntryPoints.md)
+3. [The Formation of Possibility](orientation/2026-07-TheFormationOfPossibility.md)
+
+For a slightly longer guided route, use [Quick Start](QUICK_START.md) or the
+[First Pass Guide](FIRST_PASS_GUIDE.md).
+
+### Formal And Mathematical Path
+
+```text
+ROM and Seeds of Life
+  -> coherence-only RC
+  -> identity, choice, sparks, and abundance
+  -> Fractal RC
+  -> distance, observations, and substrates
+```
+
+Begin with the [core guide](core/README.md) or its compressed
+[concept map](core/PAPER_CONCEPTS.md).
+
+### Embedded-Observer And Ontological Path
+
+```text
+Arc of Becoming
+  -> contextual function
+  -> ecological identity formation
+  -> participation from partial knowing
+  -> participation across scale
+  -> existence, experience, knowledge, and meaning
+```
+
+Begin with the [Arc of Becoming](arc-of-becoming/README.md), then continue into
+the [Arc of Participation](arc-of-participation/README.md) and the
+[agency and sentience essays](essays/README.md).
+
+### Engineering Path
+
+```text
+context-typed primitives
+  -> continuum and graph substrates
+  -> shared-medium participation
+  -> plural ecological formation
+  -> scale and temporal geometry
+  -> an evidence-bound Atlas
+```
+
+Begin with [The Contextual Geometry of Function](arc-of-participation/2026-07-ContextualGeometryOfFunction.md),
+the [substrate guide](substrates/README.md), or the synthesis in
+[Engineering Reflexive Coherence Ecologies](essays/2026-07-EngineeringReflexiveCoherenceEcologies.md).
+
+### Developmental-Practice Path
+
+```text
+observe -> classify -> probe -> withdraw -> naturalize -> integrate
+  -> attune -> aim -> organize -> measure -> steward -> re-attune
+```
+
+Begin with the [Arc of Becoming](arc-of-becoming/README.md), then continue into
+[Reflexive Coherence Development](reflexive-coherence-development/README.md).
+
+## One Research Program
+
+The repository branches because each result creates another question. The
+branches are meant to remain connected.
+
+```mermaid
+flowchart TD
+    ROM[Reflexive Organism Model] --> CORE[RC and FRC Core]
+    CORE --> INV[Investigations]
+    CORE --> SUB[Continuum and Graph Substrates]
+    SUB --> OBS[Experimental Observations]
+    OBS --> SUB
+
+    CORE --> AOB[Arc of Becoming]
+    AOB --> RCD[Reflexive Coherence Development]
+
+    CORE --> AOP[Arc of Participation]
+    AOB --> AOP
+    AOP --> ESS[Agency and Sentience Essays]
+
+    INV --> ENG[Engineering RC Ecologies]
+    SUB --> ENG
+    RCD --> ENG
+    AOP --> ENG
+    ESS --> ENG
+
+    ENG --> AE[Agentic Ecology]
+```
+
+The diagram is not a hierarchy of truth or maturity. It records dependency and
+influence. Formal papers, experiments, interpretations, and engineering work
+answer different kinds of questions and should not be promoted into one
+another without evidence.
+
+## The Conceptual Spine
+
+The work began with the
+[Reflexive Organism Model](core/2025-08-ReflexiveOrganismModel.md), an attempt to
+describe a self-contained and scale-recursive organism whose memory, agency,
+experience, and organization remain internally coupled.
+
+[Seeds of Life](core/2025-11-SeedsOfLife.md) and
+[Coherence](core/2025-11-Coherence.md) exposed a simplification: many apparent
+subsystems could be understood as expressions of one conserved field.
+[Reflexive Coherence](core/2025-11-ReflexiveCoherence.md) then gave the
+coherence-only formulation.
+
+[Identity, Choice, and Abundance](core/2025-11-RC-IdentityChoiceAbundance.md)
+developed basins, collapse, sparks, local irreducibility, and structural
+abundance. [Fractal Reflexive Coherence](core/2025-11-FractalReflexiveCoherence.md)
+made coherence and identity explicitly scale-resolved.
+
+The later tracks follow consequences that the core leaves open. The Arc of
+Becoming asks how an embedded observer can inquire without knowing the next
+important class. Reflexive Coherence Development asks how conditions for native
+capacity can be cultivated. The Arc of Participation asks where function
+resides, how identity forms, and why existence is already participatory. The
+engineering work asks how those relations can be made observable and
+constructible without reducing them to isolated components or predefined
+roles.
+
+## How To Read Claims
+
+Documents in this repository do not all make the same kind of claim.
+
+- **Formal definitions and equations** state the proposed mathematical ground
+  or a declared specialization.
+- **Formal scaffolds** expose dependencies without claiming a completed
+  calculus or theorem.
+- **Interpretive theses** investigate what the formal relations may imply for
+  agency, experience, participation, knowledge, meaning, or life.
+- **Observations** report what a particular experiment or research path
+  disclosed.
+- **Supported results** hold under the controls and realization described in
+  the relevant paper.
+- **Open hypotheses and blocked paths** identify what still requires proof,
+  implementation, discrimination, or a different substrate.
+
+Contextual, interpretive, or phenomenological claims are not substitutes for
+formal or experimental claims. Conversely, a formal object does not by itself
+establish the experiential or ecological interpretation proposed for it.
+
+## Repository Map
+
+| Directory | Purpose |
+| --- | --- |
+| [`orientation/`](orientation/README.md) | Program-level introductions and research entry points |
+| [`core/`](core/README.md) | ROM, RC, identity and abundance, and FRC foundations |
+| [`investigations/`](investigations/README.md) | Distance, support-derived space, and typed experience constructions |
+| [`substrates/`](substrates/README.md) | PDE, graph, GRC, GRC9, LGRC, and LGRC9V3 papers |
+| [`observations/`](observations/README.md) | Experimental and conceptual corrections from the research path |
+| [`arc-of-becoming/`](arc-of-becoming/README.md) | Phenomenology and methodology for irreducible becoming |
+| [`reflexive-coherence-development/`](reflexive-coherence-development/README.md) | Condition-oriented development and practical guides |
+| [`arc-of-participation/`](arc-of-participation/README.md) | Contextual function, identity formation, participation, scale, and existence |
+| [`essays/`](essays/README.md) | Agency, sentience, and ecological-engineering interpretations |
+| [`basin/`](basin/README.md) | Live collaboration artifacts, tensions, and promotion history |
+| [`misc/`](misc/README.md) | Historical and transitional notes |
+| [`utils/`](utils/README.md) | Local Markdown-to-PDF helpers |
+
+The [background note](BACKGROUND.md) records some of the observations that
+motivated the earliest organismal questions.
+
+## Companion Projects
 
 - [reflexive-coherence-sim](https://github.com/urosj/reflexive-coherence-sim)
-  is the PDE and adaptive-voxel simulation laboratory for RC.
+  is the PDE and adaptive-voxel simulation laboratory.
 - [graph-reflexive-coherence](https://github.com/urosj/graph-reflexive-coherence)
-  is the Python implementation workspace for GRC, GRC-9, and LGRC9V3.
+  is the implementation workspace for GRC, GRC9, and LGRC9V3.
+- [reflexive-coherence-agentic-ecology](https://github.com/urosj/reflexive-coherence-agentic-ecology)
+  develops agents, shared media, primitives, and experimental ecologies.
 - [reflexive-coherence-agentic-protocol](https://github.com/urosj/reflexive-coherence-agentic-protocol)
   develops basin-based multi-agent collaboration protocols.
-- [Reflexive Organism Model](https://github.com/urosj/reflexive-organism-model)
-  is the originating ROM theory repository.
+- [reflexive-organism-model](https://github.com/urosj/reflexive-organism-model)
+  preserves the originating ROM theory and implementation path.
 
-## Status
-
-This is a working research archive, not a finished textbook. Some documents are
-formal proposals, some are conceptual papers, some are experiment reports, and
-some are implementation-specialization notes. Claims should be read at the
-level stated by each paper: proposed, observed, supported under controls,
-blocked, or future work.
-
-## Origin
-
-The work began as the **Reflexive Organism Model** (ROM), a mechanistic attempt
-to define an organism that is self-contained and scale-free: not only an object
-with parts, but a nested organism/superorganism structure able to preserve
-identity across levels.
-
-While exploring the properties of ROM, an elegant simplification appeared:
-instead of treating organs, memory, policy, assembly, experience, and geometry
-as separate primitives, they can be treated as derived functionals of one
-conserved field. That simplification led to **Reflexive Coherence**.
-
-Reflexive Coherence is the coherence-only formulation of ROM. The primitive is
-a non-negative coherence density field `C(x,t)` and its flux `J_C`. Identity is
-not a label placed on the system from outside. It is a stable basin of the field.
-Memory is not a separate store. It is persistent geometry. Choice names the
-locally experienced collapse among compatible continuations whose outcome
-cannot be predicted from any local part. The later
-[agency interpretation](essays/2026-06-12-AgencyOfBecoming-InterpretationThroughRC.md)
-uses *agency* more broadly for an identity's persistence capacity across
-perturbation, withdrawal, and ecological response rather than for the choice
-event alone.
-
-**Fractal Reflexive Coherence** extends this by adding scale. A single loop can
-describe a coherent identity, but biological, cognitive, social, and ecological
-systems preserve identity through nested sub-identities. FRC promotes coherence
-to a scale-resolved field `C(x,t;sigma)`, allowing identity to propagate through
-hierarchy rather than being trapped at one scale.
-
-## Core Papers
-
-The six papers in `core/` describe the development of the theory.
-
-- `2025-08-ReflexiveOrganismModel.md` introduces ROM: a scale-free,
-  self-contained organism model built from reflexive closure, fast/slow fields,
-  memory, assembly, experience, hierarchy, and superorganism reasoning.
-- `2025-11-SeedsOfLife.md` develops reserves, seeds, eigenmodes, and reusable
-  structure: the first attempt to explain why some patterns are available to a
-  system and how future activity is biased by what has already become coherent.
-- `2025-11-Coherence.md` identifies coherence as the central invariant of ROM
-  and shows how assembly, experience, memory, attractors, and seed-imposed
-  curvature can be read as modes of one coherence field.
-- `2025-11-ReflexiveCoherence.md` gives the coherence-only formulation: one
-  scalar field, its flux, its induced geometry, its continuity law, and the
-  mapping from the original ROM tuple into derived field functionals.
-- `2025-11-RC-IdentityChoiceAbundance.md` develops the geometric interpretation
-  of identity, choice, collapse, agency, irreducibility, sparks, and abundance.
-- `2025-11-FractalReflexiveCoherence.md` extends RC across scale by introducing
-  a generation coordinate and multiscale identity basins.
-
-## Agency, Choice, And Abundance
-
-In this theory, identity is an invariant basin of coherence. A system remains
-itself when flux, curvature, boundary, and memory-like persistence continue to
-close into the same basin even as local parts change.
-
-Agency appears when the system contains multiple compatible continuations. From
-outside the full field may be deterministic, but from inside no local part can
-compute the full next state without running the whole evolution. Choice is the
-experience of this irreducible collapse from several viable basins into one
-continuation.
-
-Abundance is the opposite of a scarcity-only interpretation of agency. Coherence
-conservation does not imply flattening or uniformity. Gradients, curvature, and
-spark events can create more differentiated structure. A coherent system can
-therefore become more capable, not by optimizing toward one endpoint, but by
-opening new basins, new identities, and new forms of participation.
-
-## Self-Defined Space
-
-A central claim is that organisms are not placed into space as finished objects.
-In RC, the organism defines the space in which it exists.
-
-The spatial support is:
-
-```text
-Omega_t = supp C(.,t)
-```
-
-Space is where coherence is non-zero. Geometry is induced from the coherence
-tensor. Distance, reachability, delay, and coupling are then derived from that
-geometry rather than imposed as a fixed background.
-
-The distance investigations in `investigations/` develop this idea in detail,
-especially `2026-01-RC-Distance-v4.md` and
-`2026-01-RC-Distance-Spacetime.md`. They explain why support-derived space,
-geodesic distance, operational travel-time distance, and graph distance should
-not be collapsed into one fixed notion of separation.
-
-## Observer And Irreducibility
-
-RC is globally deterministic in the sense that the whole field evolves by its
-own closed dynamics. But an observer inside the field is only a part of the
-system. A part cannot fully predict the next state of the whole without being
-the whole.
-
-This produces a useful asymmetry:
-
-- globally, the system may have a deterministic evolution;
-- locally, prediction is computationally irreducible;
-- experientially, the agent can only rely on the lived fact of choice, collapse,
-  uncertainty, and continuation.
-
-This is why the observer matters. Observation is not a detached view from
-outside the field. It is a local relation inside the same self-describing
-geometry.
-
-## Substrates And Simulations
-
-The theory splits into two experimental paths: continuum/PDE substrates and
-discrete graph substrates.
-
-The PDE work is implemented in the companion
-[reflexive-coherence-sim](https://github.com/urosj/reflexive-coherence-sim)
-project.
-
-The early PDE observations are summarized in
-`observations/2025-12-Observations.md`. The main outcome is not a proof of
-agency. The important result is methodological: PDE simulations became a
-learning laboratory for thinking about self-defined chaotic systems. They showed
-that PDE-only dynamics need additional reflexive layers to deal with identity
-selection, agency-like behavior, and topology-changing structure.
-
-They also produced a useful landscape language: nuclei, ridges, valleys,
-basins, pockets, supports, gates, and other cell-like field constructs. This
-language later moved into the graph versions as a way to describe identity and
-transition structure without depending on a fixed grid.
-
-The PDE and voxel work also exposed a discretization issue. A fixed `dx` can
-hide or distort RC behavior, because the geometry is supposed to be
-self-defined. When voxel size is no longer fixed, the system can diverge
-significantly. This motivated graph-based approaches where the substrate itself
-can change.
-
-## Graph Reflexive Coherence
-
-The GRC papers in `substrates/` develop discrete versions of RC that avoid some
-of the PDE and voxel limitations.
-
-- `2025-12-GRC-V2.md` defines Graph Reflexive Coherence as a closed
-  budget-conserving graph loop with coherence on nodes, conductance as induced
-  geometry, flux on edges, identity basins, sparks, seeds, and topology change.
-- `2026-02-GRC-V3.md` refines GRC by turning nodes into basin-attribute charts.
-  Nodes can store local gradient, Hessian, flux summary, effective basin mass,
-  hierarchy labels, and multiple edge labels for distance, delay, and coupling.
-- `2026-04-GRC-9.md` introduces a nine-port mechanical specialization. Each
-  node has a 3x3 port bundle: rows act as local geometric directions, columns
-  act as stable interface families for refinement and multiscale operations.
-- `2026-05-LGRC-9.md` introduces Lorentzian/event-driven GRC. Instead of a
-  global step index, the graph evolves as a causal history with local proper
-  time, edge delay, event queues, in-flight coherence, and causal frontiers.
-- `2026-05-LGRC9V3-Native-Packet-Loops.md` records a validated LGRC9V3
-  specialization for conserved, self-rearming packet loops.
-- `2026-05-LGRC9V3-Causal-Pulse-Substrate-Surfaces.md` proposes a conservative
-  extension surface for packet-contact history, pulse/substrate response, and
-  producer eligibility.
-
-The current fullest implementation direction is **LGRC9V3**: a nine-port,
-v3-style, causal-time graph substrate. It combines basin-attribute geometry,
-mechanical ports, spark/refinement semantics, packetized causal histories, and
-local proper time.
-
-The companion graph implementation project is
-[graph-reflexive-coherence](https://github.com/urosj/graph-reflexive-coherence).
-
-## Arc Of Becoming
-
-The `arc-of-becoming/` papers are the phenomenological and methodological
-extension of the geometry.
-
-- `2026-01-LanguageOfBecoming.md` proposes a phenomenological vocabulary for
-  RC: stability, fragmentation, collapse, leakage, memory, abundance, and
-  communication as geometric phenomena.
-- `2026-01-LoB-Reinforcement.md` shifts from crisis language to abundance,
-  reinforcement, cultivation-drive, cooperation, ecological intelligence, and
-  the legitimacy of experience.
-- `2026-05-ClassificationOfBecoming.md` develops observation-first knowledge
-  creation for irreducible systems: classify what the system expressed before
-  forcing it into a predicted endpoint.
-- `2026-05-InterrogationofBecoming.md` defines bounded probes as questions, not
-  proofs. A probe result must be classified at the lowest valid rung.
-- `2026-05-NaturalizationOfBecoming.md` asks when a capacity first exposed by
-  support or probe becomes native to the system's own regime.
-- `2026-05-CultivationOfBecoming.md` synthesizes the cycle: orient, observe,
-  classify, probe, withdraw, naturalize, and integrate.
-
-The Language of Becoming is therefore a possible phenomenological explanation
-of the geometry. It asks what the geometry feels like from inside and how an
-embedded observer can participate without reducing the system to local
-optimization.
-
-## Reflexive Coherence Development
-
-The `reflexive-coherence-development/` papers extend the Arc of Becoming into
-developmental practice. Where the Arc asks how an embedded observer should
-meet what is appearing, RCD asks what conditions would let a desired emergent
-property become coherent, native, measured, stewarded, and renewed.
-
-The relationship is not a handoff from theory to application. The two tracks
-belong to one practice:
-
-```text
-Arc of Becoming -> contact with what is appearing
-Reflexive Coherence Development -> conditions for what appears to become native
-```
-
-The Two-Axis Guide in that directory is the bridge artifact. It treats becoming
-and development as two axes of attention in one field: the becoming axis
-protects honest contact with appearance, while the development axis protects
-condition formation, continuity, and trajectory.
-
-## Agentic Protocols
-
-There is also a companion
-[reflexive-coherence-agentic-protocol](https://github.com/urosj/reflexive-coherence-agentic-protocol)
-project using coherence as an agentic protocol prototype.
-
-The goal is to avoid the completion-driven gap in ordinary agent workflows.
-Instead of pushing agents to finish a task while hiding assumptions, the
-protocol tries to preserve the geometry of how a decision or implementation
-formed.
-
-Agents can be directed through the protocol and through the Arc of Becoming to
-work on larger problems without collapsing immediately into local-minimum task
-completion. The intended behavior is exploratory: expose tension, conflict,
-missing support, and alternative angles; classify what appeared; then decide
-what should be naturalized or integrated.
-
-This repository uses the same idea for collaboration. New propositions,
-implementations, validations, interpretations, and refinement subbasins should
-usually live first in `basin/`. Changes to the papers and guide files are then
-treated as promoted snapshots of basin activity, not as the whole history of
-the work.
-
-## Repository Scope
-
-This repository is meant to aggregate the papers and observations produced by
-the experiments. It represents the current understanding of self-describing RC
-theory and acts as an invitation to study the experiments, repeat them, question
-them, and extend them.
-
-Large simulation and implementation repositories remain separate. They can cite
-or link back here, but keeping them independent avoids turning this archive into
-a monorepo and makes git maintenance easier.
-
-## Structure
-
-- `orientation/` contains program-level introductions and research entry
-  points.
-- `core/` contains the foundational theory papers.
-- `substrates/` contains PDE, graph, GRC, GRC9, LGRC, and LGRC9V3 substrate
-  papers.
-- `arc-of-becoming/` contains phenomenological and methodological papers.
-- `reflexive-coherence-development/` contains condition-oriented development
-  papers and practical guides extending the Arc of Becoming.
-- `investigations/` contains focused research notes, distance constructions,
-  and exploratory calculi.
-- `observations/` contains empirical and conceptual observations from the
-  experiments.
-- `basin/` contains collaboration artifacts: propositions, implementations,
-  validations, interpretations, refinement subbasins, tensions, and promoted
-  snapshots.
-- `misc/` contains supporting or transitional notes.
-- `utils/` contains local paper-processing utilities.
+Large simulations and maintained implementations remain in their companion
+repositories so this repository can remain a papers-first research archive.
 
 ## Open Laboratory
 
-Geometric Reflexive Coherence is an open laboratory. The repository is not
-presented as a finished theory. It is a working archive of papers,
-interpretations, experiments, failures, and refinements.
+The project welcomes mathematical corrections, critical investigations,
+replications, alternative substrates, implementation experiments, and careful
+reports of where a claim overreaches or a mechanism remains underspecified.
 
-Collaboration is welcome, but the preferred path is basin-based. Instead of
-only submitting finished paper edits, contributors are invited to open
-propositions, implementations, validations, interpretations, and refinement
-subbasins in `basin/` so the geometry of the work remains visible. New
-experiments, independent
-implementations, critical investigations, mathematical corrections, alternative
-substrates, and better descriptions of observed phenomena can then be promoted
-into the stable paper directories when the basin activity supports that move.
+Substantive work usually begins in [`basin/`](basin/README.md), where
+propositions, implementations, validations, interpretations, tensions, and
+promotions can retain their history. See [CONTRIBUTING.md](CONTRIBUTING.md) for
+the contribution path and [basin/INDEX.md](basin/INDEX.md) for the current
+artifact map.
 
-See `CONTRIBUTING.md` for the human-facing contribution path and
-`basin/README.md` for the basin artifact model.
+## Citation And License
 
-## Citation
-
-See `CITATION.cff` for citation metadata.
+Citation metadata is available in [CITATION.cff](CITATION.cff). The papers and
+documentation are released under the
+[Creative Commons Attribution-ShareAlike 4.0 International License](LICENSE).
