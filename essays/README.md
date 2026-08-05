@@ -5,7 +5,7 @@ Geometric Reflexive Coherence. These papers are less foundational than the
 `core/` sequence and less methodological than the `arc-of-becoming/`
 sequence. They use RC, FRC, the Arc of Becoming, and the Arc of Participation
 to develop vocabulary around abundance, agency, persistence, sentience,
-read-back, and ecological engineering.
+read-back, ecological engineering, and participatory continuation.
 
 Read together, the essays answer one question:
 
@@ -13,7 +13,8 @@ Read together, the essays answer one question:
 What becomes visible when RC is read from the inside of becoming:
 abundance as differentiation, agency as persistence, cultivation as discipline,
 and sentience as read-back—and how can those relations be engineered as
-shared-medium ecologies across context, scale, orientation, and time?
+shared-medium ecologies across context, scale, orientation, and time, then
+revisited as identity-bearing participation through ecological response?
 ```
 
 ## Suggested Reading Order
@@ -31,6 +32,13 @@ Read the essays in this order:
 3. [Agency After Choice](2026-06-12-AgencyAfterChoice.md)
 4. [Sentience as Read-Back](2026-06-12-SentienceAsReadBack.md)
 5. [Engineering Reflexive Coherence Ecologies](2026-07-EngineeringReflexiveCoherenceEcologies.md)
+6. [Agency as Participatory Continuation](2026-08-AgencyAsParticipatoryContinuation.md)
+
+The sequence preserves the development of the interpretation. The June essays
+state the original move from choice to persistence. The July participation arc
+and engineering essay add context, formation, shared-medium return, and scale.
+The August essay records the resulting refinement rather than rewriting it
+backward into the earlier papers.
 
 ## Essay Summaries
 
@@ -92,3 +100,18 @@ Atlas connects one-horizon, cross-scale, orientation, and temporal-causal
 records so that RC ecologies can be designed and evaluated without reducing
 their development to one mandatory pathway or closing the still-open semantic
 axis prematurely.
+
+### [Agency as Participatory Continuation](2026-08-AgencyAsParticipatoryContinuation.md)
+
+This essay revisits the original agency interpretation after the Arc of
+Participation and the engineering synthesis. It retains the relocation of
+choice, the four persistence diagnostics, and the generative/extractive
+distinction while placing them inside contextual identity formation,
+shared-medium consequence, ecological return, and scale-relative attribution.
+
+Its main contribution is the refinement of persistence capacity from a complete
+definition into the diagnostic spine of RC-agency. Agency becomes selectively
+enacted reflexive continuation by a locally continuous identity, supported by
+connected focal, context-horizon, and ecological-unfolding records. A revision
+ledger makes explicit which earlier claims are retained, refined, narrowed,
+restricted, or expanded.

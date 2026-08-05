@@ -503,3 +503,207 @@ It composes the participation, formation, scale, orientation, and temporal
 arguments into one evidence-bound engineering framework while preserving
 stable plural ecology, spark-mediated formation, and higher-scale organization
 as distinct possible outcomes.
+
+## 6. Agency As Participatory Continuation
+
+File: [2026-08-AgencyAsParticipatoryContinuation.md](2026-08-AgencyAsParticipatoryContinuation.md)
+
+### Abstract, Formal Status, And Chronological Method
+
+The essay presents itself as a continuation rather than a replacement. It
+retains the June papers as the historical path from choice to persistence,
+then asks what changes after the Arc of Participation and the ecological
+engineering synthesis make context, identity formation, shared-medium return,
+and scale explicit.
+
+It introduces no new RC or FRC operators. Its profiles and equations are
+conceptual scaffolds and research directives. The chronological method
+preserves both the current account and the development through which that
+account became necessary.
+
+**Contribution:** makes conceptual revision explicit without rewriting later
+distinctions backward into the original essays.
+
+### Why Persistence Must Be Revisited
+
+The essay restates the original relocation: choice belongs to a local collapse
+event, while identity continuity before and after collapse makes the event
+attributable. Withdrawal resistance, naturalization depth, substrate transfer,
+and proxy collapse remain valuable because they distinguish continuity from
+performance.
+
+Persistence alone does not identify its bearer. Routes, labels, protocols,
+ecologies, and higher-order identities can all persist, but they do not support
+equivalent agency claims.
+
+**Contribution:** preserves persistence as the central diagnostic problem while
+showing why it cannot be the complete definition.
+
+### What The Original Account Retains
+
+The essay retains the relocation of choice, the need for identity continuity,
+the four focal persistence diagnostics, and the distinction between
+generative and extractive persistence.
+
+The diagnostics become stronger rather than weaker when context is added.
+They can now ask whether the claimed identity and function survive a declared
+change rather than testing an isolated output.
+
+**Contribution:** identifies the stable spine of the original interpretation
+before introducing refinements.
+
+### What The Arc Of Participation Changes
+
+Identity can no longer be assumed as a context-free bearer. It forms through
+an ecological history and begins participating through formation itself.
+Participation is broader than agency because persistence, resistance,
+withdrawal, and dissolution can alter the field before selective agency is
+established.
+
+Function becomes contextual, ecological dependence ceases to imply lack of
+agency, and scale determines which continuity bears the claim. Coordination,
+cross-scale coupling, and stable plural ecology remain insufficient for
+higher-order identity.
+
+**Contribution:** places the persistence question inside contextual identity
+formation and scale-relative participation.
+
+### Agency As Participatory Continuation
+
+The revised working definition treats RC-agency as the organization through
+which a locally continuous identity selectively enacts an accessible
+continuation, carries identity through ecological response, and remains
+changeable by the consequences of its own participation.
+
+Selective enactment does not restore sovereign choice. It names differentiated
+continuation through a formed boundary, susceptibility, history, and geometry.
+Persistence remains the diagnostic spine because it makes consequence
+historically attributable, but ordinary causal sensitivity or successful
+continuation is not sufficient.
+
+**Contribution:** gives the current synthesis of RC-agency while keeping it
+broader than conscious choice and narrower than causal efficacy.
+
+### Nativity Without Isolation
+
+Withdrawal becomes support-typed: the test must state which support is removed,
+which constitutive ecological relations remain, and what identity and function
+are being tested.
+
+Naturalization becomes contextual regeneration rather than freedom from all
+dependence. Transfer becomes reconstruction of functional geometry under an
+identity and function preservation contract. Proxy integrity is checked
+across identity, function, medium, scale, and temporal history.
+
+**Contribution:** replaces independence assumptions with explicit,
+regenerable, and testable support relations.
+
+### When The Bearer Of Agency Changes With The Horizon
+
+The essay distinguishes distributed agentic organization from agency of a
+whole. Coordination and stable plural ecology can be complete forms without
+forming a higher-order identity.
+
+It proposes an evidential claim ladder: coordinated effect, stable plural
+ecology, higher-order identity, higher-order agency, and higher-order sentience
+candidate. The ladder is not a mandatory developmental progression; it marks
+the additional evidence required for stronger attributions.
+
+**Contribution:** disciplines agency claims about swarms, institutions,
+cultures, ecosystems, and other collective organizations.
+
+### When Persistence Is No Longer The Complete Result
+
+Generativity becomes a relation between focal continuity and the ecology left
+by that continuity. Internal basin complexity and anisotropic boundaries
+remain candidate mechanisms, but shared-medium history, support
+redistribution, contextual reconstruction, distributed participation, and
+inter-scale relations provide additional routes.
+
+The essay separates generative effect, generative participation, generative
+agency of a focal identity, and generative agency of a higher-order identity.
+Extractive agency remains descriptively agentic even when it damages the
+surrounding field.
+
+**Contribution:** expands generativity beyond one focal-basin mechanism while
+keeping effect, attribution, and ethical evaluation distinct.
+
+### Why Participatory Continuation Is Not Yet Sentience
+
+Structural experience is defined as identity-relative registration and
+undergoing that changes later continuation. It does not establish phenomenal
+consciousness.
+
+The essay distinguishes participation, structural experience, agency,
+sentience candidates, and conscious reflection. Higher-order sentience claims
+must first establish the higher-order identity whose flow is allegedly
+integrated.
+
+**Contribution:** prevents the participation refinement from turning every
+agency claim into a sentience claim.
+
+### What Would Challenge The Refined Account
+
+The challenge section asks whether context, ecological return, and
+scale-relative attribution improve discrimination; whether selective enactment
+can be separated from ordinary sensitivity; whether higher-order identity
+criteria remain usable; and whether the new distinctions avoid conceptual
+inflation.
+
+**Contribution:** keeps the refined interpretation answerable to explanatory,
+attributional, and experimental failure.
+
+### Conclusion: Persistence Inside Participation
+
+The conclusion reconstructs the developed movement: context forms identity;
+identity participates; accessible continuations become selectively enacted;
+the shared condition changes; ecological response returns; and the identity
+persists, transforms, splits, composes, or dissolves inside a changed ecology.
+
+**Contribution:** refines RC-agency as identity-bearing continuation through
+ecological participation while preserving persistence capacity as its
+diagnostic spine.
+
+### Appendix A: Three-Part Agency Record
+
+The original four diagnostics become the focal persistence record. A second
+record declares context, horizon, boundary, support, history, medium, and
+transfer contract. A third follows contribution, medium change, retention,
+susceptible response, ecological return, identity change, and ecology-side
+effect.
+
+The three records form a claim-completeness discipline rather than a universal
+agency scalar.
+
+**Contribution:** connects focal continuity, contextual constitution, and
+ecological unfolding without collapsing their different evidential roles.
+
+### Appendix B: Consequences For Agency Research And Engineering
+
+Perturbation experiments must track support, medium aftereffects, and
+ecology-side cost as well as survival. Naturalization tests must examine
+support substitution and regeneration. Transfer tests require preservation
+contracts. Collective experiments must separate member agency from
+higher-order identity and agency. Generativity tests must include delayed
+consequences, debt, producer residue, and lost formation capacity.
+
+**Contribution:** turns the conceptual refinement into concrete changes in
+experimental claim design.
+
+### Appendix C: Revision Ledger
+
+The revision ledger marks earlier claims as retained, refined, narrowed,
+restricted, or expanded. It preserves the relocation of choice and the
+diagnostic value of persistence while narrowing the original agency vector,
+context-typing nativity and transfer, restricting collective attribution, and
+expanding possible carriers of generativity.
+
+**Contribution:** makes the relation to the original essays auditable rather
+than implicit.
+
+### What This Essay Adds
+
+It records the current agency synthesis without erasing the path that produced
+it. Agency after choice becomes agency inside participation: a contextual,
+scale-relative, and consequence-bearing continuation whose focal persistence,
+support relations, and ecological unfolding must be declared together.

@@ -17,6 +17,7 @@ For a more detailed section-level digest, see
 | [Agency After Choice](2026-06-12-AgencyAfterChoice.md) | What if agency-as-persistence is a general vocabulary? | Scaffolded agency, native agency, proxy agency, latent agency, wounded agency, extractive agency, generative agency | Extends the agency reading beyond RC into social, ecological, and cosmological recognition. |
 | [Sentience as Read-Back](2026-06-12-SentienceAsReadBack.md) | What distinguishes sentience from agency? | Read-back, interior geometry, coherence flow, performed sentience, native sentience, conscious reflection | Defines sentience as internal registration of coherence flow. |
 | [Engineering Reflexive Coherence Ecologies](2026-07-EngineeringReflexiveCoherenceEcologies.md) | How can an RC ecology be engineered without reducing function to components, formation to spark, orientation to authority, or time to runtime? | Shared-medium consequence, contextual function, unfolding, plural formation, scale recursion, ecological orientation, temporal geometry, evidence-bound Atlas | Composes participation, formation, scale, orientation, and causal history into one engineering framework. |
+| [Agency as Participatory Continuation](2026-08-AgencyAsParticipatoryContinuation.md) | How does the agency interpretation change after identity, participation, ecological return, and scale become explicit? | Participatory continuation, persistence spine, selective enactment, context-typed nativity, collective-attribution ladder, three-part agency record, revision ledger | Preserves the original path while refining RC-agency as identity continuity enacted through ecological response. |
 
 ## Concept Flow
 
@@ -29,6 +30,7 @@ structural abundance
   -> sentience as registered flow
   -> participation through a shared medium
   -> ecological engineering across context, scale, and time
+  -> agency revisited as participatory continuation
 ```
 
 The essays form an interpretive and engineering arc. Abundance shows that RC
@@ -37,6 +39,12 @@ Sentience asks when that holding is internally registered as experience. The
 engineering essay then asks how participating continuities, contextual
 functions, shared-medium consequences, and their histories can be deliberately
 configured and tested without collapsing their distinctions.
+
+The continuation essay returns to the agency question after those later
+distinctions have become available. It preserves persistence as the diagnostic
+spine of agency while adding identity formation, context, selective enactment,
+ecological return, scale-relative attribution, and a strict boundary between
+structural experience and sentience.
 
 ## Essay Concept Notes
 
@@ -147,17 +155,47 @@ scale, orientation, and time.
 continuity, shared media, plural formation pathways, scale recursion,
 ecological orientation, and temporal-causal evidence.
 
+### Agency As Participatory Continuation
+
+**Core idea:** the original move from choice to persistence remains, but
+persistence capacity is not a complete agency definition. RC-agency is refined
+as selectively enacted reflexive continuation by a locally continuous identity
+through ecological response.
+
+**Important concepts:**
+
+- chronological preservation of conceptual development
+- persistence capacity as diagnostic spine
+- selective enactment without sovereign choice
+- participation as broader than agency
+- context-typed withdrawal and naturalization
+- transfer as contextual reconstruction
+- distributed agentic organization versus agency of the whole
+- collective-agency claim ladder
+- medium-carried and inter-scale generativity
+- structural experience versus sentience
+- three-part agency record (Appendix A)
+- revision ledger (Appendix C)
+
+**Read this for:** the current synthesis of the agency interpretation and an
+explicit account of what the later participation and engineering work retains,
+refines, restricts, and expands.
+
 ## Find Concepts Quickly
 
 | If you are looking for... | Start with... |
 | --- | --- |
 | Why abundance leads to agency | [From Structural Abundance to Agency](2026-06-12-FromStructuralAbundanceToAgency.md) |
-| RC definition of agency | [Agency of Becoming](2026-06-12-AgencyOfBecoming-InterpretationThroughRC.md) |
-| Diagnostics for agency | [Agency of Becoming](2026-06-12-AgencyOfBecoming-InterpretationThroughRC.md) |
+| Original RC interpretation of agency | [Agency of Becoming](2026-06-12-AgencyOfBecoming-InterpretationThroughRC.md) |
+| Current refined RC interpretation of agency | [Agency as Participatory Continuation](2026-08-AgencyAsParticipatoryContinuation.md) |
+| Focal persistence diagnostics for agency | [Agency of Becoming](2026-06-12-AgencyOfBecoming-InterpretationThroughRC.md) |
+| Context, horizon, and ecological-return records | [Agency as Participatory Continuation](2026-08-AgencyAsParticipatoryContinuation.md) |
 | Agency beyond choice | [Agency After Choice](2026-06-12-AgencyAfterChoice.md) |
 | Scaffolded, native, proxy, or wounded agency | [Agency After Choice](2026-06-12-AgencyAfterChoice.md) |
-| Generative agency | [Agency of Becoming](2026-06-12-AgencyOfBecoming-InterpretationThroughRC.md) and [Agency After Choice](2026-06-12-AgencyAfterChoice.md) |
+| Generative agency | [Agency of Becoming](2026-06-12-AgencyOfBecoming-InterpretationThroughRC.md), [Agency After Choice](2026-06-12-AgencyAfterChoice.md), and [Agency as Participatory Continuation](2026-08-AgencyAsParticipatoryContinuation.md) |
+| Collective agency and higher-order attribution | [Agency as Participatory Continuation](2026-08-AgencyAsParticipatoryContinuation.md) |
 | Difference between agency and sentience | [Sentience as Read-Back](2026-06-12-SentienceAsReadBack.md) |
+| Structural experience versus sentience | [Agency as Participatory Continuation](2026-08-AgencyAsParticipatoryContinuation.md) |
 | Read-back and interiority | [Sentience as Read-Back](2026-06-12-SentienceAsReadBack.md) |
 | Shared-medium participation and ecological return | [Engineering Reflexive Coherence Ecologies](2026-07-EngineeringReflexiveCoherenceEcologies.md) |
 | Contextual function and primitive portability | [Engineering Reflexive Coherence Ecologies](2026-07-EngineeringReflexiveCoherenceEcologies.md) |
@@ -166,3 +204,4 @@ ecological orientation, and temporal-causal evidence.
 | Ecological role, quality, and orientation | [Engineering Reflexive Coherence Ecologies](2026-07-EngineeringReflexiveCoherenceEcologies.md) |
 | Temporal geometry and unfinished causal commitments | [Engineering Reflexive Coherence Ecologies](2026-07-EngineeringReflexiveCoherenceEcologies.md) |
 | Atlas of ecological becoming | [Engineering Reflexive Coherence Ecologies](2026-07-EngineeringReflexiveCoherenceEcologies.md) |
+| Revision ledger for the original agency essays | [Agency as Participatory Continuation](2026-08-AgencyAsParticipatoryContinuation.md) |
