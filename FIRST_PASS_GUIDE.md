@@ -62,7 +62,30 @@ societies, ecosystems, or graph substrates. Fractal RC introduces a scale
 coordinate so identity can propagate through nested basins and not only through
 one flat support.
 
-## 5. Understand Space And Distance
+## 5. Resolve Continuation And Read-Back
+
+Read [The Continuation Spectrum](core/2026-08-TheContinuationSpectrum.md), then
+[Read-Back](core/2026-08-ReadBack.md).
+
+The first paper asks what a formed identity can become next. It separates
+structural continuation stiffness from branch-specific relaxation rates and
+shows why spatial scale, structural accessibility, and temporal slowness are
+related but not identical.
+
+The second asks how retained formation becomes active in present flow. It
+separates state-level retention from branch-relative dynamic retention and
+reconstructs a directional read/write relation without adding another
+primitive memory field.
+
+Keep the three analytical spectra distinct:
+
+- $\alpha_n$: structural continuation stiffness;
+- $\gamma_n$: relaxation rate on the conserved-density gradient-flow branch;
+- $\beta_a$: read-back gain on the explicit-current branch.
+
+The papers do not yet claim that all three belong to one unified generator.
+
+## 6. Understand Space And Distance
 
 Read [investigations/2026-01-RC-Distance-v4.md](investigations/2026-01-RC-Distance-v4.md).
 
@@ -77,7 +100,7 @@ support and from the coherence tensor. Keep the distance types separate:
 
 Conflating these distances hides the point of the theory.
 
-## 6. See Why Graphs Appear
+## 7. See Why Graphs Appear
 
 Read [observations/2025-12-Observations.md](observations/2025-12-Observations.md),
 then skim the GRC sequence:
@@ -92,7 +115,7 @@ awkward for a theory where the substrate should be self-defined. GRC turns RC
 into a graph substrate where topology, distance, ports, refinement, and causal
 history can become part of the evolving structure.
 
-## 7. Read The Arc Of Becoming As Method
+## 8. Read The Arc Of Becoming As Method
 
 The Arc of Becoming papers explain how to study systems whose next important
 class may not be known in advance.
@@ -114,7 +137,7 @@ describe -> classify -> probe -> withdraw -> naturalize -> integrate
 This is the practical stance for working with irreducible systems without
 forcing them into a predeclared endpoint.
 
-## 8. Follow Identity Into Participation
+## 9. Follow Identity Into Participation
 
 Read the [Arc of Participation](arc-of-participation/README.md) after the core
 and methodological sequence. Its five papers develop one cumulative movement:
@@ -131,7 +154,7 @@ Use its [concept map](arc-of-participation/PAPER_CONCEPTS.md) for a compressed
 entry or its [content index](arc-of-participation/PAPER_CONTENT.md) to locate a
 specific chapter-level argument.
 
-## 9. Continue Into Development And Ecological Engineering
+## 10. Continue Into Development And Ecological Engineering
 
 For condition-oriented practice, continue with
 [Reflexive Coherence Development](reflexive-coherence-development/README.md).
@@ -142,10 +165,11 @@ For the interpretive agency and sentience sequence, use the
 connects contextual function, shared-medium participation, plural formation,
 scale recursion, orientation, and temporal geometry.
 
-## 10. What To Do After The First Pass
+## 11. What To Do After The First Pass
 
-If you are mathematically oriented, focus on the coherence functional, induced
-metric, distance papers, and graph formalizations.
+If you are mathematically oriented, focus on the coherence functional,
+continuation spectrum, read-back reconstruction, induced metric, distance
+papers, and graph formalizations.
 
 If you are implementation-oriented, follow the substrate path from PDE
 observations to GRC-v2, GRC-v3, GRC-9, and LGRC9V3.

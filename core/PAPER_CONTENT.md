@@ -1,6 +1,6 @@
 # Core Paper Content Index
 
-This file is a section-level digest of the six core papers. It is more detailed
+This file is a section-level digest of the eight core papers. It is more detailed
 than `PAPER_CONCEPTS.md`, but still much shorter than reading the full papers.
 
 Use it when you want to know what is inside each paper and which sections carry
@@ -428,9 +428,130 @@ cascade weights; structure can arise from deterministic reflexive dynamics.
 
 ### What This Paper Adds
 
-Fractal RC completes the core sequence by restoring scale. It explains how RC
+Fractal RC extends the core across scale. It explains how RC
 can describe nested organisms, societies, ecosystems, development, and
-hierarchical identity without treating each level as a separate theory.
+hierarchical identity without treating each level as a separate theory, and it
+provides the multiscale inheritance used by the later continuation papers.
+
+## 7. The Continuation Spectrum
+
+File: [2026-08-TheContinuationSpectrum.md](2026-08-TheContinuationSpectrum.md)
+
+### From Formed Identity To Continuation Geometry
+
+The paper treats a formed state as a constrained critical point at fixed total
+coherence. Its constrained second variation defines a local continuation
+operator whose eigenvectors are admissible directions of deformation and whose
+eigenvalues $\alpha_n$ measure restoring stiffness.
+
+**Contribution:** supplies the local geometry between a present configuration
+and the finite attractor basins into which it may later resolve.
+
+### Spectra And The Shape Of Continuation
+
+The spatial Laplace spectrum, structural continuation spectrum, dynamical
+relaxation spectrum, pointwise spatial Hessian, and finite attractor repertoire
+are kept distinct. A min-max argument shows that sufficiently fine
+continuations remain hard while the positive elliptic principal part dominates.
+
+**Contribution:** identifies a protected fine sector and a state-dependent low
+sector without claiming maximum stability or inevitable differentiation.
+
+### Conserved Measure And Relaxation
+
+The conserved object is written as $C\,dV_{h[C]}$ and transformed to a fixed
+reference density. On an explicitly assumed conserved-density gradient-flow
+branch, mobility and continuation curvature produce relaxation rates
+$\gamma_n$ and a dynamically slow projector.
+
+**Contribution:** separates structural accessibility from temporal response and
+repairs the relation between coherence conservation and moving induced volume.
+
+### Spectral Drift, Accommodation, And Transformation
+
+Along a tracked formed branch, participation can change continuation
+eigenvalues and rotate their basis. A positive gap supplies a conditional local
+accommodation neighborhood. Structural marginality, collapse, and basin birth
+are related but non-identical events.
+
+**Contribution:** locates cultivation as movement of capacity while preserving
+the distinction between deformation, collapse, phase change, and spark.
+
+### Scope And Open Handoff
+
+The continuation Hessian is explicitly reduced to no-current, frozen-current,
+or smoothly slaved-current branches. A joint $(C,J_C)$ Hessian and a unified
+generator carrying both relaxation and read-back remain open.
+
+**Contribution:** establishes an honest mathematical handoff to the read-back
+paper without presenting one branch-specific spectrum as universal RC dynamics.
+
+### What This Paper Adds
+
+The Continuation Spectrum gives formed identity a local curvature of possible
+next becoming: what can be resisted, accommodated, retained, or approached as
+a loss of restoring adequacy.
+
+## 8. Read-Back
+
+File: [2026-08-ReadBack.md](2026-08-ReadBack.md)
+
+### The Current That Survived Compression
+
+The paper follows the read/write relation from ROM through Seeds, Coherence,
+and mature RC. Slow memory is compressed into coherence, but the directional
+read-back current remains without a completed coherence-only closure.
+
+**Contribution:** shows why reconstructing read-back is a lineage-constrained
+problem rather than an invitation to add arbitrary feedback.
+
+### Retained Continuation And Directional Response
+
+State-level spatial retention $C_M^{(\Delta)}$ is separated from the
+branch-relative dynamical perturbation $u_M^{(\mathrm{dyn})}$. A retained
+geometry Hodge decomposition supplies a mode-selective one-form response as a
+candidate realization of the reconstructed operator $\mathfrak R_M$.
+
+**Contribution:** gives retained formation a directional current response while
+keeping its exact nonlinear form and Markov sufficiency open.
+
+### Current Closure And Read-Back Gain
+
+The zero-background-current or frozen-geometry diagnostic yields an algebraic
+read-back gain $\beta_a$. Established current adds first-order tensor and metric
+feedback through a wider effective operator. The general frozen singularity is
+$1\in\mathrm{Spec}(\zeta_C\mathcal R_M)$, not spectral radius one without
+additional positivity assumptions.
+
+**Contribution:** distinguishes kinetic accessibility from structural
+continuation stiffness and from temporal relaxation on the separate
+gradient-flow branch.
+
+### Flow Writes Retention
+
+Measure-valued continuity produces a volume-covariant write equation. Present
+flow changes retained amplitudes, while operator transport changes the basis of
+what is retained. Retention may also weaken through relaxation, counter-writing,
+or basis drift.
+
+**Contribution:** closes the read/write relation without making every retained
+trace permanent or every repeated action reinforcing.
+
+### Cultivation And Participatory Depth
+
+The paper distinguishes kinetic from structural cultivation and develops
+elastic, plastic, and formative participation. Read-back closure marginality,
+continuation marginality, and basin birth may occur in sequence but are not the
+same event.
+
+**Contribution:** makes participation mathematically legible as present
+activity entering retained formation and changing the conditions of later
+activity.
+
+### What This Paper Adds
+
+Read-Back reconstructs how what has formed can return into present activity and
+how present activity can alter what remains available to return.
 
 ## Cross-Paper Contribution Map
 
@@ -450,6 +571,15 @@ hierarchical identity without treating each level as a separate theory.
 | Abundance as differentiated capacity | Identity/Choice/Abundance |
 | Scale-resolved coherence | Fractal RC |
 | Multiscale identity basins | Fractal RC |
+| Continuation stiffness $\alpha_n$ | The Continuation Spectrum |
+| Conserved-density relaxation rate $\gamma_n$ | The Continuation Spectrum |
+| Hard fine sector and movable low sector | The Continuation Spectrum |
+| Spectral drift and accommodation | The Continuation Spectrum |
+| State-level versus branch-relative retention | Read-Back |
+| Reconstructed read-back operator $\mathfrak R_M$ | Read-Back |
+| Read-back gain $\beta_a$ | Read-Back |
+| Covariant write path | Read-Back |
+| Kinetic versus structural cultivation | Read-Back |
 
 ## How To Use This File
 

@@ -26,10 +26,13 @@ For a minimal first pass, read these in order:
 2. [core/2025-11-ReflexiveCoherence.md](core/2025-11-ReflexiveCoherence.md)
 3. [core/2025-11-RC-IdentityChoiceAbundance.md](core/2025-11-RC-IdentityChoiceAbundance.md)
 4. [core/2025-11-FractalReflexiveCoherence.md](core/2025-11-FractalReflexiveCoherence.md)
-5. [arc-of-becoming/2026-05-CultivationOfBecoming.md](arc-of-becoming/2026-05-CultivationOfBecoming.md)
+5. [core/2026-08-TheContinuationSpectrum.md](core/2026-08-TheContinuationSpectrum.md)
+6. [core/2026-08-ReadBack.md](core/2026-08-ReadBack.md)
+7. [arc-of-becoming/2026-05-CultivationOfBecoming.md](arc-of-becoming/2026-05-CultivationOfBecoming.md)
 
 This path gives the field formulation, the agency interpretation, the multiscale
-extension, and the practical method for studying irreducible systems.
+extension, the local geometry of continuation, the read/write return relation,
+and the practical method for studying irreducible systems.
 
 ## Then Choose A Path
 
@@ -38,6 +41,11 @@ For origins and motivation:
 - [core/2025-08-ReflexiveOrganismModel.md](core/2025-08-ReflexiveOrganismModel.md)
 - [core/2025-11-SeedsOfLife.md](core/2025-11-SeedsOfLife.md)
 - [core/2025-11-Coherence.md](core/2025-11-Coherence.md)
+
+For continuation, retention, and read-back:
+
+- [core/2026-08-TheContinuationSpectrum.md](core/2026-08-TheContinuationSpectrum.md)
+- [core/2026-08-ReadBack.md](core/2026-08-ReadBack.md)
 
 For self-defined space and distance:
 

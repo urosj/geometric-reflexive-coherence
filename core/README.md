@@ -3,7 +3,8 @@
 The `core/` directory contains the theoretical spine of Geometric Reflexive
 Coherence. These papers trace the movement from the original Reflexive Organism
 Model (ROM) to the coherence-only field formulation, then to identity, agency,
-abundance, and multiscale/fractal extension.
+abundance, multiscale/fractal extension, local continuation geometry, and
+read-back.
 
 Read together, they answer one question:
 
@@ -25,6 +26,8 @@ For the shortest route into the theory:
 1. [2025-11-ReflexiveCoherence.md](2025-11-ReflexiveCoherence.md)
 2. [2025-11-RC-IdentityChoiceAbundance.md](2025-11-RC-IdentityChoiceAbundance.md)
 3. [2025-11-FractalReflexiveCoherence.md](2025-11-FractalReflexiveCoherence.md)
+4. [2026-08-TheContinuationSpectrum.md](2026-08-TheContinuationSpectrum.md)
+5. [2026-08-ReadBack.md](2026-08-ReadBack.md)
 
 For the developmental route:
 
@@ -34,6 +37,8 @@ For the developmental route:
 4. [2025-11-ReflexiveCoherence.md](2025-11-ReflexiveCoherence.md)
 5. [2025-11-RC-IdentityChoiceAbundance.md](2025-11-RC-IdentityChoiceAbundance.md)
 6. [2025-11-FractalReflexiveCoherence.md](2025-11-FractalReflexiveCoherence.md)
+7. [2026-08-TheContinuationSpectrum.md](2026-08-TheContinuationSpectrum.md)
+8. [2026-08-ReadBack.md](2026-08-ReadBack.md)
 
 ## Paper Summaries
 
@@ -160,6 +165,36 @@ The main contribution is the multiscale completion of the RC loop. It explains
 how identity can propagate through nested structures without reducing the
 system to a flat single-level field or to disconnected local loops.
 
+### [The Continuation Spectrum](2026-08-TheContinuationSpectrum.md)
+
+This paper asks what lies between a formed identity's present configuration
+and the finite attractor basins into which it may later resolve. Around a
+constrained formed state, it defines the continuation operator from the second
+variation of the RC functional. Its spectrum distinguishes hard, soft,
+marginal, and unstable directions of possible next continuation.
+
+The paper also separates structural stiffness from temporal relaxation. On an
+explicitly declared conserved-density gradient-flow branch, moving-volume
+kinematics and mobility produce a distinct relaxation spectrum and a
+dynamically slow sector. Its main contribution is a local geometry of capacity:
+what the present formation can resist, accommodate, or approach as a loss of
+restoring adequacy.
+
+### [Read-Back](2026-08-ReadBack.md)
+
+This paper asks how retained continuation becomes active in present flow. It
+reconstructs a coherence-only read-back relation from the ROM-to-RC lineage,
+keeps state-level spatial retention distinct from branch-relative dynamical
+retention, and develops a mode-selective one-form response as a candidate
+realization.
+
+Its main contribution is the closed read/write relation between retained
+formation and present activity. Read-back gain describes immediate kinetic
+accessibility, while repeated current can alter retained amplitudes, geometry,
+and later continuation. The paper keeps this explicit-current branch distinct
+from the companion paper's gradient-flow relaxation branch until a unified
+constitutive generator is derived.
+
 ## Conceptual Progression
 
 The core sequence can be read as a compression path:
@@ -171,6 +206,8 @@ ROM
   -> coherence-only field formulation
   -> identity, choice, abundance
   -> fractal/multiscale coherence
+  -> local continuation geometry
+  -> retained continuation as read-back
 ```
 
 Or as a set of questions:
@@ -181,6 +218,8 @@ Or as a set of questions:
 - Reflexive Coherence asks: can the whole model be derived from one field?
 - Identity/Choice/Abundance asks: what does that field mean for agency?
 - Fractal RC asks: how does identity persist across scale?
+- Continuation Spectrum asks: what can a formed identity become next?
+- Read-Back asks: how does retained formation participate in present flow?
 
 ## Where To Go Next
 

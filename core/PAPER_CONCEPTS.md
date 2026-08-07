@@ -1,6 +1,6 @@
 # Core Paper Concepts
 
-This file is a compressed concept map for the six core papers. It is meant for
+This file is a compressed concept map for the eight core papers. It is meant for
 quick orientation: what each paper is about, what new ideas it introduces, and
 where a reader should go for a specific concept.
 
@@ -17,6 +17,8 @@ For a more detailed section-level digest, see
 | [Reflexive Coherence](2025-11-ReflexiveCoherence.md) | Can ROM be reduced to one field? | `C(x,t)`, `J_C`, `K[C]`, induced metric, continuity, topology change | Gives the coherence-only field formulation. |
 | [Identity, Choice, and Abundance](2025-11-RC-IdentityChoiceAbundance.md) | What does RC imply for agency? | Identity basin, collapse, choice, learning, spark, abundance, irreducibility | Interprets identity and agency as geometric consequences of RC. |
 | [Fractal Reflexive Coherence](2025-11-FractalReflexiveCoherence.md) | How does identity persist across scale? | Scale coordinate, `C(x,t;sigma)`, scale flux, cascade, multiscale basins | Extends RC to nested and hierarchical identities. |
+| [The Continuation Spectrum](2026-08-TheContinuationSpectrum.md) | What can a formed identity become next? | Constrained Hessian, continuation stiffness, conserved measure, relaxation spectrum, slow projector | Defines the local structural and branch-specific temporal geometry of possible continuation. |
+| [Read-Back](2026-08-ReadBack.md) | How does retained formation become active in present flow? | State-level retention, branch-relative retention, read-back operator, kinetic gain, covariant write path | Reconstructs the read/write relation between retained continuation and present activity. |
 
 ## Concept Flow
 
@@ -28,6 +30,8 @@ superorganism
   -> coherence-only field
   -> identity / choice / abundance
   -> fractal multiscale coherence
+  -> continuation stiffness / relaxation
+  -> read-back / participatory return
 ```
 
 The papers are not independent fragments. Each one compresses or generalizes
@@ -39,6 +43,8 @@ the previous one:
 - Reflexive Coherence turns the invariant into the primitive field.
 - Identity/Choice/Abundance interprets the field as agency and becoming.
 - Fractal RC restores scale and nested identity.
+- Continuation Spectrum resolves the local geometry and rates of possible next continuation.
+- Read-Back reconstructs how retained formation returns into current activity.
 
 ## Paper Concept Notes
 
@@ -153,6 +159,43 @@ position and generation.
 **Read this for:** how RC handles nested organisms, societies, ecosystems,
 development, and any system whose identity persists through many levels.
 
+### The Continuation Spectrum
+
+**Core idea:** a formed identity has a local geometry of possible next
+continuations. The constrained second variation measures structural stiffness,
+while a separately declared gradient-flow branch determines relaxation rates.
+
+**Important concepts:**
+
+- constrained continuation operator and stiffness $\alpha_n$
+- conserved coherence measure $C\,dV_{h[C]}$
+- density transformation and relaxation rate $\gamma_n$
+- spatial versus dynamical slow projectors
+- hard fine sector and movable low sector
+- spectral drift, accommodation, and structural marginality
+- reduced-current scope and open joint $(C,J_C)$ continuation operator
+
+**Read this for:** what an identity can resist, accommodate, retain, or approach
+as a loss of restoring adequacy.
+
+### Read-Back
+
+**Core idea:** retention becomes participatory only when what has formed changes
+present activity and present activity changes what will later be retained.
+
+**Important concepts:**
+
+- state-level $C_M^{(\Delta)}$ versus branch-relative $u_M^{(\mathrm{dyn})}$
+- reconstructed read-back class $\mathfrak R_M$
+- Hodge one-form candidate and read-back gain $\beta_a$
+- frozen-current versus established-current closure
+- volume-covariant write equation and moving retained basis
+- kinetic versus structural cultivation
+- open Markov-sufficiency and unified-generator assumptions
+
+**Read this for:** how retained continuation returns directionally into present
+flow without restoring an independent memory field.
+
 ## Find Concepts Quickly
 
 | If you are looking for... | Start with... |
@@ -164,6 +207,10 @@ development, and any system whose identity persists through many levels.
 | Choice and collapse | [Identity, Choice, and Abundance](2025-11-RC-IdentityChoiceAbundance.md) |
 | Seeds, reserves, and sparks | [Seeds of Life](2025-11-SeedsOfLife.md) |
 | Scale and hierarchy | [Fractal Reflexive Coherence](2025-11-FractalReflexiveCoherence.md) |
+| Continuation stiffness and structural marginality | [The Continuation Spectrum](2026-08-TheContinuationSpectrum.md) |
+| Relaxation rates and dynamically slow continuation | [The Continuation Spectrum](2026-08-TheContinuationSpectrum.md) |
+| Read-back gain and retained-current closure | [Read-Back](2026-08-ReadBack.md) |
+| State-level versus branch-relative retention | [Read-Back](2026-08-ReadBack.md) |
 | Self-defined space | [Reflexive Coherence](2025-11-ReflexiveCoherence.md), then `../investigations/` |
 | PDE or graph implementation direction | `../observations/`, then `../substrates/` |
 
@@ -174,12 +221,15 @@ For a **mathematical first pass**:
 1. [Reflexive Coherence](2025-11-ReflexiveCoherence.md)
 2. [Coherence in Reflexive Organism Model](2025-11-Coherence.md)
 3. [Fractal Reflexive Coherence](2025-11-FractalReflexiveCoherence.md)
+4. [The Continuation Spectrum](2026-08-TheContinuationSpectrum.md)
+5. [Read-Back](2026-08-ReadBack.md)
 
 For an **agency and cognition first pass**:
 
 1. [Reflexive Coherence](2025-11-ReflexiveCoherence.md)
 2. [Identity, Choice, and Abundance](2025-11-RC-IdentityChoiceAbundance.md)
-3. `../arc-of-becoming/`
+3. [Read-Back](2026-08-ReadBack.md)
+4. `../arc-of-becoming/`
 
 For a **developmental/history first pass**:
 

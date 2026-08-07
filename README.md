@@ -55,6 +55,7 @@ by the reflexive loop.
 | What is the minimal field–geometry–flux closure? | [Reflexive Coherence](core/2025-11-ReflexiveCoherence.md) |
 | How can a system define its own space and distance? | [Investigations](investigations/README.md) |
 | How do identity, choice, sparks, and abundance arise geometrically? | [Identity, Choice, and Abundance](core/2025-11-RC-IdentityChoiceAbundance.md) |
+| What can a formed identity become next, and how can retained formation return into present flow? | [The Continuation Spectrum](core/2026-08-TheContinuationSpectrum.md), then [Read-Back](core/2026-08-ReadBack.md) |
 | How can the theory be expressed in continuum and graph substrates? | [Substrates](substrates/README.md) |
 | How should an embedded observer study a future class it cannot know in advance? | [Arc of Becoming](arc-of-becoming/README.md) |
 | How do desired capacities become coherent, native, measurable, and renewable? | [Reflexive Coherence Development](reflexive-coherence-development/README.md) |
@@ -83,6 +84,8 @@ ROM and Seeds of Life
   -> coherence-only RC
   -> identity, choice, sparks, and abundance
   -> Fractal RC
+  -> continuation spectrum
+  -> read-back
   -> distance, observations, and substrates
 ```
 
@@ -181,6 +184,12 @@ developed basins, collapse, sparks, local irreducibility, and structural
 abundance. [Fractal Reflexive Coherence](core/2025-11-FractalReflexiveCoherence.md)
 made coherence and identity explicitly scale-resolved.
 
+[The Continuation Spectrum](core/2026-08-TheContinuationSpectrum.md) then
+locates the constrained directions, stiffnesses, and branch-specific
+relaxation rates of possible next continuation. [Read-Back](core/2026-08-ReadBack.md)
+reconstructs how retained formation can become active in present current and
+how present flow writes what can later return.
+
 The later tracks follow consequences that the core leaves open. The Arc of
 Becoming asks how an embedded observer can inquire without knowing the next
 important class. Reflexive Coherence Development asks how conditions for native
@@ -216,7 +225,7 @@ establish the experiential or ecological interpretation proposed for it.
 | Directory | Purpose |
 | --- | --- |
 | [`orientation/`](orientation/README.md) | Program-level introductions and research entry points |
-| [`core/`](core/README.md) | ROM, RC, identity and abundance, and FRC foundations |
+| [`core/`](core/README.md) | ROM, RC, identity and abundance, FRC, continuation, and read-back foundations |
 | [`investigations/`](investigations/README.md) | Distance, support-derived space, and typed experience constructions |
 | [`substrates/`](substrates/README.md) | PDE, graph, GRC, GRC9, LGRC, and LGRC9V3 papers |
 | [`observations/`](observations/README.md) | Experimental and conceptual corrections from the research path |
