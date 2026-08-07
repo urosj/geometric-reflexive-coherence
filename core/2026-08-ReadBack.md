@@ -85,8 +85,7 @@ $C_M^{(\Delta)}=P_M^{(\Delta)}[C]C$, it is
 $$
 \boxed{
 D_t^{\mathrm{vol}}C_M^{(\Delta)} =
--P_M^{(\Delta)}\nabla_iJ_C^i
-+
+-P_M^{(\Delta)}\nabla_iJ_C^i +
 (\mathcal D_t^{\mathrm{write}}P_M^{(\Delta)})C
 }
 $$
@@ -453,10 +452,8 @@ Despite this scalar compression, mature RC still writes
 
 $$
 K_{\mu\nu} =
-\lambda_CCg_{\mu\nu}
-+
-\xi_C\nabla_\mu C\nabla_\nu C
-+
+\lambda_CCg_{\mu\nu} +
+\xi_C\nabla_\mu C\nabla_\nu C +
 \zeta_Cj_\mu j_\nu
 $$
 
@@ -466,10 +463,8 @@ $$
 J_C^\mu =
 g^{\mu\nu}
 \left(
-\lambda_C\nabla_\nu C
-+
-\xi_C\nabla^\alpha C K_{\nu\alpha}
-+
+\lambda_C\nabla_\nu C +
+\xi_C\nabla^\alpha C K_{\nu\alpha} +
 \zeta_Cj_\nu
 \right).
 $$
@@ -642,8 +637,7 @@ This projector acts on the constrained tangent space around $C_*$, not on the fu
 
 $$
 D_t^{\mathcal H}u =
-D_t^{\mathcal H}C
--
+D_t^{\mathcal H}C -
 D_t^{\mathcal H}C_*.
 $$
 
@@ -652,12 +646,10 @@ Its tracked-branch write equation is therefore
 $$
 \boxed{
 D_t^{\mathcal H}u_M^{(\mathrm{dyn})} =
-(D_t^{\mathcal H}P_{M,u})u
-+
+(D_t^{\mathcal H}P_{M,u})u +
 P_{M,u}
 \left(
-D_t^{\mathcal H}C
--
+D_t^{\mathcal H}C -
 D_t^{\mathcal H}C_*
 \right).
 }
@@ -713,8 +705,7 @@ At one point, a parity-even covariant one-form built algebraically only from $h_
 $$
 \boxed{
  j^\flat =
-a\,\mathbf J_C
-+
+a\,\mathbf J_C +
 b\,\langle\mathbf J_C,m\rangle_{h_M}\,m,
 }
 $$
@@ -858,8 +849,7 @@ Lower the inherited current law with $h[C]$ and then transport the full equation
 
 $$
 \mathbf J_C =
-\mathbf J_0
-+
+\mathbf J_0 +
 \zeta_Cj^\flat,
 $$
 
@@ -882,8 +872,7 @@ The physical one-form before retained-geometry transport has components
 
 $$
 (J_0^\flat)_\mu =
-\lambda_C\nabla_\mu C
-+
+\lambda_C\nabla_\mu C +
 \xi_C\nabla^\alpha C K_{\mu\alpha}.
 $$
 
@@ -891,8 +880,7 @@ This notation does not make $\mathbf J_0$ independent of read-back, because
 
 $$
 K_{\mu\nu} =
-K_{\mu\nu}^{(0)}
-+
+K_{\mu\nu}^{(0)} +
 \zeta_Cj_\mu j_\nu.
 $$
 
@@ -954,12 +942,9 @@ Then the inverse has the Neumann expansion
 $$
 \boxed{
 \delta\mathbf J_C =
-\delta\mathbf J_0
-+
-\zeta_C\mathcal R_{M,*}\delta\mathbf J_0
-+
-(\zeta_C\mathcal R_{M,*})^2\delta\mathbf J_0
-+
+\delta\mathbf J_0 +
+\zeta_C\mathcal R_{M,*}\delta\mathbf J_0 +
+(\zeta_C\mathcal R_{M,*})^2\delta\mathbf J_0 +
 \cdots.
 }
 $$
@@ -1023,8 +1008,7 @@ $$
 D_jK\big|_*[\delta j] =
 \zeta_C
 \left(
-j_*\otimes\delta j
-+
+j_*\otimes\delta j +
 \delta j\otimes j_*
 \right).
 $$
@@ -1052,10 +1036,8 @@ D_KJ_0\big|_*
 \circ
 D_jK\big|_*
 \circ
-\mathcal R_{M,*}
-+
-\mathcal B_{g,*}
-+
+\mathcal R_{M,*} +
+\mathcal B_{g,*} +
 \cdots .
 \end{aligned}
 $$
@@ -1140,8 +1122,7 @@ $\Theta_t$ by
 
 $$
 D_t^{\mathrm{vol}}f =
-\nabla_t^{\mathcal H}f
-+
+\nabla_t^{\mathcal H}f +
 \Theta_tf.
 $$
 
@@ -1167,8 +1148,7 @@ therefore
 $$
 \boxed{
 \mathcal D_t^{\mathrm{write}}P =
-D_t^{\mathcal H}P
-+
+D_t^{\mathcal H}P +
 [\Theta_t,P].
 }
 $$
@@ -1177,8 +1157,7 @@ It obeys
 
 $$
 D_t^{\mathrm{vol}}(PC) =
-(\mathcal D_t^{\mathrm{write}}P)C
-+
+(\mathcal D_t^{\mathrm{write}}P)C +
 P D_t^{\mathrm{vol}}C.
 $$
 
@@ -1194,8 +1173,7 @@ Therefore the field-level spatial write equation is
 $$
 \boxed{
 D_t^{\mathrm{vol}}C_M^{(\Delta)} =
--P_M^{(\Delta)}\nabla_iJ_C^i
-+
+-P_M^{(\Delta)}\nabla_iJ_C^i +
 (\mathcal D_t^{\mathrm{write}}P_M^{(\Delta)})C.
 }
 $$
@@ -1205,10 +1183,8 @@ With a retained source or boundary exchange term $S_{\mathrm{coh}}$, it becomes
 $$
 \boxed{
 D_t^{\mathrm{vol}}C_M^{(\Delta)} =
--P_M^{(\Delta)}\nabla_iJ_C^i
-+
-P_M^{(\Delta)}S_{\mathrm{coh}}
-+
+-P_M^{(\Delta)}\nabla_iJ_C^i +
+P_M^{(\Delta)}S_{\mathrm{coh}} +
 (\mathcal D_t^{\mathrm{write}}P_M^{(\Delta)})C.
 }
 $$
@@ -1394,8 +1370,7 @@ a small perturbation gives
 
 $$
 \delta(j\otimes j) =
-j_*\otimes\delta j
-+
+j_*\otimes\delta j +
 \delta j\otimes j_*,
 $$
 
@@ -1427,10 +1402,8 @@ And
 
 $$
 D_t\mathcal R_M =
-D_{\mathcal T_M}\mathcal R_M[D_t\mathcal T_M]
-+
-D_h\mathcal R_M[\dot h]
-+
+D_{\mathcal T_M}\mathcal R_M[D_t\mathcal T_M] +
+D_h\mathcal R_M[\dot h] +
 \cdots.
 $$
 
@@ -1455,8 +1428,7 @@ Differentiate:
 $$
 \boxed{
 D_t j =
-(D_t\mathcal R_M) J_C
-+
+(D_t\mathcal R_M) J_C +
 \mathcal R_M D_tJ_C.
 }
 $$
@@ -1468,8 +1440,7 @@ $$
 D_t K^{(j)} =
 \zeta_C
 \left(
-(D_tj)\otimes j
-+
+(D_tj)\otimes j +
 j\otimes(D_tj)
 \right).
 }
@@ -1486,10 +1457,8 @@ and the continuation operator changes through
 
 $$
 D_t\mathscr H_* =
-D_C\mathscr H_*[\dot C]
-+
-D_g\mathscr H_*[D_t g]
-+
+D_C\mathscr H_*[\dot C] +
+D_g\mathscr H_*[D_t g] +
 \cdots.
 $$
 
@@ -1940,8 +1909,7 @@ while an established current uses the full effective operator $\mathcal B_{\math
 
 $$
 D_t^{\mathrm{vol}}C_M^{(\Delta)} =
--P_M^{(\Delta)}\nabla\cdot J_C
-+
+-P_M^{(\Delta)}\nabla\cdot J_C +
 (\mathcal D_t^{\mathrm{write}}P_M^{(\Delta)})C,
 $$
 
@@ -1993,8 +1961,7 @@ Let $H_1=L^2(\Omega^1(\Sigma),h_M)$, and suppose $\mathcal R_{M,*}:H_1\to H_1$ i
 
 $$
 \delta\mathbf J_C =
-\delta\mathbf J_0
-+
+\delta\mathbf J_0 +
 \zeta_C\mathcal R_{M,*}\delta\mathbf J_C.
 $$
 
@@ -2052,8 +2019,7 @@ $$
 D_jK\big|_*[\delta j] =
 \zeta_C
 \left(
-j_*\otimes\delta j
-+
+j_*\otimes\delta j +
 \delta j\otimes j_*
 \right),
 $$
@@ -2145,8 +2111,7 @@ If $\Theta_t=D_t^{\mathrm{vol}}-\nabla_t^{\mathcal H}$ is the scalar volume conn
 $$
 \boxed{
 \mathcal D_t^{\mathrm{write}}P_M =
-D_t^{\mathcal H}P_M
-+
+D_t^{\mathcal H}P_M +
 [\Theta_t,P_M].
 }
 $$

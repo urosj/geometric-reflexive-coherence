@@ -136,16 +136,14 @@ $$
 is conserved by
 
 $$
-\partial_t\rho
-+
+\partial_t\rho +
 \mathrm{div}_\nu\mathcal J=0.
 $$
 
 This is the fixed-measure representation of
 
 $$
-\partial_t(C\,dV_h)
-+
+\partial_t(C\,dV_h) +
 d(\iota_{J_C}dV_h)=0.
 $$
 
@@ -227,8 +225,7 @@ These are not layers placed above RC. They are three readings of one reflexive p
 The existing core already gives unfolding through the continuity relation. On the induced spatial volume, its conservative form is
 
 $$
-\partial_t(C\,dV_h)
-+
+\partial_t(C\,dV_h) +
 d(\iota_{J_C}dV_h)=0.
 $$
 
@@ -250,8 +247,7 @@ $$
 \mathcal P[C] =
 \int
 \left(
-\frac{\kappa_C}{2}\nabla C\cdot\nabla C
--
+\frac{\kappa_C}{2}\nabla C\cdot\nabla C -
 V(C)
 \right)dV_{g[C]}.
 $$
@@ -259,8 +255,7 @@ $$
 Once a spatial slice is fixed, write the reduced functional as
 
 $$
-\widehat{\mathcal P}[C]
-:=
+\widehat{\mathcal P}[C] :=
 \mathcal P[C,h[C]].
 $$
 
@@ -286,8 +281,7 @@ The appropriate stationary condition is therefore constrained. Introduce
 
 $$
 \mathcal F[C] =
-\widehat{\mathcal P}[C]
--
+\widehat{\mathcal P}[C] -
 \eta\bigl(Q[C]-Q_0\bigr),
 $$
 
@@ -325,8 +319,7 @@ Admissible variations would therefore have zero mean.
 But RC geometry depends on $C$. Let
 
 $$
-\dot h[u]
-:=
+\dot h[u] :=
 Dh[C_*]u
 $$
 
@@ -344,8 +337,7 @@ $$
 DQ[C_*]u =
 \int_\Sigma
 \left(
- u
-+
+ u +
 \frac12C_*\mathrm{tr}_h\dot h[u]
 \right)dV_h.
 }
@@ -368,8 +360,7 @@ For admissible variations $u,v\in T_{C_*}\mathcal M_Q$, define
 
 $$
 \boxed{
-\mathcal Q_*[u,v]
-:=
+\mathcal Q_*[u,v] :=
 D^2\mathcal F[C_*](u,v).
 }
 $$
@@ -452,15 +443,12 @@ $$
 \begin{aligned}
 D^2\widehat{\mathcal P}[C_*](u,v)
 ={}&
-\mathcal P_{CC}[u,v]
-+
-\mathcal P_{Ch}[u,\dot h[v]]
-+
+\mathcal P_{CC}[u,v] +
+\mathcal P_{Ch}[u,\dot h[v]] +
 \mathcal P_{hC}[\dot h[u],v]
 \\
 &+
-\mathcal P_{hh}[\dot h[u],\dot h[v]]
-+
+\mathcal P_{hh}[\dot h[u],\dot h[v]] +
 \mathcal P_h[\ddot h[u,v]].
 \end{aligned}
 $$
@@ -470,10 +458,8 @@ After the constraint terms are included,
 $$
 \boxed{
 \mathscr H_* =
-\mathscr H_{\mathrm{field}}
-+
-\mathscr H_{\mathrm{geom}}
-+
+\mathscr H_{\mathrm{field}} +
+\mathscr H_{\mathrm{geom}} +
 \mathscr H_{\mathrm{constraint}}.
 }
 $$
@@ -581,8 +567,7 @@ $$
 \mathcal P_{\mathrm{field}}[C] =
 \int_\Sigma
 \left(
-\frac{\kappa_C}{2}|\nabla C|_h^2
-+
+\frac{\kappa_C}{2}|\nabla C|_h^2 +
 W(C)
 \right)dV_h.
 $$
@@ -601,8 +586,7 @@ $$
 \right|_{\varepsilon=0} =
 \int_\Sigma
 \left(
-\kappa_C\nabla C_*\cdot\nabla u
-+
+\kappa_C\nabla C_*\cdot\nabla u +
 W'(C_*)u
 \right)dV_h.
 $$
@@ -613,8 +597,7 @@ $$
 D\mathcal P_{\mathrm{field}}[C_*]u =
 \int_\Sigma
 \left(
--\kappa_C\Delta_hC_*
-+
+-\kappa_C\Delta_hC_* +
 W'(C_*)
 \right)u\,dV_h.
 $$
@@ -625,8 +608,7 @@ $$
 D^2\mathcal P_{\mathrm{field}}[C_*](u,v) =
 \int_\Sigma
 \left(
-\kappa_C\nabla u\cdot\nabla v
-+
+\kappa_C\nabla u\cdot\nabla v +
 W''(C_*)uv
 \right)dV_h.
 $$
@@ -636,8 +618,7 @@ Thus
 $$
 \boxed{
 \mathscr H_{\mathrm{field}} =
--\kappa_C\Delta_h
-+
+-\kappa_C\Delta_h +
 W''(C_*).
 }
 $$
@@ -783,8 +764,7 @@ Then the first continuation stiffness behaves schematically as
 $$
 \alpha_1(L)
 \approx
-\frac{\kappa_C c}{L^2}
-+
+\frac{\kappa_C c}{L^2} +
 a_{\mathrm{eff}}.
 $$
 
@@ -865,8 +845,7 @@ is conserved by
 
 $$
 \boxed{
-\partial_t\rho
-+
+\partial_t\rho +
 \mathrm{div}_\nu\mathcal J=0,
 }
 $$
@@ -882,8 +861,7 @@ In a common coordinate representation, $\mathcal J^i=\omega J_C^i$. Equivalently
 
 $$
 \boxed{
-\partial_t(C\,dV_h)
-+
+\partial_t(C\,dV_h) +
 d(\iota_{J_C}dV_h)=0.
 }
 $$
@@ -892,10 +870,8 @@ In scalar notation this is
 
 $$
 \boxed{
-\partial_tC
-+
-\nabla_iJ_C^i
-+
+\partial_tC +
+\nabla_iJ_C^i +
 \theta_hC=0,
 \qquad
 \theta_h =
@@ -908,8 +884,7 @@ Because $\dot h=Dh[C][\partial_tC]$, define the kinematic density map
 $$
 \boxed{
 \mathscr B[C]v =
-v
-+
+v +
 \frac12C\,
 \mathrm{tr}_h\bigl(Dh[C]v\bigr).
 }
@@ -1317,12 +1292,9 @@ Schematically,
 
 $$
 D_t\mathscr H =
-D_C\mathscr H[\dot C]
-+
-D_h\mathscr H[\dot h]
-+
-D_{\partial\Omega}\mathscr H[\dot{\partial\Omega}]
-+
+D_C\mathscr H[\dot C] +
+D_h\mathscr H[\dot h] +
+D_{\partial\Omega}\mathscr H[\dot{\partial\Omega}] +
 D_{\mathrm{constraint}}\mathscr H+
 \cdots,
 $$
@@ -1439,8 +1411,7 @@ Let $\theta$ denote an admissible contextual or constitutive parameter: boundary
 $$
 \mathcal E(C,\eta;\theta) =
 \begin{pmatrix}
-D_C\widehat{\mathcal P}(C;\theta)
--
+D_C\widehat{\mathcal P}(C;\theta) -
 \eta D_CQ(C;\theta)
 \\
 Q(C;\theta)-Q_0
@@ -1676,10 +1647,8 @@ $$
 with measure-valued continuity across position and scale,
 
 $$
-\partial_t(C\,dV_h)
-+
-d_x(\iota_JdV_h)
-+
+\partial_t(C\,dV_h) +
+d_x(\iota_JdV_h) +
 \partial_\sigma(J^\sigma dV_h)=0.
 $$
 
@@ -1698,14 +1667,12 @@ $$
 \mathcal Q_{\mathrm{FRC}}[u] =
 \int d\sigma\int_\Omega
 \Big(
-&\kappa_C|\nabla_xu|^2
-+
+&\kappa_C|\nabla_xu|^2 +
 \kappa_\sigma|\partial_\sigma u|^2
 \\
 &+
 W''_{\mathrm{eff}}(C_*,\sigma)u^2
-\Big)dV_h
-+
+\Big)dV_h +
 \mathcal Q_{\mathrm{geom+branch}}[u].
 \end{aligned}
 $$
@@ -1716,12 +1683,9 @@ $$
 \boxed{
 \mathscr H_{\mathrm{FRC}}
 \sim
--\kappa_C\Delta_x
--
-\kappa_\sigma\partial_\sigma^2
-+
-W''_{\mathrm{eff}}
-+
+-\kappa_C\Delta_x -
+\kappa_\sigma\partial_\sigma^2 +
+W''_{\mathrm{eff}} +
 \mathscr H_{\mathrm{geom+branch}}.
 }
 $$
@@ -1742,8 +1706,7 @@ But FRC also adds an explicit scale flux
 
 $$
 J^\sigma =
--\kappa_\sigma\partial_\sigma C
-+
+-\kappa_\sigma\partial_\sigma C +
 B[C]
 $$
 
@@ -1760,8 +1723,7 @@ The paper began from the claim that the present does not exhaust the identity. T
 Unfolding is the actual RC trajectory:
 
 $$
-\partial_t(C\,dV_h)
-+
+\partial_t(C\,dV_h) +
 d(\iota_{J_C}dV_h)=0.
 $$
 
@@ -1781,10 +1743,8 @@ Capacity therefore includes:
 
 $$
 \boxed{
-\text{local continuation curvature}
-+
-\text{dynamical accessibility}
-+
+\text{local continuation curvature} +
+\text{dynamical accessibility} +
 \text{finite attractor organization}.
 }
 $$
@@ -1937,8 +1897,7 @@ DQ[C_*]u
 &=
 \int_\Sigma
 \left(
- u
-+
+ u +
 \frac12C_*h^{ij}\dot h_{ij}[u]
 \right)dV_h.
 \end{aligned}
@@ -1961,15 +1920,12 @@ $$
 \begin{aligned}
 D^2\widehat{\mathcal P}[u,v]
 ={}&
-\mathcal P_{CC}[u,v]
-+
-\mathcal P_{Ch}[u,Dh[v]]
-+
+\mathcal P_{CC}[u,v] +
+\mathcal P_{Ch}[u,Dh[v]] +
 \mathcal P_{hC}[Dh[u],v]
 \\
 &+
-\mathcal P_{hh}[Dh[u],Dh[v]]
-+
+\mathcal P_{hh}[Dh[u],Dh[v]] +
 \mathcal P_h[D^2h[u,v]].
 \end{aligned}
 $$
@@ -1978,8 +1934,7 @@ The constrained Hessian is the second derivative of
 
 $$
 \mathcal F[C] =
-\widehat{\mathcal P}[C]
--
+\widehat{\mathcal P}[C] -
 \eta(Q[C]-Q_0)
 $$
 
@@ -1995,8 +1950,7 @@ Suppose
 
 $$
 \mathcal Q_{\mathrm{field}}[u] =
-\kappa_C\|\nabla u\|^2
-+
+\kappa_C\|\nabla u\|^2 +
 \int W''(C_*)u^2\,dV_h,
 $$
 
@@ -2101,8 +2055,7 @@ The kinematic map is
 $$
 L_*u =
 \omega_*\left(
-u
-+
+u +
 \frac12C_*
 \mathrm{tr}_{h_*}(Dh[C_*]u)
 \right).
@@ -2164,8 +2117,7 @@ Define the stationary constrained map
 $$
 \mathcal E(C,\eta;\theta) =
 \begin{pmatrix}
-D_C\widehat{\mathcal P}(C;\theta)
--
+D_C\widehat{\mathcal P}(C;\theta) -
 \eta D_CQ(C;\theta)
 \\
 Q(C;\theta)-Q_0
