@@ -53,15 +53,15 @@ linear response is
 $$
 \boxed{
 \delta j^\flat =
-\mathcal R_M\,\delta J_C^\flat.
+\mathcal R_M\thinspace{}\delta J_C^\flat.
 }
 $$
 
-In the zero-background-current or frozen-$K$ diagnostic, this gives
+In the zero-background-current or frozen $K$ diagnostic, this gives
 
 $$
 \boxed{
-(I-\zeta_C\mathcal R_{M,*})\delta J_C^\flat =
+(I-\zeta_C\mathcal R_{M,\ast})\delta J_C^\flat =
 \delta J_0^\flat.
 }
 $$
@@ -74,9 +74,9 @@ generator: $\alpha_n$ belongs to the reduced constrained functional,
 $\gamma_n$ to the conserved-density gradient-flow branch, and $\beta_a$ to
 the explicit read-back-current branch developed here. Their joint dynamics
 require a unified constitutive closure.
-At an established current $j_*\neq0$, variation of $j\otimes j$ adds feedback
+At an established current $j_{\ast}\neq0$, variation of $j\otimes j$ adds feedback
 through the coherence tensor and induced metric. The full threshold therefore
-belongs to an effective operator $\mathcal B_{\mathrm{rb},*}^{\mathrm{eff}}$,
+belongs to an effective operator $\mathcal B_{\mathrm{rb},\ast}^{\mathrm{eff}}$,
 not necessarily to $\zeta_C\mathcal R_M$ alone.
 
 The write path follows from measure-valued continuity. For
@@ -145,7 +145,7 @@ The primary inherited papers are:
 The continuation-spectrum inheritance supplies structural curvature, measure-consistent relaxation, and an explicit transformation between their representations:
 
 $$
-\mathscr H_*u_n=\alpha_nu_n,
+\mathscr H_{\ast}u_n=\alpha_nu_n,
 $$
 
 where $\alpha_n$ is structural continuation stiffness;
@@ -153,18 +153,18 @@ where $\alpha_n$ is structural continuation stiffness;
 $$
 \rho=C\frac{dV_h}{d\nu},
 \qquad
-r=L_*u,
+r=L_{\ast}u,
 $$
 
 for the conserved-density representation, and
 
 $$
-\widetilde{\mathscr G}_* =
-\mathscr A_{\rho,*}^{1/2}
-\mathscr H_{\rho,*}
-\mathscr A_{\rho,*}^{1/2},
+\widetilde{\mathscr G}_{\ast} =
+\mathscr A_{\rho,\ast}^{1/2}
+\mathscr H_{\rho,\ast}
+\mathscr A_{\rho,\ast}^{1/2},
 \qquad
-w=T_*u,
+w=T_{\ast}u,
 $$
 
 whose eigenvalues $\gamma_n$ determine linear relaxation or growth. These equations establish that low spatial scale, low structural stiffness, and slow temporal response are related but not identical.
@@ -197,12 +197,12 @@ u_M^{(\mathrm{dyn})} =
 P_{M,u}u,
 \qquad
 P_{M,u} =
-T_*^{-1}\widetilde P_MT_*.
+T_{\ast}^{-1}\widetilde P_MT_{\ast}.
 $$
 
-This is branch-relative. It depends on the selected formed state $C_*(t)$,
-the tangent coordinate $u=C-C_*$, and the relaxation branch used to define
-$T_*$ and $\widetilde P_M$. It is not intrinsic state data on the same footing
+This is branch-relative. It depends on the selected formed state $C_{\ast}(t)$,
+the tangent coordinate $u=C-C_{\ast}$, and the relaxation branch used to define
+$T_{\ast}$ and $\widetilde P_M$. It is not intrinsic state data on the same footing
 as $C_M^{(\Delta)}$.
 
 They are related only in regimes where the spatial and relaxation representations align. Any retained projector used below must be derived from the coherence state and induced geometry, remain separated by a spectral gap when differentiated, and vary covariantly along the regular branch being studied.
@@ -227,7 +227,7 @@ The inherited continuation Hessian is likewise a reduced coherence operator.
 It applies on a no-current, frozen-current, or smoothly slaved-current branch.
 For an active recurrent identity with independent current perturbations, a
 joint $(C,J_C)$ continuation operator or a justified Schur-complement
-reduction remains open. This matters at $j_*\neq0$, where the current paper
+reduction remains open. This matters at $j_{\ast}\neq0$, where the current paper
 already finds first-order tensor and metric feedback.
 
 Using $\mathfrak R_M$ as an instantaneous functional also assumes **Markov
@@ -268,10 +268,10 @@ $$
 
 Only their closure gives a reflexive participatory loop.
 
-The continuation paper already supplied a local account of capacity. Around a formed identity $C_*$, the constrained continuation operator
+The continuation paper already supplied a local account of capacity. Around a formed identity $C_{\ast}$, the constrained continuation operator
 
 $$
-\mathscr H_*u_n=\alpha_nu_n
+\mathscr H_{\ast}u_n=\alpha_nu_n
 $$
 
 describes how the current formation receives possible next deformations. The relaxation operator supplies the actual rate at which coupled deformations decay or grow. Some low modes can therefore remain present over long intervals.
@@ -308,7 +308,7 @@ The feedback current appears when this slow formation returns into present activ
 $$
  j^\mu =
 \frac{\delta S}{\delta(\nabla_\mu M)}
-\,\rho_{\mathrm{compat}}(M,AI),
+\thinspace{}\rho_{\mathrm{compat}}(M,AI),
 $$
 
 where the functional derivative measures response to memory gradients and $\rho_{\mathrm{compat}}$ measures whether present fast organization can be encoded and decoded through the retained structure.
@@ -352,7 +352,7 @@ This is the functional meaning that must survive any coherence-only reconstructi
 
 $$
 \delta\mathbf x(t+\Delta t) =
-\mathcal F\,\delta\mathbf x(t),
+\mathcal F\thinspace{}\delta\mathbf x(t),
 $$
 
 and its gain is measured by the spectral radius
@@ -441,9 +441,9 @@ $$
 A spatial cutoff separates fast and memory sectors:
 
 $$
-F(t)=\{c_k:\lambda_k>\Lambda\},
+F(t)=\lbrace{}c_k:\lambda_k>\Lambda\rbrace{},
 \qquad
-M(t)=\{c_k:\lambda_k\le\Lambda\}.
+M(t)=\lbrace{}c_k:\lambda_k\le\Lambda\rbrace{}.
 $$
 
 The preceding paper refines the temporal meaning of that split: low spatial eigenvalue is not by itself enough to establish slow response, but broad or structurally soft continuations naturally create a slow sector through the relaxation spectrum.
@@ -557,10 +557,10 @@ Around a fixed slow state and current branch, its linear response to current is
 $$
 \boxed{
 \delta j^\flat =
-\mathcal R_M\,\delta J_C^\flat,
+\mathcal R_M\thinspace{}\delta J_C^\flat,
 \qquad
 \mathcal R_M =
-D_J\mathfrak R_M\big|_*.
+D_J\mathfrak R_M\big|_{\ast}.
 }
 $$
 
@@ -599,16 +599,16 @@ $$
 
 The notation inherits the old word *memory*, but $C_M^{(\Delta)}$ is not an independent field. It is the broad spatial component of the same coherence state and is therefore a state-level retained field. This field-level definition is the one used in the spatial write equation derived below.
 
-[*The Continuation Spectrum*](./2026-08-TheContinuationSpectrum.md) shows why spatial breadth alone does not establish temporal retention. Around a tracked formed state $C_*(t)$, let
+[*The Continuation Spectrum*](./2026-08-TheContinuationSpectrum.md) shows why spatial breadth alone does not establish temporal retention. Around a tracked formed state $C_{\ast}(t)$, let
 
 $$
-u=C-C_*
+u=C-C_{\ast}
 $$
 
 be an admissible perturbation. The continuation paper maps it to the self-adjoint relaxation representation by
 
 $$
-w=T_*u.
+w=T_{\ast}u.
 $$
 
 Define the low-rate projector on $w$ and inherit its physical action by conjugation:
@@ -616,11 +616,11 @@ Define the low-rate projector on $w$ and inherit its physical action by conjugat
 $$
 \widetilde P_M =
 \mathbf 1_{[0,\Gamma]}
-(\widetilde{\mathscr G}_*),
+(\widetilde{\mathscr G}_{\ast}),
 \qquad
 \boxed{
 P_{M,u} =
-T_*^{-1}\widetilde P_MT_*.
+T_{\ast}^{-1}\widetilde P_MT_{\ast}.
 }
 $$
 
@@ -633,12 +633,12 @@ P_{M,u}u.
 }
 $$
 
-This projector acts on the constrained tangent space around $C_*$, not on the full field $C$. The resulting $u_M^{(\mathrm{dyn})}$ is a local analytical object relative to the tracked branch, not an intrinsic functional of the instantaneous primitive state alone. With $D_t^{\mathcal H}$ denoting the Hilbert-bundle covariant derivative inherited from the continuation paper,
+This projector acts on the constrained tangent space around $C_{\ast}$, not on the full field $C$. The resulting $u_M^{(\mathrm{dyn})}$ is a local analytical object relative to the tracked branch, not an intrinsic functional of the instantaneous primitive state alone. With $D_t^{\mathcal H}$ denoting the Hilbert-bundle covariant derivative inherited from the continuation paper,
 
 $$
 D_t^{\mathcal H}u =
 D_t^{\mathcal H}C -
-D_t^{\mathcal H}C_*.
+D_t^{\mathcal H}C_{\ast}.
 $$
 
 Its tracked-branch write equation is therefore
@@ -650,13 +650,13 @@ D_t^{\mathcal H}u_M^{(\mathrm{dyn})} =
 P_{M,u}
 \left(
 D_t^{\mathcal H}C -
-D_t^{\mathcal H}C_*
+D_t^{\mathcal H}C_{\ast}
 \right).
 }
 $$
 
 In a fixed representation, the forcing in parentheses reduces to the familiar
-$D_tC-\dot C_*$. Thus the dynamical retained sector is specified only after
+$D_tC-\dot C_{\ast}$. Thus the dynamical retained sector is specified only after
 the motion of the reference branch has also been supplied.
 
 The spatial and dynamical retained sectors need not coincide. A broad spatial mode can relax quickly if its structural stiffness is large. A finer deformation can remain slow if moving-volume kinematics, mobility, or continuation curvature makes it so. A concrete RC realization must therefore declare whether read-back is conditioned by $C_M^{(\Delta)}$, by $u_M^{(\mathrm{dyn})}$, or by a justified mapping between them. The undifferentiated symbol $P_M$ is not used to identify these distinct operators.
@@ -705,8 +705,8 @@ At one point, a parity-even covariant one-form built algebraically only from $h_
 $$
 \boxed{
  j^\flat =
-a\,\mathbf J_C +
-b\,\langle\mathbf J_C,m\rangle_{h_M}\,m,
+a\thinspace{}\mathbf J_C +
+b\thinspace{}\langle\mathbf J_C,m\rangle_{h_M}\thinspace{}m,
 }
 $$
 
@@ -865,7 +865,7 @@ j^\flat=h_M^\flat j.
 $$
 
 All three terms now belong to the same $h_M$ one-form space. The fixed metric
-identification is therefore included in $\mathcal R_{M,*}$ in the linear
+identification is therefore included in $\mathcal R_{M,\ast}$ in the linear
 closure below.
 
 The physical one-form before retained-geometry transport has components
@@ -887,38 +887,38 @@ $$
 The simple inverse therefore belongs to a declared diagnostic. Freeze
 
 $$
-C=C_*,
+C=C_{\ast},
 \qquad
-h=h_*,
+h=h_{\ast},
 \qquad
-K=K_*,
+K=K_{\ast},
 \qquad
-\mathcal R_M=\mathcal R_{M,*},
+\mathcal R_M=\mathcal R_{M,\ast},
 $$
 
-and either linearize around $j_*=0$ or impose $\delta K^{(j)}=0$ at the order being studied. Then
+and either linearize around $j_{\ast}=0$ or impose $\delta K^{(j)}=0$ at the order being studied. Then
 
 $$
 \delta j^\flat =
-\mathcal R_{M,*}\delta\mathbf J_C.
+\mathcal R_{M,\ast}\delta\mathbf J_C.
 $$
 
 The first-order current equation is
 
 $$
 \boxed{
-(I-\zeta_C\mathcal R_{M,*})
+(I-\zeta_C\mathcal R_{M,\ast})
 \delta\mathbf J_C =
 \delta\mathbf J_0.
 }
 $$
 
-This zero-background-current or frozen-$K$ diagnostic makes the direct feedback loop mathematically visible without silently discarding the quadratic dependence of $K$.
+This zero-background-current or frozen $K$ diagnostic makes the direct feedback loop mathematically visible without silently discarding the quadratic dependence of $K$.
 
 If
 
 $$
-1\notin\mathrm{Spec}(\zeta_C\mathcal R_{M,*}),
+1\notin\mathrm{Spec}(\zeta_C\mathcal R_{M,\ast}),
 $$
 
 the frozen linear current closure is locally invertible:
@@ -926,7 +926,7 @@ the frozen linear current closure is locally invertible:
 $$
 \boxed{
 \delta\mathbf J_C =
-(I-\zeta_C\mathcal R_{M,*})^{-1}
+(I-\zeta_C\mathcal R_{M,\ast})^{-1}
 \delta\mathbf J_0.
 }
 $$
@@ -934,7 +934,7 @@ $$
 A sufficient bound is
 
 $$
-\|\zeta_C\mathcal R_{M,*}\|<1.
+\lVert\zeta_C\mathcal R_{M,\ast}\rVert<1.
 $$
 
 Then the inverse has the Neumann expansion
@@ -943,15 +943,15 @@ $$
 \boxed{
 \delta\mathbf J_C =
 \delta\mathbf J_0 +
-\zeta_C\mathcal R_{M,*}\delta\mathbf J_0 +
-(\zeta_C\mathcal R_{M,*})^2\delta\mathbf J_0 +
+\zeta_C\mathcal R_{M,\ast}\delta\mathbf J_0 +
+(\zeta_C\mathcal R_{M,\ast})^2\delta\mathbf J_0 +
 \cdots.
 }
 $$
 
 Each term is another traversal of the frozen read-back loop.
 
-If $\mathcal R_{M,*}\psi_a=r_a\psi_a$ and $\delta\mathbf J_0$ is resolved in the same mode, define
+If $\mathcal R_{M,\ast}\psi_a=r_a\psi_a$ and $\delta\mathbf J_0$ is resolved in the same mode, define
 
 $$
 \boxed{
@@ -1000,24 +1000,24 @@ $$
 
 the linear closure is singular and nonlinear saturation, geometry change, time dependence, or another branch must resolve the response.
 
-This is the kinetic threshold of the zero-background-current or frozen-$K$ diagnostic. It does not by itself say that the identity’s continuation operator has lost positivity, that another attractor basin has formed, or that the current organization has changed identity.
+This is the kinetic threshold of the zero-background-current or frozen $K$ diagnostic. It does not by itself say that the identity’s continuation operator has lost positivity, that another attractor basin has formed, or that the current organization has changed identity.
 
-Around an established read-back current $j_*\neq0$, the tensor contributes at first order:
+Around an established read-back current $j_{\ast}\neq0$, the tensor contributes at first order:
 
 $$
-D_jK\big|_*[\delta j] =
+D_jK\big|_{\ast}[\delta j] =
 \zeta_C
 \left(
-j_*\otimes\delta j +
-\delta j\otimes j_*
+j_{\ast}\otimes\delta j +
+\delta j\otimes j_{\ast}
 \right).
 $$
 
-Since $\delta j=\mathcal R_{M,*}\delta\mathbf J_C$, this creates another feedback path through $K$, the induced metric, and the part of the current law collected in $\mathbf J_0$. Write the complete first-order closure schematically as
+Since $\delta j=\mathcal R_{M,\ast}\delta\mathbf J_C$, this creates another feedback path through $K$, the induced metric, and the part of the current law collected in $\mathbf J_0$. Write the complete first-order closure schematically as
 
 $$
 \boxed{
-(I-\mathcal B_{\mathrm{rb},*}^{\mathrm{eff}})
+(I-\mathcal B_{\mathrm{rb},\ast}^{\mathrm{eff}})
 \delta\mathbf J_C =
 \delta\mathbf J_{\mathrm{ext}},
 }
@@ -1027,32 +1027,32 @@ with
 
 $$
 \begin{aligned}
-\mathcal B_{\mathrm{rb},*}^{\mathrm{eff}}
+\mathcal B_{\mathrm{rb},\ast}^{\mathrm{eff}}
 ={}&
-\zeta_C\mathcal R_{M,*}
+\zeta_C\mathcal R_{M,\ast}
 \\
 &+
-D_KJ_0\big|_*
+D_KJ_0\big|_{\ast}
 \circ
-D_jK\big|_*
+D_jK\big|_{\ast}
 \circ
-\mathcal R_{M,*} +
-\mathcal B_{g,*} +
+\mathcal R_{M,\ast} +
+\mathcal B_{g,\ast} +
 \cdots .
 \end{aligned}
 $$
 
-Here $\mathcal B_{g,*}$ collects the first-order metric response and the omitted terms collect any other declared constitutive dependence. The full established-current threshold is
+Here $\mathcal B_{g,\ast}$ collects the first-order metric response and the omitted terms collect any other declared constitutive dependence. The full established-current threshold is
 
 $$
 1\in
 \mathrm{Spec}
 \left(
-\mathcal B_{\mathrm{rb},*}^{\mathrm{eff}}
+\mathcal B_{\mathrm{rb},\ast}^{\mathrm{eff}}
 \right),
 $$
 
-not necessarily $\beta_a=1$. This strengthens the order distinction developed later: an already formed current axis changes the effective loop gain at first order, while a new axis enters $K$ only at second order around $j_*=0$.
+not necessarily $\beta_a=1$. This strengthens the order distinction developed later: an already formed current axis changes the effective loop gain at first order, while a new axis enters $K$ only at second order around $j_{\ast}=0$.
 
 The distinction is central:
 
@@ -1249,7 +1249,7 @@ $$
 \overline R(z,t)
 (\partial_t\overline{\mathscr S})
 \overline R(z,t)
-\,dz,
+\thinspace{}dz,
 }
 $$
 
@@ -1337,7 +1337,7 @@ recurrent read-back can change the geometry that defines both later current and 
 Suppose the system begins near a state with
 
 $$
-j_*=0
+j_{\ast}=0
 $$
 
 and present current has small amplitude $\varepsilon$. Under a regular linear response,
@@ -1363,15 +1363,15 @@ Thus an ecology can use a continuation before that use significantly restructure
 Once an established read-back current exists,
 
 $$
-j_*\neq0,
+j_{\ast}\neq0,
 $$
 
 a small perturbation gives
 
 $$
 \delta(j\otimes j) =
-j_*\otimes\delta j +
-\delta j\otimes j_*,
+j_{\ast}\otimes\delta j +
+\delta j\otimes j_{\ast},
 $$
 
 which is first order. Existing cultivated structure is therefore more sensitive to modification than a new structural axis is to creation from an inactive state.
@@ -1456,9 +1456,9 @@ $$
 and the continuation operator changes through
 
 $$
-D_t\mathscr H_* =
-D_C\mathscr H_*[\dot C] +
-D_g\mathscr H_*[D_t g] +
+D_t\mathscr H_{\ast} =
+D_C\mathscr H_{\ast}[\dot C] +
+D_g\mathscr H_{\ast}[D_t g] +
 \cdots.
 $$
 
@@ -1467,7 +1467,7 @@ For a simple normalized continuation mode,
 $$
 \boxed{
 \dot\alpha_n =
-\langle u_n,(D_t\mathscr H_*)u_n\rangle.
+\langle u_n,(D_t\mathscr H_{\ast})u_n\rangle.
 }
 $$
 
@@ -1487,9 +1487,9 @@ K
 \longrightarrow
 g
 \longrightarrow
-\mathscr H_*
+\mathscr H_{\ast}
 \longrightarrow
-\{\alpha_n\}.
+\lbrace{}\alpha_n\rbrace{}.
 }
 $$
 
@@ -1790,7 +1790,7 @@ Capacity has several coupled faces.
 The continuation spectrum
 
 $$
-\boxed{\{\alpha_n\}}
+\boxed{\lbrace{}\alpha_n\rbrace{}}
 $$
 
 describes structural accessibility and resistance.
@@ -1798,7 +1798,7 @@ describes structural accessibility and resistance.
 The relaxation spectrum
 
 $$
-\boxed{\{\gamma_n\}}
+\boxed{\lbrace{}\gamma_n\rbrace{}}
 $$
 
 describes how those continuations respond through current mobility.
@@ -1806,7 +1806,7 @@ describes how those continuations respond through current mobility.
 The read-back spectrum
 
 $$
-\boxed{\{\beta_a\}}
+\boxed{\lbrace{}\beta_a\rbrace{}}
 $$
 
 describes how retained formation supports or inhibits enactment of present current modes.
@@ -1824,7 +1824,7 @@ $$
 \left(
 D_t\mathcal T_M,
 D_t\mathcal R_M,
-D_t\mathscr H_*
+D_t\mathscr H_{\ast}
 \right),
 }
 $$
@@ -1849,7 +1849,7 @@ $$
 \boxed{
 J_C
 \longrightarrow
-(\mathcal T_M,\mathcal R_M,\mathscr H_*)
+(\mathcal T_M,\mathcal R_M,\mathscr H_{\ast})
 \longrightarrow
 J_C'.
 }
@@ -1887,12 +1887,12 @@ $$
 }
 $$
 
-Its zero-background-current or frozen-$K$ linear diagnostic is
+Its zero-background-current or frozen $K$ linear diagnostic is
 
 $$
 \boxed{
 \delta j^\flat =
-\mathcal R_{M,*}\delta J_C^\flat,
+\mathcal R_{M,\ast}\delta J_C^\flat,
 }
 $$
 
@@ -1901,11 +1901,11 @@ with a mode-selective one-form response as a canonical candidate. This gives a r
 Under those diagnostic assumptions, the inherited current law closes as
 
 $$
-(I-\zeta_C\mathcal R_{M,*})\delta J_C^\flat =
+(I-\zeta_C\mathcal R_{M,\ast})\delta J_C^\flat =
 \delta J_0^\flat,
 $$
 
-while an established current uses the full effective operator $\mathcal B_{\mathrm{rb},*}^{\mathrm{eff}}$. Measure-valued continuity supplies the field-level write path
+while an established current uses the full effective operator $\mathcal B_{\mathrm{rb},\ast}^{\mathrm{eff}}$. Measure-valued continuity supplies the field-level write path
 
 $$
 D_t^{\mathrm{vol}}C_M^{(\Delta)} =
@@ -1957,45 +1957,45 @@ Section 2 contains the developmental argument. This appendix records only its so
 
 # Appendix B: Frozen Linear Current Closure
 
-Let $H_1=L^2(\Omega^1(\Sigma),h_M)$, and suppose $\mathcal R_{M,*}:H_1\to H_1$ is bounded. Here $\delta\mathbf J_C=\mathsf I_{h_*\to h_{M,*}}\delta J_C^\flat$, with the frozen metric identification absorbed into $\mathcal R_{M,*}$. Freeze $C_*$, $h_*$, $K_*$, and $\mathcal R_{M,*}$, and either take $j_*=0$ or impose $\delta K^{(j)}=0$. The first-order inherited current equation is
+Let $H_1=L^2(\Omega^1(\Sigma),h_M)$, and suppose $\mathcal R_{M,\ast}:H_1\to H_1$ is bounded. Here $\delta\mathbf J_C=\mathsf I_{h_{\ast}\to h_{M,\ast}}\delta J_C^\flat$, with the frozen metric identification absorbed into $\mathcal R_{M,\ast}$. Freeze $C_{\ast}$, $h_{\ast}$, $K_{\ast}$, and $\mathcal R_{M,\ast}$, and either take $j_{\ast}=0$ or impose $\delta K^{(j)}=0$. The first-order inherited current equation is
 
 $$
 \delta\mathbf J_C =
 \delta\mathbf J_0 +
-\zeta_C\mathcal R_{M,*}\delta\mathbf J_C.
+\zeta_C\mathcal R_{M,\ast}\delta\mathbf J_C.
 $$
 
 Therefore
 
 $$
-(I-\zeta_C\mathcal R_{M,*})\delta\mathbf J_C =
+(I-\zeta_C\mathcal R_{M,\ast})\delta\mathbf J_C =
 \delta\mathbf J_0.
 $$
 
 If
 
 $$
-1\notin\mathrm{Spec}(\zeta_C\mathcal R_{M,*}),
+1\notin\mathrm{Spec}(\zeta_C\mathcal R_{M,\ast}),
 $$
 
 the operator is invertible. If
 
 $$
-\|\zeta_C\mathcal R_{M,*}\|<1,
+\lVert\zeta_C\mathcal R_{M,\ast}\rVert<1,
 $$
 
 the inverse is represented by the norm-convergent Neumann series
 
 $$
-(I-\zeta_C\mathcal R_{M,*})^{-1} =
+(I-\zeta_C\mathcal R_{M,\ast})^{-1} =
 \sum_{n=0}^{\infty}
-(\zeta_C\mathcal R_{M,*})^n.
+(\zeta_C\mathcal R_{M,\ast})^n.
 $$
 
 For a self-adjoint eigenmode $\psi_a$,
 
 $$
-\mathcal R_{M,*}\psi_a=r_a\psi_a,
+\mathcal R_{M,\ast}\psi_a=r_a\psi_a,
 $$
 
 and
@@ -2011,28 +2011,28 @@ $$
 \zeta_Cr_a=1.
 $$
 
-This is a failure of the zero-background-current or frozen-$K$ response, not by itself a proof of structural or topological re-formation.
+This is a failure of the zero-background-current or frozen $K$ response, not by itself a proof of structural or topological re-formation.
 
-For $j_*\neq0$ with geometric response enabled,
+For $j_{\ast}\neq0$ with geometric response enabled,
 
 $$
-D_jK\big|_*[\delta j] =
+D_jK\big|_{\ast}[\delta j] =
 \zeta_C
 \left(
-j_*\otimes\delta j +
-\delta j\otimes j_*
+j_{\ast}\otimes\delta j +
+\delta j\otimes j_{\ast}
 \right),
 $$
 
 and the complete first-order equation has the form
 
 $$
-(I-\mathcal B_{\mathrm{rb},*}^{\mathrm{eff}})
+(I-\mathcal B_{\mathrm{rb},\ast}^{\mathrm{eff}})
 \delta\mathbf J_C =
 \delta\mathbf J_{\mathrm{ext}}.
 $$
 
-Its singular threshold belongs to the spectrum of $\mathcal B_{\mathrm{rb},*}^{\mathrm{eff}}$, which includes the direct read-back response, the route through $K$, and the induced metric response.
+Its singular threshold belongs to the spectrum of $\mathcal B_{\mathrm{rb},\ast}^{\mathrm{eff}}$, which includes the direct read-back response, the route through $K$, and the induced metric response.
 
 ---
 
@@ -2184,18 +2184,18 @@ A general RC read-back law may need non-self-adjoint response to represent delay
 | One-beat feedback operator and spectral radius | Inherited lineage | *Seeds of Life* |
 | Memory as a slow spectral component of $C$ | Inherited | *Reflexive Coherence* |
 | Continuation stiffness $\alpha_n$ | Inherited from preceding derived paper | Reduced constrained functional; independent of the selected temporal closure |
-| Conserved-density transformation $T_*$ and relaxation rate $\gamma_n$ | Inherited from preceding derived paper | Specific to the assumed conserved-density gradient-flow branch |
+| Conserved-density transformation $T_{\ast}$ and relaxation rate $\gamma_n$ | Inherited from preceding derived paper | Specific to the assumed conserved-density gradient-flow branch |
 | $C_M^{(\Delta)}=P_M^{(\Delta)}C$ | State-level retained field | Instantaneous functional of the declared state, geometry, and cutoff |
-| $u_M^{(\mathrm{dyn})}=P_{M,u}(C-C_*)$ | Branch-relative analytical object | Requires a tracked formed branch and its relaxation representation |
+| $u_M^{(\mathrm{dyn})}=P_{M,u}(C-C_{\ast})$ | Branch-relative analytical object | Requires a tracked formed branch and its relaxation representation |
 | $\mathcal T_M=(C_M^{(\Delta)},u_M^{(\mathrm{dyn})})$ | Bookkeeping tuple | Does not make both entries primitive or globally intrinsic state data |
 | $j^\flat=\mathfrak R_M(\mathcal T_M,h;J_C^\flat)$ | Reconstructed class | Lineage and closure contract |
 | $j^\flat=\mathcal R_MJ_C^\flat$ | Reconstructed linear regime | Linearization/frozen slow state |
 | Hodge spectral response for $\mathcal R_M$ | Candidate | Canonical covariant one-form construction |
 | $\mathbf J_C^{(M)}=h_M^\flat J_C=\mathsf I_{h\to h_M}J_C^\flat$ | Declared bundle identification | Places the physical current in the retained-geometry Hodge space |
-| $(I-\zeta_C\mathcal R_{M,*})\delta J_C^\flat=\delta J_0^\flat$ | Diagnostic derivation | Requires $j_*=0$ or frozen $K$ and metric |
-| $(I-\mathcal B_{\mathrm{rb},*}^{\mathrm{eff}})\delta J_C=\delta J_{\mathrm{ext}}$ | General linearized form | Includes established-current tensor and metric feedback |
+| $(I-\zeta_C\mathcal R_{M,\ast})\delta J_C^\flat=\delta J_0^\flat$ | Diagnostic derivation | Requires $j_{\ast}=0$ or frozen $K$ and metric |
+| $(I-\mathcal B_{\mathrm{rb},\ast}^{\mathrm{eff}})\delta J_C=\delta J_{\mathrm{ext}}$ | General linearized form | Includes established-current tensor and metric feedback |
 | $D_t^{\mathrm{vol}}C_M^{(\Delta)}=-P_M^{(\Delta)}\nabla\cdot J_C+(\mathcal D_t^{\mathrm{write}}P_M^{(\Delta)})C$ | Derived | Product rule + measure-valued continuity + Hilbert-bundle transport and volume-connection correction |
-| Read-back gain $\beta_a=\zeta_Cr_a$ | Derived in common eigenmode regime | Zero-background-current or frozen-$K$ diagnostic |
+| Read-back gain $\beta_a=\zeta_Cr_a$ | Derived in common eigenmode regime | Zero-background-current or frozen $K$ diagnostic |
 | $1\in\mathrm{Spec}(\zeta_C\mathcal R_M)$ | Diagnostic singularity condition | General frozen constitutive threshold; spectral-radius form requires a positive self-adjoint leading mode |
 | Kinetic versus structural cultivation | Interpretive distinction grounded in linear versus quadratic appearances of $j$ | Sections 5–7 |
 | Elastic/plastic/formative participation | Interpretive classification | Section 8 |

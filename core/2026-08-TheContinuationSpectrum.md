@@ -11,10 +11,10 @@ Copyright © 2026 Uroš Jovanovič, CC BY-SA 4.0.
 
 Reflexive Coherence describes identity as a stable, self-maintaining attractor basin of a coherence field whose present distribution writes the geometry governing its subsequent flow. The existing core therefore gives a strong account of persistence, collapse among several compatible attractors, and spark-mediated changes of attractor topology. Yet one relation remains mathematically compressed. A formed identity is not exhausted by its current configuration, and the set of its possible next continuations is not exhausted by the finite attractors already visible in the field. Between the present state and a completed future basin lies a local geometry of deformation: directions the identity strongly resists, directions through which it can change while remaining coherent, and directions along which its present organization is approaching loss of adequacy.
 
-This paper derives that missing local object from the existing RC functional. On a spatial slice with induced Riemannian metric, a formed state $C_*$ is treated as a constrained critical point of the reduced coherence functional at fixed total coherence. The constrained second variation defines an operator
+This paper derives that missing local object from the existing RC functional. On a spatial slice with induced Riemannian metric, a formed state $C_{\ast}$ is treated as a constrained critical point of the reduced coherence functional at fixed total coherence. The constrained second variation defines an operator
 
 $$
-\mathscr H_* u_n=\alpha_n u_n,
+\mathscr H_{\ast} u_n=\alpha_n u_n,
 $$
 
 whose eigenmodes are interpreted as infinitesimal possible next continuations and whose eigenvalues measure the local restoring curvature of the present formation. This **continuation spectrum** is distinct from the Laplace–Beltrami spectrum already introduced in *Reflexive Coherence*. The Laplace spectrum classifies spatial scale. The continuation spectrum classifies structural accessibility. Neither should be confused with the pointwise spatial Hessian of $C$, with the finite repertoire of attractor basins, or with the rates at which perturbations actually relax or grow.
@@ -23,7 +23,7 @@ The fixed-geometry contribution to the continuation operator is derived as
 
 $$
 \mathscr H_{\mathrm{field}} =
--\kappa_C\Delta_h+W''(C_*),
+-\kappa_C\Delta_h+W''(C_{\ast}),
 $$
 
 where $W$ denotes the local density after the sign convention of the inherited potential is fixed. Under a regular induced-geometry branch whose back-reaction does not overturn the positive principal symbol, the gradient term makes sufficiently fine continuations increasingly costly. Conservation removes the uniform total-coherence direction but does not by itself make a uniform configuration unstable. The low continuation sector remains state-dependent: local potential curvature, support geometry, boundary conditions, and metric back-reaction can harden or soften its modes. A diagnostic homogeneous calculation shows how the same functional can support stable integration, finite-band instability, and resistance to arbitrarily fine fragmentation without maximizing either stability or differentiation.
@@ -31,26 +31,26 @@ where $W$ denotes the local density after the sign convention of the inherited p
 The paper then derives the temporal spectrum on an assumed measure-consistent conserved-density branch of the alternative gradient-flow closure already present in RC. The conserved object is the coherence measure
 
 $$
-\varrho=C\,dV_{h[C]},
+\varrho=C\thinspace{}dV_{h[C]},
 $$
 
-not $C$ integrated as though $dV_h$ were fixed. Relative to a fixed reference volume $d\nu$, write $\rho=C\,dV_h/d\nu$. Linearization in the conserved-density perturbation $r=\delta\rho$ gives
+not $C$ integrated as though $dV_h$ were fixed. Relative to a fixed reference volume $d\nu$, write $\rho=C\thinspace{}dV_h/d\nu$. Linearization in the conserved-density perturbation $r=\delta\rho$ gives
 
 $$
 \partial_t r =
--\mathscr A_{\rho,*}\mathscr H_{\rho,*}r,
+-\mathscr A_{\rho,\ast}\mathscr H_{\rho,\ast}r,
 $$
 
 and the self-adjoint relaxation representative is
 
 $$
-\widetilde{\mathscr G}_* =
-\mathscr A_{\rho,*}^{1/2}
-\mathscr H_{\rho,*}
-\mathscr A_{\rho,*}^{1/2}.
+\widetilde{\mathscr G}_{\ast} =
+\mathscr A_{\rho,\ast}^{1/2}
+\mathscr H_{\rho,\ast}
+\mathscr A_{\rho,\ast}^{1/2}.
 $$
 
-Here $\mathscr H_{\rho,*}$ is the continuation quadratic form represented in the conserved-density coordinate. Its relaxation eigenvalues $\gamma_n$ determine decay or growth. The map from a physical coherence perturbation $u$ to the self-adjoint representation is denoted by $w=T_*u$ and includes both the moving-volume kinematics and mobility. In the fixed-volume limit, $T_*=\mathscr A_*^{-1/2}$ and the earlier formula $\widetilde{\mathscr G}_*=\mathscr A_*^{1/2}\mathscr H_*\mathscr A_*^{1/2}$ is recovered. In the homogeneous commuting limit,
+Here $\mathscr H_{\rho,\ast}$ is the continuation quadratic form represented in the conserved-density coordinate. Its relaxation eigenvalues $\gamma_n$ determine decay or growth. The map from a physical coherence perturbation $u$ to the self-adjoint representation is denoted by $w=T_{\ast}u$ and includes both the moving-volume kinematics and mobility. In the fixed-volume limit, $T_{\ast}=\mathscr A_{\ast}^{-1/2}$ and the earlier formula $\widetilde{\mathscr G}\sb{\ast}=\mathscr A\sb{\ast}\sp{1/2}\mathscr H\sb{\ast}\mathscr A\sb{\ast}\sp{1/2}$ is recovered. In the homogeneous commuting limit,
 
 $$
 \gamma_k =
@@ -58,7 +58,7 @@ M_0\lambda_k
 \bigl(\kappa_C\lambda_k+a_0\bigr),
 $$
 
-where $\lambda_k$ is a Laplace eigenvalue and $a_0=W''(C_*)$. Fine spatial perturbations are rapidly regularized; broad redistribution modes are naturally slower; and a continuation becomes critically slow as its structural stiffness approaches zero. Fast and slow sectors therefore emerge from the relation between mobility and continuation curvature. A low spatial eigenvalue is often associated with a slow response, but spatial scale alone does not determine temporal slowness.
+where $\lambda_k$ is a Laplace eigenvalue and $a_0=W''(C_{\ast})$. Fine spatial perturbations are rapidly regularized; broad redistribution modes are naturally slower; and a continuation becomes critically slow as its structural stiffness approaches zero. Fast and slow sectors therefore emerge from the relation between mobility and continuation curvature. A low spatial eigenvalue is often associated with a slow response, but spatial scale alone does not determine temporal slowness.
 
 Because the geometry is induced by the same coherence field, the continuation operator itself changes along a slowly tracked formed branch. After transporting the changing Hilbert structure to a fixed reference representation, a simple continuation eigenvalue obeys
 
@@ -115,7 +115,7 @@ $$
 W(C).
 $$
 
-Where the inherited functional is read literally, $W=-V$. If the core sign convention is later repaired, $W$ should simply be replaced by the chosen local density. The continuation derivation depends on $W''(C_*)$, not on the name attached to the potential.
+Where the inherited functional is read literally, $W=-V$. If the core sign convention is later repaired, $W$ should simply be replaced by the chosen local density. The continuation derivation depends on $W''(C_{\ast})$, not on the name attached to the potential.
 
 Fourth, the temporal derivation uses the alternative gradient-flow closure already present in the primary paper, but states conservation for the coherence measure rather than for a scalar on a silently fixed volume. Relative to a fixed reference volume $d\nu$, define
 
@@ -130,7 +130,7 @@ Then
 
 $$
 Q[C] =
-\int_\Sigma \rho[C]\,d\nu
+\int_\Sigma \rho[C]\thinspace{}d\nu
 $$
 
 is conserved by
@@ -143,7 +143,7 @@ $$
 This is the fixed-measure representation of
 
 $$
-\partial_t(C\,dV_h) +
+\partial_t(C\thinspace{}dV_h) +
 d(\iota_{J_C}dV_h)=0.
 $$
 
@@ -172,7 +172,7 @@ A general RC trajectory is not required to satisfy the stationary Euler–Lagran
 Finally, writing $h=h[K[C]]$ already presumes a reduced current branch. The continuation operator derived here is the reduced coherence continuation operator on a no-current equilibrium, a branch where $J_C$, $j$, and their geometric effects are frozen during the variation, or a branch admitting a unique smooth slaving $J_C=J_C[C]$ and $j=j[C]$. For an active recurrent identity with independent current perturbations, the general local continuation object may instead require a joint-state Hessian
 
 $$
-\mathbb H_* =
+\mathbb H_{\ast} =
 \begin{pmatrix}
 H_{CC} & H_{CJ}
 \\
@@ -190,7 +190,7 @@ The RC identity paper defines an identity as a stable, attractive, invariant, re
 
 That definition already contains more becoming than a static-state description can express.
 
-Suppose a formed identity is represented at one moment by $C_*(x)$. The field tells us how coherence is distributed now. The flux $J_C$ tells us how that distribution is currently changing. The attractor basin tells us that some range of perturbations remains within one self-maintaining organization. But these objects do not yet provide a local mathematical answer to a simpler question:
+Suppose a formed identity is represented at one moment by $C_{\ast}(x)$. The field tells us how coherence is distributed now. The flux $J_C$ tells us how that distribution is currently changing. The attractor basin tells us that some range of perturbations remains within one self-maintaining organization. But these objects do not yet provide a local mathematical answer to a simpler question:
 
 > In what different ways can this identity continue from here, and how strongly does its present formation resist each of them?
 
@@ -199,7 +199,7 @@ Suppose a formed identity is represented at one moment by $C_*(x)$. The field te
 The existing collapse account reaches part of that question at a finite scale. It considers several compatible attractor basins
 
 $$
-\mathcal A_N=\{A_1,\ldots,A_N\}
+\mathcal A_N=\lbrace{}A_1,\ldots,A_N\rbrace{}
 $$
 
 as several identity-preserving future trajectories simultaneously available to the coherence field. Collapse then commits the flow to one of them.
@@ -225,7 +225,7 @@ These are not layers placed above RC. They are three readings of one reflexive p
 The existing core already gives unfolding through the continuity relation. On the induced spatial volume, its conservative form is
 
 $$
-\partial_t(C\,dV_h) +
+\partial_t(C\thinspace{}dV_h) +
 d(\iota_{J_C}dV_h)=0.
 $$
 
@@ -268,7 +268,7 @@ A formed equilibrium does not minimize $\widehat{\mathcal P}$ over arbitrary cha
 
 $$
 Q[C] =
-\int_{\Sigma}C\,dV_{h[C]}
+\int_{\Sigma}C\thinspace{}dV_{h[C]}
 $$
 
 and fix
@@ -285,10 +285,10 @@ $$
 \eta\bigl(Q[C]-Q_0\bigr),
 $$
 
-where $\eta$ is the Lagrange multiplier associated with conserved coherence. A formed stationary realization $C_*$ satisfies
+where $\eta$ is the Lagrange multiplier associated with conserved coherence. A formed stationary realization $C_{\ast}$ satisfies
 
 $$
-D\mathcal F[C_*]u=0
+D\mathcal F[C_{\ast}]u=0
 $$
 
 for every admissible variation $u$.
@@ -304,14 +304,14 @@ The continuation spectrum applies the same idea to the infinite-dimensional spac
 Let
 
 $$
-C_\varepsilon=C_*+\varepsilon u.
+C_\varepsilon=C_{\ast}+\varepsilon u.
 $$
 
 If geometry were fixed, the first variation of total coherence would be
 
 $$
-DQ[C_*]u =
-\int_\Sigma u\,dV_h.
+DQ[C_{\ast}]u =
+\int_\Sigma u\thinspace{}dV_h.
 $$
 
 Admissible variations would therefore have zero mean.
@@ -320,7 +320,7 @@ But RC geometry depends on $C$. Let
 
 $$
 \dot h[u] :=
-Dh[C_*]u
+Dh[C_{\ast}]u
 $$
 
 be the first metric response to the coherence variation. The standard volume variation is
@@ -334,11 +334,11 @@ Hence
 
 $$
 \boxed{
-DQ[C_*]u =
+DQ[C_{\ast}]u =
 \int_\Sigma
 \left(
  u +
-\frac12C_*\mathrm{tr}_h\dot h[u]
+\frac12C_{\ast}\mathrm{tr}_h\dot h[u]
 \right)dV_h.
 }
 $$
@@ -347,8 +347,8 @@ The tangent space to the conserved-coherence manifold is
 
 $$
 \boxed{
-T_{C_*}\mathcal M_Q =
-\{u\mid DQ[C_*]u=0\}.
+T_{C_{\ast}}\mathcal M_Q =
+\lbrace{}u\mid DQ[C_{\ast}]u=0\rbrace{}.
 }
 $$
 
@@ -356,34 +356,34 @@ This formula already corrects one recurrent overreading of conservation. Conserv
 
 ## 2.3 The constrained second variation
 
-For admissible variations $u,v\in T_{C_*}\mathcal M_Q$, define
+For admissible variations $u,v\in T_{C_{\ast}}\mathcal M_Q$, define
 
 $$
 \boxed{
-\mathcal Q_*[u,v] :=
-D^2\mathcal F[C_*](u,v).
+\mathcal Q_{\ast}[u,v] :=
+D^2\mathcal F[C_{\ast}]\thinspace{}(u,v).
 }
 $$
 
-Assume that this quadratic form is closed and represented, with respect to the $L^2(\Sigma,dV_{h_*})$ inner product, by a self-adjoint operator $\mathscr H_*$ on the constrained tangent space:
+Assume that this quadratic form is closed and represented, with respect to the $L^2(\Sigma,dV_{h_{\ast}})$ inner product, by a self-adjoint operator $\mathscr H_{\ast}$ on the constrained tangent space:
 
 $$
-\mathcal Q_*[u,v] =
-\langle u,\mathscr H_*v\rangle.
+\mathcal Q_{\ast}[u,v] =
+\langle u,\mathscr H_{\ast}v\rangle.
 $$
 
-Equivalently, if $\Pi_*$ denotes projection onto the tangent space, then formally
+Equivalently, if $\Pi_{\ast}$ denotes projection onto the tangent space, then formally
 
 $$
-\mathscr H_* =
-\Pi_*D^2\mathcal F[C_*]\Pi_*.
+\mathscr H_{\ast} =
+\Pi_{\ast}D^2\mathcal F[C_{\ast}]\Pi_{\ast}.
 $$
 
-On a compact or bounded regular domain, if $\mathscr H_*$ is elliptic with compact resolvent, its spectrum is discrete:
+On a compact or bounded regular domain, if $\mathscr H_{\ast}$ is elliptic with compact resolvent, its spectrum is discrete:
 
 $$
 \boxed{
-\mathscr H_* u_n =
+\mathscr H_{\ast} u_n =
 \alpha_n u_n,
 \qquad
 \alpha_1\le\alpha_2\le\cdots.
@@ -432,16 +432,16 @@ $$
 the continuation operator is not merely the Hessian of a scalar field on a fixed background. Let
 
 $$
-\dot h[u]=Dh[C_*]u,
+\dot h[u]=Dh[C_{\ast}]u,
 \qquad
-\ddot h[u,v]=D^2h[C_*](u,v).
+\ddot h[u,v]=D^2h[C_{\ast}]\thinspace{}(u,v).
 $$
 
 The chain rule gives
 
 $$
 \begin{aligned}
-D^2\widehat{\mathcal P}[C_*](u,v)
+D^2\widehat{\mathcal P}[C_{\ast}]\thinspace{}(u,v)
 ={}&
 \mathcal P_{CC}[u,v] +
 \mathcal P_{Ch}[u,\dot h[v]] +
@@ -457,7 +457,7 @@ After the constraint terms are included,
 
 $$
 \boxed{
-\mathscr H_* =
+\mathscr H_{\ast} =
 \mathscr H_{\mathrm{field}} +
 \mathscr H_{\mathrm{geom}} +
 \mathscr H_{\mathrm{constraint}}.
@@ -504,7 +504,7 @@ It does not yet tell us whether a mode is structurally easy, dynamically slow, o
 The continuation spectrum
 
 $$
-\mathscr H_* u_n=\alpha_n u_n
+\mathscr H_{\ast} u_n=\alpha_n u_n
 $$
 
 classifies the local curvature of the formed identity in configuration space. A broad spatial mode can be structurally hard. A finer mode can become structurally soft if the local or geometric curvature cancels its gradient cost. The eigenfunctions $u_n$ need not coincide with the Laplace eigenfunctions $\phi_k$.
@@ -516,7 +516,7 @@ This spectrum is derived here and is not already present in RC under this meanin
 Even a structurally soft continuation may evolve slowly or quickly depending on mobility. The linearized RC evolution defines a separate relaxation or growth spectrum
 
 $$
-\widetilde{\mathscr G}_* w_n=\gamma_n w_n,
+\widetilde{\mathscr G}_{\ast} w_n=\gamma_n w_n,
 $$
 
 derived later in this paper. The sign of $\gamma_n$ gives decay or growth; its magnitude gives the rate.
@@ -575,7 +575,7 @@ $$
 For
 
 $$
-C_\varepsilon=C_*+\varepsilon u,
+C_\varepsilon=C_{\ast}+\varepsilon u,
 $$
 
 the first variation is
@@ -586,30 +586,30 @@ $$
 \right|_{\varepsilon=0} =
 \int_\Sigma
 \left(
-\kappa_C\nabla C_*\cdot\nabla u +
-W'(C_*)u
+\kappa_C\nabla C_{\ast}\cdot\nabla u +
+W'(C_{\ast})u
 \right)dV_h.
 $$
 
 After integration by parts under periodic, Dirichlet, or no-flux boundary conditions,
 
 $$
-D\mathcal P_{\mathrm{field}}[C_*]u =
+D\mathcal P_{\mathrm{field}}[C_{\ast}]u =
 \int_\Sigma
 \left(
--\kappa_C\Delta_hC_* +
-W'(C_*)
-\right)u\,dV_h.
+-\kappa_C\Delta_hC_{\ast} +
+W'(C_{\ast})
+\right)u\thinspace{}dV_h.
 $$
 
 Differentiating again gives
 
 $$
-D^2\mathcal P_{\mathrm{field}}[C_*](u,v) =
+D^2\mathcal P_{\mathrm{field}}[C_{\ast}]\thinspace{}(u,v) =
 \int_\Sigma
 \left(
 \kappa_C\nabla u\cdot\nabla v +
-W''(C_*)uv
+W''(C_{\ast})uv
 \right)dV_h.
 $$
 
@@ -619,13 +619,13 @@ $$
 \boxed{
 \mathscr H_{\mathrm{field}} =
 -\kappa_C\Delta_h +
-W''(C_*).
+W''(C_{\ast}).
 }
 $$
 
 The two terms do different work.
 
-The gradient term is positive when $\kappa_C>0$. It penalizes rapid spatial variation of a continuation. The local term has no universal sign. Where $W''(C_*)>0$, it adds restoring curvature. Where $W''(C_*)<0$, it softens the present organization and can make sufficiently broad continuations unstable.
+The gradient term is positive when $\kappa_C>0$. It penalizes rapid spatial variation of a continuation. The local term has no universal sign. Where $W''(C_{\ast})>0$, it adds restoring curvature. Where $W''(C_{\ast})<0$, it softens the present organization and can make sufficiently broad continuations unstable.
 
 The same functional therefore supports integration and re-formation without introducing two externally opposed objectives.
 
@@ -636,14 +636,14 @@ Assume that the full geometric and constraint correction is relatively bounded w
 $$
 \mathcal Q_{\mathrm{geom+constraint}}[u]
 \ge
--a\|\nabla u\|^2
--b\|u\|^2,
+-a\lVert\nabla u\rVert^2
+-b\lVert u\rVert^2,
 $$
 
 and that
 
 $$
-W''(C_*)\ge-m
+W''(C_{\ast})\ge-m
 $$
 
 for some finite $m$.
@@ -651,41 +651,41 @@ for some finite $m$.
 Then
 
 $$
-\mathcal Q_*[u]
+\mathcal Q_{\ast}[u]
 \ge
-(\kappa_C-a)\|\nabla u\|^2
--(m+b)\|u\|^2.
+(\kappa_C-a)\lVert\nabla u\rVert^2
+-(m+b)\lVert u\rVert^2.
 $$
 
 Let
 
 $$
-\mathcal V_* =
-T_{C_*}\mathcal M_Q
+\mathcal V_{\ast} =
+T_{C_{\ast}}\mathcal M_Q
 $$
 
 be the closed constrained tangent space, and take the form domain to be
 
 $$
-\mathcal D(\mathcal Q_*) =
-H^1(\Sigma)\cap\mathcal V_*.
+\mathcal D(\mathcal Q_{\ast}) =
+H^1(\Sigma)\cap\mathcal V_{\ast}.
 $$
 
-Assume that its embedding into $L^2(\Sigma,dV_{h_*})$ is compact. Let $\lambda_n^{\mathcal V_*}$ be the min-max eigenvalues of the Laplace quadratic form restricted to this domain. The min-max principle applied to the form bound gives
+Assume that its embedding into $L^2(\Sigma,dV_{h_{\ast}})$ is compact. Let $\lambda_n^{\mathcal V_{\ast}}$ be the min-max eigenvalues of the Laplace quadratic form restricted to this domain. The min-max principle applied to the form bound gives
 
 $$
 \boxed{
 \alpha_n
 \ge
-(\kappa_C-a)\lambda_n^{\mathcal V_*}
+(\kappa_C-a)\lambda_n^{\mathcal V_{\ast}}
 -(m+b).
 }
 $$
 
-Under a regular single conservation constraint, $\mathcal V_*$ has finite codimension. Compactness therefore gives
+Under a regular single conservation constraint, $\mathcal V_{\ast}$ has finite codimension. Compactness therefore gives
 
 $$
-\lambda_n^{\mathcal V_*}\to+\infty.
+\lambda_n^{\mathcal V_{\ast}}\to+\infty.
 $$
 
 Under these assumptions,
@@ -697,7 +697,7 @@ $$
 }
 $$
 
-This is the first generic constraint on the shape of RC continuation. It does not require the Laplace eigenfunctions to satisfy the induced-volume constraint or to diagonalize $\mathscr H_*$. The homogeneous common-eigenmode calculation appears later only as a diagnostic special case.
+This is the first generic constraint on the shape of RC continuation. It does not require the Laplace eigenfunctions to satisfy the induced-volume constraint or to diagonalize $\mathscr H_{\ast}$. The homogeneous common-eigenmode calculation appears later only as a diagnostic special case.
 
 It does not say that every large-scale continuation is soft. It says that arbitrarily fine fragmentation cannot become freely available while the positive elliptic principal part remains dominant. Only a finite low sector can be marginal or unstable below any fixed stiffness threshold.
 
@@ -708,7 +708,7 @@ The assumption matters. If the induced geometry introduces an equal- or higher-o
 On fixed geometry and a connected domain with no-flux or periodic boundary conditions, conservation gives
 
 $$
-\int_\Sigma u\,dV_h=0.
+\int_\Sigma u\thinspace{}dV_h=0.
 $$
 
 The constant Laplace mode is removed. The first admissible continuation is not an increase or decrease of total coherence. It is a redistribution.
@@ -716,19 +716,19 @@ The constant Laplace mode is removed. The first admissible continuation is not a
 Let $\lambda_1>0$ be the first nonconstant Laplace eigenvalue. The Poincaré inequality gives
 
 $$
-\|\nabla u\|^2
+\lVert\nabla u\rVert^2
 \ge
-\lambda_1\|u\|^2
+\lambda_1\lVert u\rVert^2
 $$
 
 for zero-mean $u$. Under the same lower bounds as above,
 
 $$
 \boxed{
-\mathcal Q_*[u]
+\mathcal Q_{\ast}[u]
 \ge
 \bigl((\kappa_C-a)\lambda_1-m-b\bigr)
-\|u\|^2.
+\lVert u\rVert^2.
 }
 $$
 
@@ -816,12 +816,12 @@ $$
 \partial_tC+\nabla_iJ_C^i=0
 $$
 
-conserves $\int C\,dV_h$ only when the volume form is fixed. RC instead makes $h=h[C]$, so the conservative object must be written as the measure
+conserves $\int C\thinspace{}dV_h$ only when the volume form is fixed. RC instead makes $h=h[C]$, so the conservative object must be written as the measure
 
 $$
 \boxed{
 \varrho[C] =
-C\,dV_{h[C]}.
+C\thinspace{}dV_{h[C]}.
 }
 $$
 
@@ -838,7 +838,7 @@ Then
 
 $$
 Q[C] =
-\int_\Sigma\rho[C]\,d\nu
+\int_\Sigma\rho[C]\thinspace{}d\nu
 $$
 
 is conserved by
@@ -861,7 +861,7 @@ In a common coordinate representation, $\mathcal J^i=\omega J_C^i$. Equivalently
 
 $$
 \boxed{
-\partial_t(C\,dV_h) +
+\partial_t(C\thinspace{}dV_h) +
 d(\iota_{J_C}dV_h)=0.
 }
 $$
@@ -885,7 +885,7 @@ $$
 \boxed{
 \mathscr B[C]v =
 v +
-\frac12C\,
+\frac12C\thinspace{}
 \mathrm{tr}_h\bigl(Dh[C]v\bigr).
 }
 $$
@@ -897,7 +897,7 @@ $$
 -\nabla_iJ_C^i.
 $$
 
-At $C_*$, $\mathscr B_*$ is the kinematic Fréchet-derivative factor that appeared in the constrained tangent condition. It need not be pointwise if $Dh[C]$ is differential or nonlocal. Static admissibility and dynamical conservation now use the same moving volume.
+At $C_{\ast}$, $\mathscr B_{\ast}$ is the kinematic Fréchet-derivative factor that appeared in the constrained tangent condition. It need not be pointwise if $Dh[C]$ is differential or nonlocal. Static admissibility and dynamical conservation now use the same moving volume.
 
 ## 5.2 An assumed gradient-flow branch on the fixed reference measure
 
@@ -941,26 +941,26 @@ $$
 \frac{d\widehat{\mathcal P}_\nu}{dt}
 &=
 \int_\Sigma
-\mu_\rho\,\partial_t\rho\,d\nu
+\mu_\rho\thinspace{}\partial_t\rho\thinspace{}d\nu
 \\
 &=
 -\int_\Sigma
 \langle\nabla\mu_\rho,
-\mathcal M\nabla\mu_\rho\rangle\,d\nu
+\mathcal M\nabla\mu_\rho\rangle\thinspace{}d\nu
 \le0.
 \end{aligned}
 $$
 
-This is the Lyapunov relation for the conserved-measure formulation. A stationary no-flux state has spatially constant $\mu_{\rho,*}$, whose value is the Lagrange multiplier for fixed $Q$.
+This is the Lyapunov relation for the conserved-measure formulation. A stationary no-flux state has spatially constant $\mu_{\rho,\ast}$, whose value is the Lagrange multiplier for fixed $Q$.
 
 ## 5.3 Linearized relaxation in the conserved-density representation
 
 Write
 
 $$
-C=C_*+\varepsilon u,
+C=C_{\ast}+\varepsilon u,
 \qquad
-\rho=\rho_*+\varepsilon r.
+\rho=\rho_{\ast}+\varepsilon r.
 $$
 
 The perturbations are related by
@@ -968,29 +968,29 @@ The perturbations are related by
 $$
 \boxed{
 r =
-L_*u,
+L_{\ast}u,
 \qquad
-L_*u =
-\omega_*\mathscr B_*u.
+L_{\ast}u =
+\omega_{\ast}\mathscr B_{\ast}u.
 }
 $$
 
-Let $\mathcal Q_{\rho,*}$ be the continuation quadratic form represented in the conserved-density coordinate:
+Let $\mathcal Q_{\rho,\ast}$ be the continuation quadratic form represented in the conserved-density coordinate:
 
 $$
-\mathcal Q_{\rho,*}[r,s] =
-\mathcal Q_*[L_*^{-1}r,L_*^{-1}s].
+\mathcal Q_{\rho,\ast}[r,s] =
+\mathcal Q_{\ast}[L_{\ast}^{-1}r,L_{\ast}^{-1}s].
 $$
 
-Assume that $L_*$ is boundedly invertible on the constrained tangent space and that this form is represented by a self-adjoint operator $\mathscr H_{\rho,*}$. The two representations are congruent. They have the same stable, marginal, and unstable directions, although their numerical eigenvalues need not coincide under an arbitrary change of inner product.
+Assume that $L_{\ast}$ is boundedly invertible on the constrained tangent space and that this form is represented by a self-adjoint operator $\mathscr H_{\rho,\ast}$. The two representations are congruent. They have the same stable, marginal, and unstable directions, although their numerical eigenvalues need not coincide under an arbitrary change of inner product.
 
 Define the positive density-mobility operator
 
 $$
 \boxed{
-\mathscr A_{\rho,*} =
+\mathscr A_{\rho,\ast} =
 -\mathrm{div}_\nu
-\mathcal M_*\nabla.
+\mathcal M_{\ast}\nabla.
 }
 $$
 
@@ -999,29 +999,29 @@ Linearization at a no-flux constrained state gives
 $$
 \boxed{
 \partial_t r =
--\mathscr A_{\rho,*}
-\mathscr H_{\rho,*}r.
+-\mathscr A_{\rho,\ast}
+\mathscr H_{\rho,\ast}r.
 }
 $$
 
-On the conserved tangent space where $\mathscr A_{\rho,*}>0$, set
+On the conserved tangent space where $\mathscr A_{\rho,\ast}>0$, set
 
 $$
 w =
-\mathscr A_{\rho,*}^{-1/2}r,
+\mathscr A_{\rho,\ast}^{-1/2}r,
 \qquad
-T_* =
-\mathscr A_{\rho,*}^{-1/2}L_*.
+T_{\ast} =
+\mathscr A_{\rho,\ast}^{-1/2}L_{\ast}.
 $$
 
-Thus $w=T_*u$. The self-adjoint relaxation representative is
+Thus $w=T_{\ast}u$. The self-adjoint relaxation representative is
 
 $$
 \boxed{
-\widetilde{\mathscr G}_* =
-\mathscr A_{\rho,*}^{1/2}
-\mathscr H_{\rho,*}
-\mathscr A_{\rho,*}^{1/2}.
+\widetilde{\mathscr G}_{\ast} =
+\mathscr A_{\rho,\ast}^{1/2}
+\mathscr H_{\rho,\ast}
+\mathscr A_{\rho,\ast}^{1/2}.
 }
 $$
 
@@ -1029,7 +1029,7 @@ Its spectrum is
 
 $$
 \boxed{
-\widetilde{\mathscr G}_*w_n =
+\widetilde{\mathscr G}_{\ast}w_n =
 \gamma_nw_n.
 }
 $$
@@ -1050,35 +1050,35 @@ $$
 \text{growth}.
 $$
 
-The continuation and relaxation spectra still answer different questions. The $\alpha_n$ describe structural curvature in the declared coherence representation. The $\gamma_n$ describe rates after conservation kinematics and mobility have been included. Under uniformly bounded invertible $L_*$ and nondegenerate mobility, structural marginality is carried into dynamical critical slowing.
+The continuation and relaxation spectra still answer different questions. The $\alpha_n$ describe structural curvature in the declared coherence representation. The $\gamma_n$ describe rates after conservation kinematics and mobility have been included. Under uniformly bounded invertible $L_{\ast}$ and nondegenerate mobility, structural marginality is carried into dynamical critical slowing.
 
 In the fixed-volume special case,
 
 $$
-\omega_*=1,
+\omega_{\ast}=1,
 \qquad
-L_*=I,
+L_{\ast}=I,
 $$
 
 so
 
 $$
-T_*=\mathscr A_*^{-1/2},
+T_{\ast}=\mathscr A_{\ast}^{-1/2},
 \qquad
-\widetilde{\mathscr G}_* =
-\mathscr A_*^{1/2}\mathscr H_*\mathscr A_*^{1/2}.
+\widetilde{\mathscr G}_{\ast} =
+\mathscr A_{\ast}^{1/2}\mathscr H_{\ast}\mathscr A_{\ast}^{1/2}.
 $$
 
 The formula used in the earlier draft is therefore retained as a diagnostic limit, not as the general moving-volume relaxation operator.
 
 ## 5.4 The fixed-volume homogeneous diagnostic
 
-The relation becomes transparent when the induced volume is fixed at the order being studied, so $L_*=I$. Let
+The relation becomes transparent when the induced volume is fixed at the order being studied, so $L_{\ast}=I$. Let
 
 $$
-M_*^{ij}=M_0h^{ij},
+M_{\ast}^{ij}=M_0h^{ij},
 \qquad
-W''(C_*)=a_0,
+W''(C_{\ast})=a_0,
 $$
 
 and temporarily neglect noncommuting geometric corrections. For Laplace modes
@@ -1091,7 +1091,7 @@ $$
 we have
 
 $$
-\mathscr A_*\phi_k =
+\mathscr A_{\ast}\phi_k =
 M_0\lambda_k\phi_k,
 $$
 
@@ -1159,7 +1159,7 @@ $$
 and grow. Modes with larger $\lambda_k$ remain stable. The most unstable continuous Laplace scale occurs at
 
 $$
-\lambda_* =
+\lambda_{\ast} =
 \frac{-a_0}{2\kappa_C},
 $$
 
@@ -1181,7 +1181,7 @@ $$
 \alpha_n\to0^+
 $$
 
-and, under uniformly nondegenerate mobility and a uniformly bounded invertible density map $L_*$,
+and, under uniformly nondegenerate mobility and a uniformly bounded invertible density map $L_{\ast}$,
 
 $$
 \gamma_n\to0^+.
@@ -1202,21 +1202,21 @@ One may define, for a declared rate threshold $\Gamma_M>0$, the projector in the
 $$
 \widetilde P_M =
 \mathbf 1_{[0,\Gamma_M]}
-(\widetilde{\mathscr G}_*).
+(\widetilde{\mathscr G}_{\ast}).
 $$
 
-This projector acts on $w=T_*u$. The corresponding physical projector on coherence perturbations is
+This projector acts on $w=T_{\ast}u$. The corresponding physical projector on coherence perturbations is
 
 $$
 \boxed{
 P_{M,u} =
-T_*^{-1}
+T_{\ast}^{-1}
 \widetilde P_M
-T_*.
+T_{\ast}.
 }
 $$
 
-In the fixed-volume case, $T_*=\mathscr A_*^{-1/2}$ and this reduces to the conjugation used in the earlier draft. The projector remains distinct from the inherited field-level spatial projector
+In the fixed-volume case, $T_{\ast}=\mathscr A_{\ast}^{-1/2}$ and this reduces to the conjugation used in the earlier draft. The projector remains distinct from the inherited field-level spatial projector
 
 $$
 P_M^{(\Delta)} =
@@ -1236,12 +1236,12 @@ A continuation spectrum calculated once would still describe motion through a fi
 Along a smooth family of formed equilibria, or adiabatically along a slowly tracked identity branch,
 
 $$
-C_*=C_*(t),
+C_{\ast}=C_{\ast}(t),
 \qquad
-h_*=h[C_*(t)],
+h_{\ast}=h[C_{\ast}(t)],
 \qquad
-\mathscr H_*=
-\mathscr H[C_*(t),h_*(t)].
+\mathscr H_{\ast}=
+\mathscr H[C_{\ast}(t),h_{\ast}(t)].
 $$
 
 The inner product and operator domain may therefore change with time. Let $\mathcal H_t$ be the instantaneous Hilbert space and choose a unitary identification
@@ -1419,14 +1419,14 @@ Q(C;\theta)-Q_0
 =0.
 $$
 
-Suppose at $(C_*,\eta_*,\theta_*)$:
+Suppose at $(C_{\ast},\eta_{\ast},\theta_{\ast})$:
 
 - the constraint is regular;
 - the constitutive maps are smooth;
 - the constrained continuation Hessian has a positive gap,
 
 $$
-\alpha_1(C_*)>0.
+\alpha_1(C_{\ast})>0.
 $$
 
 Then the bordered derivative of $\mathcal E$ with respect to $(C,\eta)$ is invertible. The implicit-function theorem gives a locally unique branch
@@ -1434,7 +1434,7 @@ Then the bordered derivative of $\mathcal E$ with respect to $(C,\eta)$ is inver
 $$
 \theta
 \longmapsto
-(C_*(\theta),\eta(\theta)).
+(C_{\ast}(\theta),\eta(\theta)).
 $$
 
 Therefore:
@@ -1451,12 +1451,12 @@ This formalizes the difference between identity continuity and structural invari
 
 ## 6.5 The boundary of accommodation
 
-Now suppose a smooth identity branch is followed toward a finite parameter value $\theta_*$, and assume that:
+Now suppose a smooth identity branch is followed toward a finite parameter value $\theta_{\ast}$, and assume that:
 
 - the field and geometry remain bounded and regular;
 - the coherence constraint remains regular;
 - the constitutive problem remains well-defined;
-- yet the same stable identity branch cannot be continued beyond $\theta_*$.
+- yet the same stable identity branch cannot be continued beyond $\theta_{\ast}$.
 
 If the constrained Hessian remained uniformly positive, the implicit-function theorem would continue the branch. Therefore at least one assumption must fail. If all failures except stability loss have been excluded, then
 
@@ -1464,7 +1464,7 @@ $$
 \boxed{
 \alpha_1(\theta)\to0
 \quad\text{as}\quad
-\theta\to\theta_*.
+\theta\to\theta_{\ast}.
 }
 $$
 
@@ -1647,7 +1647,7 @@ $$
 with measure-valued continuity across position and scale,
 
 $$
-\partial_t(C\,dV_h) +
+\partial_t(C\thinspace{}dV_h) +
 d_x(\iota_JdV_h) +
 \partial_\sigma(J^\sigma dV_h)=0.
 $$
@@ -1671,7 +1671,7 @@ $$
 \kappa_\sigma|\partial_\sigma u|^2
 \\
 &+
-W''_{\mathrm{eff}}(C_*,\sigma)u^2
+W''_{\mathrm{eff}}(C_{\ast},\sigma)u^2
 \Big)dV_h +
 \mathcal Q_{\mathrm{geom+branch}}[u].
 \end{aligned}
@@ -1723,7 +1723,7 @@ The paper began from the claim that the present does not exhaust the identity. T
 Unfolding is the actual RC trajectory:
 
 $$
-\partial_t(C\,dV_h) +
+\partial_t(C\thinspace{}dV_h) +
 d(\iota_{J_C}dV_h)=0.
 $$
 
@@ -1734,10 +1734,10 @@ It is the continuation that becomes actual through current flux. Globally determ
 Capacity is not one scalar amount of possibility. Locally it is structured by the continuation operator
 
 $$
-\mathscr H_*.
+\mathscr H_{\ast}.
 $$
 
-Its spectrum says which admissible continuations are hard, soft, marginal, or unstable. Dynamically, $\widetilde{\mathscr G}_*$ says how rapidly the coupled modes relax or grow after moving-volume kinematics and mobility are included. Nonlinearly, the finite attractor repertoire says which extended coherent continuations are already formed.
+Its spectrum says which admissible continuations are hard, soft, marginal, or unstable. Dynamically, $\widetilde{\mathscr G}_{\ast}$ says how rapidly the coupled modes relax or grow after moving-volume kinematics and mobility are included. Nonlinearly, the finite attractor repertoire says which extended coherent continuations are already formed.
 
 Capacity therefore includes:
 
@@ -1800,7 +1800,7 @@ The continuation spectrum supplies it.
 For a constrained formed identity,
 
 $$
-\mathscr H_* u_n =
+\mathscr H_{\ast} u_n =
 \alpha_n u_n
 $$
 
@@ -1811,23 +1811,23 @@ The inherited positive gradient term makes increasingly fine continuations costl
 On the conserved-measure gradient-flow branch, structural continuation becomes temporal response. With
 
 $$
- r=L_*u,
+ r=L_{\ast}u,
 \qquad
-w=\mathscr A_{\rho,*}^{-1/2}r,
+w=\mathscr A_{\rho,\ast}^{-1/2}r,
 $$
 
 the relaxation spectrum is generated by
 
 $$
-\widetilde{\mathscr G}_* =
-\mathscr A_{\rho,*}^{1/2}
-\mathscr H_{\rho,*}
-\mathscr A_{\rho,*}^{1/2}.
+\widetilde{\mathscr G}_{\ast} =
+\mathscr A_{\rho,\ast}^{1/2}
+\mathscr H_{\rho,\ast}
+\mathscr A_{\rho,\ast}^{1/2}.
 $$
 
-Fast and slow behavior emerge from the relation among moving-volume kinematics, mobility, and continuation stiffness. Fine modes are typically rapid and hard. Broad or structurally soft modes form the slow sector. Under nondegenerate density and mobility maps, a continuation approaching structural marginality exhibits critical slowing. The earlier $\mathscr A_*^{1/2}\mathscr H_*\mathscr A_*^{1/2}$ formula remains the fixed-volume limit.
+Fast and slow behavior emerge from the relation among moving-volume kinematics, mobility, and continuation stiffness. Fine modes are typically rapid and hard. Broad or structurally soft modes form the slow sector. Under nondegenerate density and mobility maps, a continuation approaching structural marginality exhibits critical slowing. The earlier $\mathscr A_{\ast}^{1/2}\mathscr H_{\ast}\mathscr A_{\ast}^{1/2}$ formula remains the fixed-volume limit.
 
-Because $C$ writes the geometry that enters $\mathscr H_*$, the spectrum itself moves. That gives a precise form to continuous forming: RC does not merely evolve a field through a fixed space of possibilities. Its present participation changes the local curvature of what can happen next.
+Because $C$ writes the geometry that enters $\mathscr H_{\ast}$, the spectrum itself moves. That gives a precise form to continuous forming: RC does not merely evolve a field through a fixed space of possibilities. Its present participation changes the local curvature of what can happen next.
 
 A positive gap gives a stable accommodation neighborhood through which the identity can change continuously while remaining itself. It does not make the current organization final. If a finite branch boundary is crossed while regularity remains intact, a continuation mode must become marginal. The current equations do not prove that every identity reaches such a boundary.
 
@@ -1859,13 +1859,13 @@ Let
 
 $$
 Q[C] =
-\int_\Sigma C\,dV_{h[C]}.
+\int_\Sigma C\thinspace{}dV_{h[C]}.
 $$
 
 For
 
 $$
-C_\varepsilon=C_*+\varepsilon u,
+C_\varepsilon=C_{\ast}+\varepsilon u,
 \qquad
 h_\varepsilon=h[C_\varepsilon],
 $$
@@ -1888,17 +1888,17 @@ Therefore
 
 $$
 \begin{aligned}
-DQ[C_*]u
+DQ[C_{\ast}]u
 &=
 \left.\frac{d}{d\varepsilon}
-\int_\Sigma(C_*+\varepsilon u)dV_{h_\varepsilon}
+\int_\Sigma(C_{\ast}+\varepsilon u)dV_{h_\varepsilon}
 \right|_0
 \\
 &=
 \int_\Sigma
 \left(
  u +
-\frac12C_*h^{ij}\dot h_{ij}[u]
+\frac12C_{\ast}h^{ij}\dot h_{ij}[u]
 \right)dV_h.
 \end{aligned}
 $$
@@ -1938,7 +1938,7 @@ $$
 \eta(Q[C]-Q_0)
 $$
 
-restricted to $T_{C_*}\mathcal M_Q$.
+restricted to $T_{C_{\ast}}\mathcal M_Q$.
 
 The current core specifies that $h$ depends on $K[C]$, but not the derivatives of that constitutive relation sufficiently to calculate the sign of the geometric terms. The fixed-geometry part is explicit; the remaining terms preserve the correct formal location of reflexive back-reaction.
 
@@ -1950,14 +1950,14 @@ Suppose
 
 $$
 \mathcal Q_{\mathrm{field}}[u] =
-\kappa_C\|\nabla u\|^2 +
-\int W''(C_*)u^2\,dV_h,
+\kappa_C\lVert\nabla u\rVert^2 +
+\int W''(C_{\ast})u^2\thinspace{}dV_h,
 $$
 
 with
 
 $$
-W''(C_*)\ge-m.
+W''(C_{\ast})\ge-m.
 $$
 
 Suppose also
@@ -1965,8 +1965,8 @@ Suppose also
 $$
 \mathcal Q_{\mathrm{geom+constraint}}[u]
 \ge
--a\|\nabla u\|^2
--b\|u\|^2,
+-a\lVert\nabla u\rVert^2
+-b\lVert u\rVert^2,
 \qquad
 0\le a<\kappa_C.
 $$
@@ -1974,46 +1974,46 @@ $$
 Then
 
 $$
-\mathcal Q_*[u]
+\mathcal Q_{\ast}[u]
 \ge
-(\kappa_C-a)\|\nabla u\|^2
--(m+b)\|u\|^2.
+(\kappa_C-a)\lVert\nabla u\rVert^2
+-(m+b)\lVert u\rVert^2.
 $$
 
-Let $\mathcal V_*=T_{C_*}\mathcal M_Q$ and assume that
+Let $\mathcal V_{\ast}=T_{C_{\ast}}\mathcal M_Q$ and assume that
 
 $$
-H^1(\Sigma)\cap\mathcal V_*
+H^1(\Sigma)\cap\mathcal V_{\ast}
 \hookrightarrow
-L^2(\Sigma,dV_{h_*})
+L^2(\Sigma,dV_{h_{\ast}})
 $$
 
-is compact. If $\lambda_n^{\mathcal V_*}$ denotes the min-max spectrum of the Laplace form restricted to this constrained domain, then
+is compact. If $\lambda_n^{\mathcal V_{\ast}}$ denotes the min-max spectrum of the Laplace form restricted to this constrained domain, then
 
 $$
 \alpha_n
 \ge
-(\kappa_C-a)\lambda_n^{\mathcal V_*}
+(\kappa_C-a)\lambda_n^{\mathcal V_{\ast}}
 -(m+b).
 $$
 
-A regular single conservation constraint has finite codimension, so $\lambda_n^{\mathcal V_*}\to\infty$. Hence the high continuation spectrum tends to positive stiffness without requiring common eigenfunctions of $-\Delta_h$ and $\mathscr H_*$.
+A regular single conservation constraint has finite codimension, so $\lambda_n^{\mathcal V_{\ast}}\to\infty$. Hence the high continuation spectrum tends to positive stiffness without requiring common eigenfunctions of $-\Delta_h$ and $\mathscr H_{\ast}$.
 
 For zero-mean admissible $u$, Poincaré gives
 
 $$
-\|\nabla u\|^2
+\lVert\nabla u\rVert^2
 \ge
-\lambda_1\|u\|^2,
+\lambda_1\lVert u\rVert^2,
 $$
 
 so
 
 $$
-\mathcal Q_*[u]
+\mathcal Q_{\ast}[u]
 \ge
 \bigl((\kappa_C-a)\lambda_1-m-b\bigr)
-\|u\|^2.
+\lVert u\rVert^2.
 $$
 
 This supplies the sufficient stability condition used in the main text.
@@ -2043,70 +2043,70 @@ $$
 Let
 
 $$
-C=C_*+\varepsilon u,
+C=C_{\ast}+\varepsilon u,
 \qquad
-\rho=\rho_*+\varepsilon r,
+\rho=\rho_{\ast}+\varepsilon r,
 \qquad
-r=L_*u.
+r=L_{\ast}u.
 $$
 
 The kinematic map is
 
 $$
-L_*u =
-\omega_*\left(
+L_{\ast}u =
+\omega_{\ast}\left(
 u +
-\frac12C_*
-\mathrm{tr}_{h_*}(Dh[C_*]u)
+\frac12C_{\ast}
+\mathrm{tr}_{h_{\ast}}(Dh[C_{\ast}]u)
 \right).
 $$
 
-At a constrained no-flux state, $\nabla\mu_{\rho,*}=0$. Let $\mathscr H_{\rho,*}$ represent the constrained continuation form in the $r$ coordinate and define
+At a constrained no-flux state, $\nabla\mu_{\rho,\ast}=0$. Let $\mathscr H_{\rho,\ast}$ represent the constrained continuation form in the $r$ coordinate and define
 
 $$
-\mathscr A_{\rho,*} =
--\mathrm{div}_\nu\mathcal M_*\nabla.
+\mathscr A_{\rho,\ast} =
+-\mathrm{div}_\nu\mathcal M_{\ast}\nabla.
 $$
 
 First variations of mobility multiply the zero background gradient, leaving
 
 $$
 \partial_t r =
--\mathscr A_{\rho,*}\mathscr H_{\rho,*}r.
+-\mathscr A_{\rho,\ast}\mathscr H_{\rho,\ast}r.
 $$
 
-On the constrained subspace where $\mathscr A_{\rho,*}>0$, define
+On the constrained subspace where $\mathscr A_{\rho,\ast}>0$, define
 
 $$
 w =
-\mathscr A_{\rho,*}^{-1/2}r,
+\mathscr A_{\rho,\ast}^{-1/2}r,
 \qquad
-T_* =
-\mathscr A_{\rho,*}^{-1/2}L_*.
+T_{\ast} =
+\mathscr A_{\rho,\ast}^{-1/2}L_{\ast}.
 $$
 
 Then
 
 $$
 \partial_tw =
--\widetilde{\mathscr G}_*w,
+-\widetilde{\mathscr G}_{\ast}w,
 \qquad
-\widetilde{\mathscr G}_* =
-\mathscr A_{\rho,*}^{1/2}
-\mathscr H_{\rho,*}
-\mathscr A_{\rho,*}^{1/2}.
+\widetilde{\mathscr G}_{\ast} =
+\mathscr A_{\rho,\ast}^{1/2}
+\mathscr H_{\rho,\ast}
+\mathscr A_{\rho,\ast}^{1/2}.
 $$
 
-If $L_*$ and the mobility are uniformly nondegenerate on the relevant spectral subspace, the density and coherence representations have the same inertia and comparable approach to marginality. The physical slow projector is inherited through
+If $L_{\ast}$ and the mobility are uniformly nondegenerate on the relevant spectral subspace, the density and coherence representations have the same inertia and comparable approach to marginality. The physical slow projector is inherited through
 
 $$
 P_{M,u} =
-T_*^{-1}
-\mathbf 1_{[0,\Gamma_M]}(\widetilde{\mathscr G}_*)
-T_*.
+T_{\ast}^{-1}
+\mathbf 1_{[0,\Gamma_M]}(\widetilde{\mathscr G}_{\ast})
+T_{\ast}.
 $$
 
-When $dV_h$ is fixed, $L_*=I$ and this reduces to the earlier $T_*=\mathscr A_*^{-1/2}$ construction.
+When $dV_h$ is fixed, $L_{\ast}=I$ and this reduces to the earlier $T_{\ast}=\mathscr A_{\ast}^{-1/2}$ construction.
 
 ---
 
@@ -2124,26 +2124,26 @@ Q(C;\theta)-Q_0
 \end{pmatrix}.
 $$
 
-At a solution $(C_*,\eta_*;\theta_*)$, the derivative with respect to $(C,\eta)$ has bordered form
+At a solution $(C_{\ast},\eta_{\ast};\theta_{\ast})$, the derivative with respect to $(C,\eta)$ has bordered form
 
 $$
 D_{(C,\eta)}\mathcal E =
 \begin{pmatrix}
 D_C^2\mathcal F & -D_CQ
 \\
-(D_CQ)^* & 0
+(D_CQ)^{\ast} & 0
 \end{pmatrix}.
 $$
 
-Assume the declared function spaces make the constrained Hessian coercive on the tangent space, give it a positive spectral gap, and make its associated linear map an isomorphism onto the chosen dual space. If the constraint is also regular, the bordered operator is invertible. The implicit-function theorem then gives neighborhoods of $\theta_*$ and a unique smooth branch
+Assume the declared function spaces make the constrained Hessian coercive on the tangent space, give it a positive spectral gap, and make its associated linear map an isomorphism onto the chosen dual space. If the constraint is also regular, the bordered operator is invertible. The implicit-function theorem then gives neighborhoods of $\theta_{\ast}$ and a unique smooth branch
 
 $$
-\theta\mapsto(C_*(\theta),\eta(\theta)).
+\theta\mapsto(C_{\ast}(\theta),\eta(\theta)).
 $$
 
 Thus local stability implies local accommodation.
 
-Conversely, if a regular bounded branch cannot be continued through a finite $\theta_*$, the bordered operator must lose invertibility or another stated assumption must fail. If the constraint and constitutive closure remain regular, loss of invertibility implies that the constrained Hessian develops a zero mode.
+Conversely, if a regular bounded branch cannot be continued through a finite $\theta_{\ast}$, the bordered operator must lose invertibility or another stated assumption must fail. If the constraint and constitutive closure remain regular, loss of invertibility implies that the constrained Hessian develops a zero mode.
 
 This theorem is local and conditional. It does not establish that every RC identity branch terminates at finite $\theta$.
 
@@ -2154,17 +2154,17 @@ This theorem is local and conditional. It does not establish that every RC ident
 | Object or claim | Status in this paper | Meaning |
 |---|---|---|
 | $(C,J_C)$, continuity, $K[C]$, induced geometry | Inherited | Core RC state and reflexive loop |
-| $\varrho=C\,dV_{h[C]}$ and $\partial_t\varrho+d(\iota_{J_C}dV_h)=0$ | Derived clarification | Geometrically conservative representation of the inherited continuity claim |
+| $\varrho=C\thinspace{}dV_{h[C]}$ and $\partial_t\varrho+d(\iota_{J_C}dV_h)=0$ | Derived clarification | Geometrically conservative representation of the inherited continuity claim |
 | Laplace–Beltrami spectrum $\lambda_k$ | Inherited | Spatial scale decomposition already used for fast/memory mapping |
 | Constrained critical point $D(\widehat{\mathcal P}-\eta Q)=0$ | Derived clarification | Correct stationary condition for conserved gradient flow |
-| Continuation operator $\mathscr H_*$ | Derived on a reduced current branch | Constrained second variation on a no-current, frozen-current, or smoothly slaved-current branch |
+| Continuation operator $\mathscr H_{\ast}$ | Derived on a reduced current branch | Constrained second variation on a no-current, frozen-current, or smoothly slaved-current branch |
 | Joint $(C,J_C)$ continuation operator | Open | Required in general for active recurrent states with independent current and geometric perturbations |
 | Continuation reading of $u_n,\alpha_n$ | Interpretive | Local directions and restoring curvature of possible next continuation |
 | Hard fine sector | Derived conditionally | Requires positive elliptic principal part, compact constrained form embedding, and the min-max principle |
 | Uniform state necessarily unstable | Not established | Conservation alone does not imply this |
 | Every large mono-basin must split | Not established | Large forms have softer long modes, but need a destabilizing contribution |
-| Relaxation operator $\widetilde{\mathscr G}_*$ | Derived under the assumed conserved-density gradient-flow branch | Determines temporal decay or growth in the fixed reference representation; not yet unified with explicit read-back gain |
-| $\mathscr A_*^{1/2}\mathscr H_*\mathscr A_*^{1/2}$ | Diagnostic special case | Fixed-volume limit of the relaxation construction |
+| Relaxation operator $\widetilde{\mathscr G}_{\ast}$ | Derived under the assumed conserved-density gradient-flow branch | Determines temporal decay or growth in the fixed reference representation; not yet unified with explicit read-back gain |
+| $\mathscr A_{\ast}^{1/2}\mathscr H_{\ast}\mathscr A_{\ast}^{1/2}$ | Diagnostic special case | Fixed-volume limit of the relaxation construction |
 | Critical slowing near $\alpha_n=0$ | Derived conditionally | Requires nondegenerate density map and positive mobility |
 | Local accommodation neighborhood | Derived conditionally | Requires a regular constraint, coercive gapped Hessian, and an isomorphism on the declared function spaces |
 | Every identity has finite accommodation | Open | Not implied by current RC equations |
